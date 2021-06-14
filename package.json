@@ -1,0 +1,17 @@
+{
+  "name": "logseq-dev-theme",
+  "author": "pengx17",
+  "version": "0.0.1",
+  "description": "A custom theme for dev",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Dev theme",
+        "url": "./custom.css",
+        "description": "A custom theme for dev",
+        "mode": "light"
+      }
+    ],
+    "id": "pengx17_dev_theme"
+  }
+}

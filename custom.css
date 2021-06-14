@@ -362,8 +362,8 @@ strong {
   margin-right: 6px !important;
 }
 
-.doing .form-checkbox,
-.doing .form-checkbox:focus {
+:is(.doing, .now) .form-checkbox,
+:is(.doing, .now) .form-checkbox:focus {
   background-color: var(--ct-secondary-color) !important;
 }
 
