@@ -252,6 +252,13 @@ a:hover > .bullet-container .bullet {
   opacity: 0.3;
 }
 
+/* Ordered list */
+ol > li::marker {
+  font-family: Asap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Block oversize issue */
 
 .block-content-wrapper {
