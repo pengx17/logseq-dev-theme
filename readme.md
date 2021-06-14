@@ -3,11 +3,12 @@
 A theme imspired from Dev.to & Figma.
 
 ## Warnings
-- this is a light only theme
-- subject to change to meeet my own needs
-- I only have a Mac and other systems are not covered.
+- This is a light only theme. Because I only use light theme.
+- Subject to change to meet my own needs.
+- I only have a Mac and other systems will not be tested.
+- I like Google Fonts.
 
-Screenshot
+## Screenshot
 
 ![](./demo.png)
 
