@@ -371,7 +371,7 @@ strong {
 
 :is(.doing, .now) .form-checkbox,
 :is(.doing, .now) .form-checkbox:focus {
-  background-color: var(--ct-secondary-color) !important;
+  background-color: var(--ct-highlight-color) !important;
 }
 
 .form-checkbox:checked,
@@ -435,6 +435,11 @@ a.priority:before {
 
 .Tooltip__label ul {
   margin-left: 0;
+}
+
+.block-marker {
+  font-family: var(--ct-code-font-family);
+  font-size: var(--ct-inline-code-font-size);
 }
 
 /* highlight */
@@ -523,11 +528,16 @@ samp {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.tippy-wrapper {
+  background: var(--ct-background);
+}
+
 .tippy-tooltip-content > .tippy-wrapper {
   padding: 0 !important;
   border-radius: 4px;
   width: fit-content !important;
   max-width: 800px;
+  background: var(--ct-background);
 }
 
 .tippy-tooltip-content > .tippy-wrapper.overflow-y-auto {
@@ -627,6 +637,10 @@ html[data-theme="light"] {
 
 
 /* Code mirror */
+[class*="cm-s-"].cm-s-light {
+  text-shadow: none !important;
+}
+
 [class*="cm-s-"].CodeMirror {
   background-color: #263238;
   color: #eeffff;
