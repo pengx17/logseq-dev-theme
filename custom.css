@@ -661,7 +661,7 @@ html[data-theme="dark"] {
 
   --ct-card-border-color: var(--ls-quaternary-background-color);
 
-  --ct-bold-color: #eee;
+  --ct-bold-color: #fff;
   --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
 
   --ls-link-text-color: var(--ct-primary-color);
@@ -669,7 +669,7 @@ html[data-theme="dark"] {
   --ls-active-secondary-color: var(--ct-secondary-color);
   --ls-external-link-color: var(--ct-warning-color);
 
-  --ct-bullet-closed-color: rgb(51, 51, 51);
+  --ct-bullet-closed-color: #555;
   --ct-block-arrow-color: rgb(165, 165, 165);
 
   --ct-sidebar-resizer-background: none;
