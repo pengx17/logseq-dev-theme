@@ -8,8 +8,7 @@
       {
         "name": "Dev theme",
         "url": "./custom.css",
-        "description": "A custom theme for dev",
-        "mode": "light"
+        "description": "A custom theme for dev"
       }
     ],
     "id": "pengx17_dev_theme"

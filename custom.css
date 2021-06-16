@@ -19,6 +19,9 @@
   --ct-inline-code-border-radius: 2px;
   --ct-inline-code-padding: 2px 5px;
 
+  --ct-page-font-color: var(--ls-primary-text-color);
+
+  --ct-page-title-color: var(--ct-bold-color);
   --ct-page-title-font-size: 36px;
   --ct-page-title-line-height: 40px;
   --ct-page-title-font-weight: 900;
@@ -32,8 +35,11 @@
   --ct-header-height: 2.4em;
   --ct-topbar-backdrop: blur(20px);
 
-  --ct-card-border: 2px solid var(--ct-bold-color);
+  --ct-card-border: 2px solid var(--ct-card-border-color);
   --ct-card-radius: 6px;
+
+  --ct-query-header-color: #fff;
+  --ct-query-header-background: var(--ct-primary-color);
 
   --ct-guideline-color: var(--ct-bold-color-transparent);
   --ct-guideline-size: 1px;
@@ -46,15 +52,6 @@
   --ct-task-done-text-decoration: none;
 
   --ct-mark-border-radius: 2px;
-
-  --ct-query-header-background: var(--ct-primary-color);
-  --ct-query-header-color: var(--ct-background);
-
-  --ct-primary-color: #106ba3;
-  --ct-secondary-color: #19bcfe;
-  --ct-warning-color: #ff7262;
-  --ct-success-color: #0dcf82;
-  --ct-highlight-color: #FFC600;
 }
 
 html,
@@ -76,7 +73,7 @@ body {
 }
 
 #main-content-container {
-  margin-top: 0 !important;
+  margin-top: 1rem !important;
 }
 
 .cp__sidebar-main-content {
@@ -86,8 +83,6 @@ body {
 /* Main content card */
 .cp__sidebar-main-content > div {
   padding: 16px 32px;
-  border: var(--ct-card-border);
-  border-radius: var(--ct-card-radius);
   max-width: var(--ls-main-content-max-width);
 }
 
@@ -104,7 +99,6 @@ body {
   border-radius: var(--ct-sidebar-item-border-radius);
   margin: var(--sidebar-padding) 0;
   background: var(--ct-background);
-  border: var(--ct-card-border);
   border-radius: var(--ct-card-radius);
   box-shadow: none;
 }
@@ -114,6 +108,7 @@ body {
 }
 
 .sidebar-item-list {
+  margin-top: 2rem;
   padding: 0 var(--sidebar-padding);
 }
 
@@ -147,6 +142,11 @@ body {
   width: var(--sidebar-padding);
   touch-action: none;
   z-index: 2000;
+}
+
+.cp__right-sidebar-inner .resizer:hover {
+  background: var(--ls-secondary-background-color);
+  opacity: 0.6;
 }
 
 .page {
@@ -513,7 +513,7 @@ samp {
   opacity: 1;
   padding: 5px 10px 2px 10px !important;
   background: var(--ct-query-header-background);
-  color: var(--ct-background);
+  color: var(--ct-query-header-color);
   font-family: var(--ct-code-font-family);
   font-size: var(--ct-inline-code-font-size);
   font-style: var(--ct-inline-code-font-style) !important;
@@ -530,7 +530,6 @@ samp {
   color: var(--ct-query-header-color);
 }
 
-
 /* Popups */
 .tippy-tooltip {
   padding: 0.5em 0;
@@ -544,7 +543,8 @@ samp {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.tippy-wrapper, .tippy-tooltip {
+.tippy-wrapper,
+.tippy-tooltip {
   background: var(--ct-background);
 }
 
@@ -604,24 +604,69 @@ samp {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-/* Light theme first. The following does not work yet. */
-.dark-theme-,
-html[data-theme="dark-"] {
-  --ls-primary-background-color: #333;
-  --ls-secondary-background-color: #444;
-  --ls-tertiary-background-color: #555;
-  --ls-quaternary-background-color: #666;
+.white-theme,
+html[data-theme="light"] {
+  --ct-primary-color: #106ba3;
+  --ct-secondary-color: #19bcfe;
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #0dcf82;
+  --ct-highlight-color: #ffc600;
+
+  --ls-primary-background-color: white;
+  --ls-secondary-background-color: #f7f6f4;
+  --ls-tertiary-background-color: #f1eee8;
+  --ls-quaternary-background-color: #e8e5de;
+
+  --ls-primary-text-color: rgb(40, 40, 40);
+  --ls-secondary-text-color: #161e2e;
+
+  --ct-bold-color: #000;
+  --ct-bold-color-transparent: rgba(0, 0, 0, 0.3);
+
+  --ls-link-text-color: var(--ct-primary-color);
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: var(--ct-secondary-color);
+  --ls-external-link-color: var(--ct-warning-color);
+
+  --ct-bullet-closed-color: rgb(200, 200, 200);
+  --ct-block-arrow-color: rgb(98, 98, 98);
+
+  --ct-sidebar-resizer-background: none;
+  --ct-sidebar-resizer-background-hover: #e1e1e1;
+
+  --ct-page-reference-color: var(--ls-active-primary-color);
+
+  --ct-mark-background: var(--ct-highlight-color);
+  --ct-mark-color: var(--ct-bold-color);
+
+  --ct-block-reference-background: rgba(16, 107, 163, 0.1);
+  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
+}
+
+.dark-theme,
+html[data-theme="dark"] {
+  --ct-primary-color: rgb(138, 187, 187);
+  --ct-secondary-color: rgb(112, 172, 172);
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #0dcf82;
+  --ct-highlight-color: #ffc600;
+
+  --ls-primary-background-color: #272c35;
+  --ls-secondary-background-color: #343b49;
+  --ls-tertiary-background-color: #404040;
+  --ls-quaternary-background-color: #444;
 
   --ls-primary-text-color: rgb(235, 235, 235);
   --ls-secondary-text-color: #2b2b2b;
 
-  --ct-bold-color: #fff;
+  --ct-card-border-color: var(--ls-quaternary-background-color);
+
+  --ct-bold-color: #eee;
   --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
 
+  --ls-link-text-color: var(--ct-primary-color);
   --ls-active-primary-color: var(--ct-primary-color);
-  --ls-active-secondary-color: #003761;
-
-  --ls-link-text-color: var(--ls-active-primary-color);
+  --ls-active-secondary-color: var(--ct-secondary-color);
   --ls-external-link-color: var(--ct-warning-color);
 
   --ct-bullet-closed-color: rgb(51, 51, 51);
@@ -639,36 +684,6 @@ html[data-theme="dark-"] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 }
 
-.white-theme,
-html[data-theme="light"] {
-  --ls-primary-background-color: white;
-  --ls-secondary-background-color: #f7f6f4;
-  --ls-tertiary-background-color: #f1eee8;
-  --ls-quaternary-background-color: #e8e5de;
-
-  --ls-primary-text-color: rgb(40, 40, 40);
-  --ls-secondary-text-color: #161e2e;
-
-  --ct-bold-color: #000;
-  --ct-bold-color-transparent: rgba(0, 0, 0, 0.3);
-
-  --ls-active-primary-color: var(--ct-primary-color);
-  --ls-active-secondary-color: #003761;
-
-  --ls-link-text-color: var(--ls-active-primary-color);
-  --ls-external-link-color: var(--ct-warning-color);
-
-  --ct-bullet-closed-color: rgb(200, 200, 200);
-  --ct-block-arrow-color: rgb(98, 98, 98);
-
-  --ct-sidebar-resizer-background: none;
-  --ct-sidebar-resizer-background-hover: #e1e1e1;
-
-  --ct-page-reference-color: var(--ls-active-primary-color);
-
-  --ct-mark-background: var(--ct-highlight-color);
-  --ct-mark-color: var(--ct-bold-color);
-
-  --ct-block-reference-background: rgba(16, 107, 163, 0.1);
-  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
+.dark-theme .image-resize {
+  filter: brightness(0.8) saturate(80%);
 }
