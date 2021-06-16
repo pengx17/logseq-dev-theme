@@ -1,16 +1,12 @@
 # Logseq Dev Theme
 
-A theme imspired from Dev.to & Figma.
+A theme inspired by Dev.to & Figma.
 
 ## Warnings
-- This is a light only theme. Because I only use light theme.
+- I only use the light theme on daily basis.
 - Subject to change to meet my own needs.
 - I only have a Mac and other systems will not be tested.
-- I like Google Fonts.
-
-## Screenshot
-
-![](./demo.png)
+- I like Google Fonts and Fira Code.
 
 The easiest way to adopt this theme is to use jsDelivr CDN.
 
