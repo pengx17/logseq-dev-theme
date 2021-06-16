@@ -304,6 +304,14 @@ ol > li::marker {
   padding: 0 4px 0 0;
 }
 
+.block-ref .block-body {
+  display: inline-block;
+}
+
+.open-block-ref-link {
+  opacity: 1;
+}
+
 /* Bold */
 b,
 strong {
