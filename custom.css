@@ -10,6 +10,8 @@
   --ls-main-content-max-width: 1200px;
   --ls-font-family: "Noto Sans SC", sans-serif;
 
+  --ct-background: var(--ls-primary-background-color);
+
   --ct-code-font-family: "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW",
     monospace;
   --ct-inline-code-font-size: 0.85em;
@@ -47,6 +49,12 @@
 
   --ct-query-header-background: var(--ct-primary-color);
   --ct-query-header-color: var(--ct-background);
+
+  --ct-primary-color: #106ba3;
+  --ct-secondary-color: #19bcfe;
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #0dcf82;
+  --ct-highlight-color: #FFC600;
 }
 
 html,
@@ -528,7 +536,7 @@ samp {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.tippy-wrapper {
+.tippy-wrapper, .tippy-tooltip {
   background: var(--ct-background);
 }
 
@@ -588,14 +596,43 @@ samp {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-/* Light theme first. */
-.dark-theme,
-html[data-theme="dark"] {
+/* Light theme first. The following does not work yet. */
+.dark-theme-,
+html[data-theme="dark-"] {
+  --ls-primary-background-color: #333;
+  --ls-secondary-background-color: #444;
+  --ls-tertiary-background-color: #555;
+  --ls-quaternary-background-color: #666;
+
+  --ls-primary-text-color: rgb(235, 235, 235);
+  --ls-secondary-text-color: #2b2b2b;
+
+  --ct-bold-color: #fff;
+  --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
+
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: #003761;
+
+  --ls-link-text-color: var(--ls-active-primary-color);
+  --ls-external-link-color: var(--ct-warning-color);
+
+  --ct-bullet-closed-color: rgb(51, 51, 51);
+  --ct-block-arrow-color: rgb(165, 165, 165);
+
+  --ct-sidebar-resizer-background: none;
+  --ct-sidebar-resizer-background-hover: #2c2c2c;
+
+  --ct-page-reference-color: var(--ls-active-primary-color);
+
+  --ct-mark-background: var(--ct-highlight-color);
+  --ct-mark-color: var(--ct-bold-color);
+
+  --ct-block-reference-background: rgba(16, 107, 163, 0.1);
+  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 }
 
 .white-theme,
 html[data-theme="light"] {
-  --ct-background: #fff;
   --ls-primary-background-color: white;
   --ls-secondary-background-color: #f7f6f4;
   --ls-tertiary-background-color: #f1eee8;
@@ -609,12 +646,6 @@ html[data-theme="light"] {
 
   --ls-active-primary-color: var(--ct-primary-color);
   --ls-active-secondary-color: #003761;
-
-  --ct-primary-color: #106ba3;
-  --ct-secondary-color: #19bcfe;
-  --ct-warning-color: #ff7262;
-  --ct-success-color: #0dcf82;
-  --ct-highlight-color: #FFC600;
 
   --ls-link-text-color: var(--ls-active-primary-color);
   --ls-external-link-color: var(--ct-warning-color);
@@ -632,140 +663,4 @@ html[data-theme="light"] {
 
   --ct-block-reference-background: rgba(16, 107, 163, 0.1);
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
-}
-
-
-
-/* Code mirror */
-[class*="cm-s-"].cm-s-light {
-  text-shadow: none !important;
-}
-
-[class*="cm-s-"].CodeMirror {
-  background-color: #263238;
-  color: #eeffff;
-}
-
-[class*="cm-s-"] .CodeMirror-gutters {
-  background: #263238;
-  color: #546e7a;
-  border: none;
-}
-
-[class*="cm-s-"] .CodeMirror-guttermarker,
-[class*="cm-s-"] .CodeMirror-guttermarker-subtle,
-[class*="cm-s-"] .CodeMirror-linenumber {
-  color: #546e7a;
-}
-
-[class*="cm-s-"] .CodeMirror-cursor {
-  border-left: 1px solid #ffcc00;
-}
-
-[class*="cm-s-"] div.CodeMirror-selected {
-  background: rgba(128, 203, 196, 0.2);
-}
-
-.white-theme [class*="cm-s-"].CodeMirror-focused div.CodeMirror-selected {
-  background: rgba(128, 203, 196, 0.2);
-}
-
-[class*="cm-s-"] .CodeMirror-line::selection,
-[class*="cm-s-"] .CodeMirror-line > span::selection,
-.white-theme [class*="cm-s-"] .CodeMirror-line > span > span::selection {
-  background: rgba(128, 203, 196, 0.2);
-}
-
-[class*="cm-s-"] .CodeMirror-line::-moz-selection,
-[class*="cm-s-"] .CodeMirror-line > span::-moz-selection,
-.white-theme [class*="cm-s-"] .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(128, 203, 196, 0.2);
-}
-
-[class*="cm-s-"] .CodeMirror-activeline-background {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-[class*="cm-s-"] .cm-keyword {
-  color: #c792ea;
-}
-
-[class*="cm-s-"] .cm-operator {
-  color: #89ddff;
-}
-
-[class*="cm-s-"] .cm-variable-2 {
-  color: #eeffff;
-}
-
-[class*="cm-s-"] .cm-variable-3,
-[class*="cm-s-"] .cm-type {
-  color: #f07178;
-}
-
-[class*="cm-s-"] .cm-builtin {
-  color: #ffcb6b;
-}
-
-[class*="cm-s-"] .cm-atom {
-  color: #f78c6c;
-}
-
-[class*="cm-s-"] .cm-number {
-  color: #ff5370;
-}
-
-[class*="cm-s-"] .cm-def {
-  color: #82aaff;
-}
-
-[class*="cm-s-"] .cm-string {
-  color: #c3e88d;
-}
-
-[class*="cm-s-"] .cm-string-2 {
-  color: #f07178;
-}
-
-[class*="cm-s-"] .cm-comment {
-  color: #546e7a;
-}
-
-[class*="cm-s-"] .cm-variable {
-  color: #f07178;
-}
-
-[class*="cm-s-"] .cm-tag {
-  color: #ff5370;
-}
-
-[class*="cm-s-"] .cm-meta {
-  color: #ffcb6b;
-}
-
-[class*="cm-s-"] .cm-attribute {
-  color: #c792ea;
-}
-
-[class*="cm-s-"] .cm-property {
-  color: #c792ea;
-}
-
-[class*="cm-s-"] .cm-qualifier {
-  color: #decb6b;
-}
-
-[class*="cm-s-"] .cm-variable-3,
-[class*="cm-s-"] .cm-type {
-  color: #decb6b;
-}
-
-[class*="cm-s-"] .cm-error {
-  color: rgba(255, 255, 255, 1);
-  background-color: #ff5370;
-}
-
-[class*="cm-s-"] .CodeMirror-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
 }
