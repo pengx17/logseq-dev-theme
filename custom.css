@@ -680,7 +680,7 @@ html[data-theme="dark"] {
   --ct-mark-background: var(--ct-highlight-color);
   --ct-mark-color: var(--ct-bold-color);
 
-  --ct-block-reference-background: rgba(16, 107, 163, 0.1);
+  --ct-block-reference-background: rgba(16, 107, 163, 0.2);
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 }
 
