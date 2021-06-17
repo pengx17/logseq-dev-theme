@@ -59,7 +59,6 @@ body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
   overscroll-behavior-y: none;
-  background: var(--ls-primary-background-color);
   -webkit-font-smoothing: auto;
 }
 
@@ -345,17 +344,23 @@ strong {
 .embed,
 .embed-page,
 .embed-block {
-  box-shadow: 8px 8px rgba(0, 0, 0);
+  box-shadow: 4px 4px rgba(0, 0, 0);
   padding: 0.75em 0.5em 0.5em;
-  border: 2px solid var(--ls-quaternary-background-color);
+  border: 2px solid #000;
   margin: 0.2em 0;
+  transition: all ease-in 0.3s;
+}
+
+:is(.embed, .embed-page, .embed-block):is(:hover, :focus-within) {
+  box-shadow: 8px 8px rgba(0, 0, 0);
+  transform: translate(-4px, -4px);
 }
 
 /* page embed */
 .embed-page,
 .cp__right-sidebar .embed-page {
   background: var(--ls-secondary-background-color);
-  border-radius: 0.25rem;
+  border-radius: 8px;
 }
 
 .embed-page .embed-header .mr-3 {
@@ -498,7 +503,8 @@ samp {
 
 .custom-query {
   background: var(--ls-secondary-background-color);
-  border-radius: 0.25rem;
+  border: 2px solid #000;
+  border-radius: 8px;
   padding: 0 1.5rem;
   position: relative;
   margin-top: 0.5rem;
@@ -630,7 +636,7 @@ html[data-theme="light"] {
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
 
-  --ls-primary-background-color: white;
+  --ls-primary-background-color: transparent;
   --ls-secondary-background-color: #f7f6f4;
   --ls-tertiary-background-color: #f1eee8;
   --ls-quaternary-background-color: #e8e5de;
@@ -666,6 +672,10 @@ html[data-theme="light"] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 
   --ls-page-properties-background-color: var(--ls-secondary-background-color);
+}
+
+html[data-theme="light"] body {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=) repeat;
 }
 
 .dark-theme,
