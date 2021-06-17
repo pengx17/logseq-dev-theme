@@ -42,7 +42,7 @@
   --ct-query-header-background: var(--ct-primary-color);
 
   --ct-guideline-color: var(--ct-bold-color-transparent);
-  --ct-guideline-size: 1px;
+  --ct-guideline-size: 2px;
   --ct-guideline-style: solid;
 
   --ct-bullet-size: 6px;
@@ -501,7 +501,7 @@ samp {
 
 /* query */
 
-.custom-query {
+.custom-query > div:first-child {
   background: var(--ls-secondary-background-color);
   border: 2px solid #000;
   border-radius: 8px;
@@ -546,6 +546,12 @@ samp {
   min-width: 100px;
   color: var(--ct-page-font-color);
   -webkit-font-smoothing: auto;
+}
+
+.tippy-tooltip > .tippy-tooltip-content {
+  border: 2px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
 
   --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -555,15 +561,14 @@ samp {
 
 .tippy-wrapper,
 .tippy-tooltip {
-  background: var(--ct-background);
+  background: var(--ls-secondary-background-color);
 }
 
 .tippy-tooltip-content > .tippy-wrapper {
   padding: 0 !important;
-  border-radius: 4px;
   width: fit-content !important;
   max-width: 800px;
-  background: var(--ct-background);
+  background: var(--ls-secondary-background-color);
 }
 
 .tippy-tooltip-content > .tippy-wrapper.overflow-y-auto {
@@ -645,7 +650,7 @@ html[data-theme="light"] {
   --ls-secondary-text-color: #161e2e;
 
   --ct-bold-color: #000;
-  --ct-bold-color-transparent: rgba(0, 0, 0, 0.3);
+  --ct-bold-color-transparent: rgba(0, 0, 0, 0.2);
 
   --ls-link-text-color: var(--ct-primary-color);
   --ls-link-ref-text-color: var(--ct-primary-color);
