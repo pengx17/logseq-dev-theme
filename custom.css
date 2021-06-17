@@ -45,6 +45,9 @@
   --ct-guideline-size: 2px;
   --ct-guideline-style: solid;
 
+  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ls-secondary-background-color);
+
   --ct-bullet-size: 6px;
   --ct-bullet-color: var(--ct-bold-color);
 
@@ -87,7 +90,7 @@ body {
 
 /* Right Sidebar card  */
 .cp__right-sidebar-inner {
-  --sidebar-padding: 1rem;
+  --ct-sidebar-padding: 0.5rem;
 }
 
 .cp__right-sidebar.is-open {
@@ -96,8 +99,8 @@ body {
 
 .cp__right-sidebar .sidebar-item {
   border-radius: var(--ct-sidebar-item-border-radius);
-  margin: var(--sidebar-padding) 0;
-  background: var(--ct-background);
+  margin: var(--ct-sidebar-padding) 0;
+  background: transparent;
   border-radius: var(--ct-card-radius);
   box-shadow: none;
 }
@@ -141,13 +144,14 @@ body {
 
 .cp__right-sidebar-inner .resizer {
   background: var(--ct-sidebar-resizer-background);
-  width: var(--sidebar-padding);
+  width: var(--ct-sidebar-padding);
   touch-action: none;
   z-index: 2000;
+  opacity: 0.4;
 }
 
 .cp__right-sidebar-inner .resizer:hover {
-  background: var(--ls-secondary-background-color);
+  background: var(--ct-sidebar-resizer-background-hover);
   opacity: 0.6;
 }
 
@@ -155,8 +159,13 @@ body {
   margin-top: 0;
 }
 
-.cp__right-sidebar {
+.cp__right-sidebar,
+.cp__sidebar-main-layout {
   background-color: transparent;
+}
+
+.theme-inner {
+  background: var(--ls-primary-background-color);
 }
 
 /* Heading & Page title */
@@ -508,15 +517,22 @@ samp {
   margin-top: 0.5rem;
 }
 
+/* Query title margin */
 .block-body .custom-query > .flex > div,
-#today-queries .custom-query > .flex > div,
-.dsl-query .custom-query > .flex > div {
+#today-queries .custom-query > .flex > div:first-of-type,
+.dsl-query .custom-query > .flex > div:first-of-type {
   padding: 12px 0;
 }
 
-.dsl-query > .custom-query .foldable-title .opacity-70,
-#today-queries > .custom-query .foldable-title .opacity-70,
-.block-body > .custom-query .foldable-title .opacity-70 {
+:is(#today-queries > div > div, .dsl-query .custom-query > .flex)
+  > div.initial {
+  margin-bottom: 12px;
+}
+
+:is(.dsl-query, #today-queries, .block-body)
+  > .custom-query
+  .foldable-title
+  .opacity-70 {
   display: block;
   opacity: 1;
   padding: 5px 10px 2px 10px !important;
@@ -551,11 +567,7 @@ samp {
   border-radius: 8px;
   overflow: hidden;
   background: var(--ls-secondary-background-color);
-
-  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: 8px 8px #000;
 }
 
 .tippy-wrapper,
@@ -589,6 +601,10 @@ samp {
   min-width: 450px;
 }
 
+.tippy-popper .arrow-regular {
+  display: none; /* Hide the arrow */
+}
+
 /* FIXME: this is a hack to remove scroll passed to scroll bottom issue */
 .tippy-popper[style*="visibility: hidden"] {
   display: none;
@@ -610,26 +626,22 @@ a.tag:hover {
 
 /* Page preview title */
 .tippy-wrapper > h2:first-of-type {
-  display: inline-block;
-  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
   position: absolute;
   left: -0.5em;
   top: -0.75em;
   z-index: 2;
-  padding: 5px 10px 2px 10px !important;
+  padding: 2px 1em 2px 1em !important;
   background: var(--ct-query-header-background);
   white-space: nowrap;
   font-family: var(--ct-page-title-font-family);
   font-weight: 600;
   color: var(--ct-query-header-color);
   font-style: var(--ct-inline-code-font-style) !important;
-  border-radius: var(--ct-inline-code-border-radius);
-
+  border: 2px solid #000;
+  border-radius: 4px;
   text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
-  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .white-theme,
@@ -640,7 +652,7 @@ html[data-theme="light"] {
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
 
-  --ls-primary-background-color: transparent;
+  --ls-primary-background-color: #fff;
   --ls-secondary-background-color: #f7f6f4;
   --ls-tertiary-background-color: #f1eee8;
   --ls-quaternary-background-color: #e8e5de;
@@ -662,9 +674,6 @@ html[data-theme="light"] {
   --ct-bullet-closed-color: rgb(200, 200, 200);
   --ct-block-arrow-color: rgb(98, 98, 98);
 
-  --ct-sidebar-resizer-background: none;
-  --ct-sidebar-resizer-background-hover: #e1e1e1;
-
   --ct-page-reference-color: var(--ls-active-primary-color);
 
   --ct-mark-background: var(--ct-highlight-color);
@@ -678,14 +687,19 @@ html[data-theme="light"] {
   --ls-page-properties-background-color: var(--ls-secondary-background-color);
 }
 
-html[data-theme="light"] body {
+#app-container::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=)
     repeat;
 }
 
-html[data-theme="light"]
-  :is(.search-ac, .absolute-modal, .bg-base-3, .dropdown-wrapper) {
-  background-color: #fff;
+html[data-theme="dark"] #app-container::before {
+  opacity: 0.05;
 }
 
 .dark-theme,
@@ -719,9 +733,6 @@ html[data-theme="dark"] {
 
   --ct-bullet-closed-color: #555;
   --ct-block-arrow-color: rgb(165, 165, 165);
-
-  --ct-sidebar-resizer-background: none;
-  --ct-sidebar-resizer-background-hover: #2c2c2c;
 
   --ct-page-reference-color: var(--ls-active-primary-color);
 
