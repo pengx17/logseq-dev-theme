@@ -252,8 +252,7 @@ a:hover > .bullet-container .bullet {
 
 .ls-block .bullet {
   background-color: var(--ct-page-reference-color);
-  box-shadow: 0 0 0 2px var(--ct-background),
-    0 0 0 3px var(--ct-page-reference-color);
+  box-shadow: 0 0 0 1px var(--ct-page-reference-color);
 }
 
 .ls-block:not(:focus-within) .bullet {
@@ -347,6 +346,7 @@ strong {
   box-shadow: 4px 4px rgba(0, 0, 0);
   padding: 0.75em 0.5em 0.5em;
   border: 2px solid #000;
+  border-radius: 8px;
   margin: 0.2em 0;
   transition: all ease-in 0.3s;
 }
@@ -360,7 +360,6 @@ strong {
 .embed-page,
 .cp__right-sidebar .embed-page {
   background: var(--ls-secondary-background-color);
-  border-radius: 8px;
 }
 
 .embed-page .embed-header .mr-3 {
@@ -375,7 +374,6 @@ strong {
 .embed-block,
 .cp__right-sidebar .embed-block {
   background: var(--ls-secondary-background-color);
-  border-radius: 0.25rem;
 }
 
 /* Markers */
@@ -552,6 +550,7 @@ samp {
   border: 2px solid #000;
   border-radius: 8px;
   overflow: hidden;
+  background: var(--ls-secondary-background-color);
 
   --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -561,7 +560,7 @@ samp {
 
 .tippy-wrapper,
 .tippy-tooltip {
-  background: var(--ls-secondary-background-color);
+  background: transparent;
 }
 
 .tippy-tooltip-content > .tippy-wrapper {
@@ -681,6 +680,10 @@ html[data-theme="light"] {
 
 html[data-theme="light"] body {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=) repeat;
+}
+
+html[data-theme="light"] :is(.search-ac, .absolute-modal) {
+  background-color: #fff;
 }
 
 .dark-theme,
