@@ -16,7 +16,7 @@ The easiest way to adopt this theme is to use jsDelivr CDN.
   @import url('https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/custom.css');
   ```
 
-### demo
+### demo (might be outdated)
 ![](./light.png)
 ![](./dark.png)
 
