@@ -52,6 +52,7 @@
   --ct-bullet-color: var(--ct-bold-color);
 
   --ct-checkbox-border-radius: 2px;
+  
   --ct-task-done-text-decoration: none;
 
   --ct-mark-border-radius: 2px;
@@ -392,8 +393,8 @@ strong {
 .form-checkbox,
 .form-checkbox:focus {
   --ct-checkbox-color: var(--ls-active-primary-color);
-
   --ct-checkbox-border-radius: 2px;
+
   border-radius: var(--ct-checkbox-border-radius);
   border: 2px solid var(--ct-checkbox-color) !important;
   background-color: transparent !important;
@@ -403,6 +404,11 @@ strong {
 
 :is(.doing, .now) .form-checkbox,
 :is(.doing, .now) .form-checkbox:focus {
+  background-color: var(--ct-primary-color) !important;
+}
+
+.waiting .form-checkbox,
+.waiting .form-checkbox:focus {
   background-color: var(--ct-highlight-color) !important;
 }
 
@@ -412,10 +418,24 @@ strong {
   margin-right: 5px !important;
 }
 
-.canceled,
 .done {
   color: var(--ct-task-done-text-color);
   text-decoration: var(--ct-task-done-text-decoration);
+}
+
+.canceled::before {
+  --ct-checkbox-color: var(--ls-active-primary-color);
+  --ct-checkbox-border-radius: 2px;
+
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: var(--ct-checkbox-border-radius);
+  border: 2px solid var(--ct-checkbox-color) !important;
+  background-color: var(--ct-warning-color) ;
+  margin-right: 6px !important;
+  vertical-align: middle;
 }
 
 a[priority],
