@@ -337,7 +337,7 @@ strong {
 }
 
 .ls-block :is(h1, h2) {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--ls-quaternary-background-color);
   margin: 0.4em 0;
 }
 
@@ -536,7 +536,6 @@ samp {
   border-radius: 8px;
   padding: 1rem 1.5rem;
   position: relative;
-  margin: 0.5rem 1rem 0 1rem;
 }
 
 :is(#today-queries > div > div, .dsl-query .custom-query > .flex)
