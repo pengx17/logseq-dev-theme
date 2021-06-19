@@ -647,17 +647,13 @@ a.tag:hover {
 
 /* Page properties */
 .page-properties {
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  font-family: var(--ct-code-font-family);
-}
-
-.page-properties > div::before {
-  content: '🔧';
-  display: inline-block;
-  margin-right: 0.5em;
+  margin: 0 0 0.5em 0;
+  padding: 0.2em 0.5em;
   font-size: 0.8em;
+  background: var(--ls-tertiary-background-color);
+  font-family: var(--ct-code-font-family);
+  display: inline-block;
+  opacity: 0.8;
 }
 
 /* Page preview title */
