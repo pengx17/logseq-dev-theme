@@ -645,6 +645,21 @@ a.tag:hover {
   border-radius: 4px;
 }
 
+/* Page properties */
+.page-properties {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-family: var(--ct-code-font-family);
+}
+
+.page-properties > div::before {
+  content: '🔧';
+  display: inline-block;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
 /* Page preview title */
 .tippy-wrapper > h2:first-of-type {
   display: inline-flex;
