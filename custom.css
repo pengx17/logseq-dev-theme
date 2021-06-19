@@ -321,6 +321,9 @@ ol > li::marker {
 
 .open-block-ref-link {
   opacity: 1;
+  font-family: Asap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Bold */
@@ -530,24 +533,15 @@ samp {
 
 .custom-query > div:first-child {
   background: var(--ls-secondary-background-color);
-  border: 2px solid #000;
   border-radius: 8px;
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
   position: relative;
   margin: 0.5rem 1rem 0 1rem;
 }
 
-/* Query title margin */
-:is(.block-body, #today-queries, .dsl-query)
-  .custom-query
-  > .flex
-  > div:first-of-type {
-  padding: 12px 0;
-}
-
 :is(#today-queries > div > div, .dsl-query .custom-query > .flex)
   > div.initial {
-  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 :is(.dsl-query, #today-queries, .block-body)
@@ -607,6 +601,7 @@ samp {
   overflow: visible;
   display: flex;
   flex-flow: column;
+  max-height: calc(100vh - 20px);
 }
 
 .tippy-tooltip-content > .tippy-wrapper > .page-blocks-inner {
@@ -643,6 +638,11 @@ a.tag {
 
 a.tag:hover {
   background-color: var(--ct-block-reference-background-hover);
+}
+
+/* Block with-bg-color */
+.with-bg-color {
+  border-radius: 4px;
 }
 
 /* Page preview title */
@@ -705,7 +705,7 @@ html[data-theme="light"] {
   --ct-block-reference-background: rgba(16, 107, 163, 0.1);
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 
-  --ls-page-properties-background-color: var(--ls-secondary-background-color);
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
 }
 
 #app-container::before {
@@ -765,7 +765,7 @@ html[data-theme="dark"] {
   --ct-block-reference-background: rgba(16, 107, 163, 0.2);
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 
-  --ls-page-properties-background-color: var(--ls-secondary-background-color);
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
 
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
 }
