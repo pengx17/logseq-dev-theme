@@ -383,6 +383,12 @@ strong {
   fill: var(--ct-page-embed-header-color);
 }
 
+.embed-page .embed-header a.page-ref {
+  font-size: 1.2em;
+  font-family: var(--ct-heading-font-family);
+  font-weight: var(--ct-heading-font-weight);
+}
+
 /* block embed */
 .embed-block,
 .cp__right-sidebar .embed-block {
@@ -536,6 +542,10 @@ samp {
   border-radius: 8px;
   padding: 1rem 1.5rem;
   position: relative;
+}
+
+.embed .custom-query > div:first-child {
+  background: var(--ls-tertiary-background-color);
 }
 
 :is(#today-queries > div > div, .dsl-query .custom-query > .flex)
