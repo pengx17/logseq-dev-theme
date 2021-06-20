@@ -52,7 +52,7 @@
   --ct-bullet-color: var(--ct-bold-color);
 
   --ct-checkbox-border-radius: 2px;
-  
+
   --ct-task-done-text-decoration: none;
 
   --ct-mark-border-radius: 2px;
@@ -271,11 +271,23 @@ a:hover > .bullet-container .bullet {
   opacity: 0.3;
 }
 
-/* Ordered list */
+/* lists */
 ol > li::marker {
   font-family: Asap;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
+}
+
+.block-body ol > li::marker,
+.block-body ol > li > p {
+  /* Hopefully this wont break anything ... */
+  display: inline;
+}
+
+.block-body dl,
+.block-body ol,
+.block-body ul {
+  margin-bottom: 0.5em;
 }
 
 /* Block oversize issue */
@@ -332,13 +344,54 @@ strong {
   color: var(--ct-bold-color);
 }
 
+.ls-block :is(h1, h2, h3, h4, h5) {
+  font-family: var(--ct-page-title-font-family);
+}
+
+.ls-block :is(h1, h2, h3, h4, h5)::after {
+  margin-left: 0.5rem;
+  font-family: var(--ct-code-font-family);
+  font-size: 0.6rem;
+  font-style: var(--ct-inline-code-font-style) !important;
+  border-radius: var(--ct-inline-code-border-radius);
+  padding: var(--ct-inline-code-padding) !important;
+  background: var(--ls-tertiary-background-color);
+  color: var(--ct-inline-code-color);
+  vertical-align: middle;
+  opacity: 0.3;
+}
+
+.ls-block :is(h1, h2, h3, h4, h5):hover::after {
+  opacity: 1;
+}
+
+.ls-block h1::after {
+  content: "h1";
+}
+
+.ls-block h2::after {
+  content: "h2";
+}
+
+.ls-block h3::after {
+  content: "h3";
+}
+
+.ls-block h4::after {
+  content: "h4";
+}
+
+.ls-block h5::after {
+  content: "h5";
+}
+
 .ls-block :is(h3, h4, h5) {
-  margin: 0.3em 0;
+  margin: 0.3em 0 0;
 }
 
 .ls-block :is(h1, h2) {
   border-bottom: 1px solid var(--ls-quaternary-background-color);
-  margin: 0.4em 0;
+  margin: 0.4em 0 0;
 }
 
 /* External links */
@@ -357,7 +410,7 @@ strong {
 .embed-page,
 .embed-block {
   box-shadow: 4px 4px rgba(0, 0, 0);
-  padding: 0.75em 0.5em 0.5em;
+  padding: 0.75em 0.5em;
   border: 2px solid #000;
   border-radius: 8px;
   margin: 0.2em 0;
@@ -436,13 +489,13 @@ strong {
   --ct-checkbox-color: var(--ls-active-primary-color);
   --ct-checkbox-border-radius: 2px;
 
-  content: '';
+  content: "";
   display: inline-block;
   width: 1em;
   height: 1em;
   border-radius: var(--ct-checkbox-border-radius);
   border: 2px solid var(--ct-checkbox-color) !important;
-  background-color: var(--ct-warning-color) ;
+  background-color: var(--ct-warning-color);
   margin-right: 6px !important;
   vertical-align: middle;
 }
@@ -590,7 +643,7 @@ samp {
   border: 2px solid #000;
   border-radius: 8px;
   overflow: hidden;
-  background: var(--ls-secondary-background-color);
+  background: var(--ls-primary-background-color);
   box-shadow: 8px 8px #000;
 }
 
@@ -603,7 +656,7 @@ samp {
   padding: 0 !important;
   width: fit-content !important;
   max-width: 800px;
-  background: var(--ls-secondary-background-color);
+  background: var(--ls-primary-background-color);
 }
 
 .tippy-tooltip-content > .tippy-wrapper.overflow-y-auto {
@@ -616,7 +669,7 @@ samp {
 .tippy-tooltip-content > .tippy-wrapper > .page-blocks-inner {
   overflow: auto;
   height: -webkit-fill-available;
-  padding: 0.5em 1em;
+  padding: 0.5em 1em 1em;
   margin-top: 1.5em;
   min-width: 450px;
 }
@@ -683,6 +736,29 @@ a.tag:hover {
   border: 2px solid #000;
   border-radius: 4px;
   text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
+}
+
+/* Some tweaks on making this theme a bit more compact on mobile.
+   Mobile cap is 640px */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+  #main-content-container {
+    padding: 0;
+  }
+  .cp__sidebar-main-content > div {
+    padding: 1px 1em 1em 1em;
+    border: none;
+  }
+  a.title h1.title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .custom-query {
+    padding: 0 1rem;
+  }
 }
 
 .white-theme,
