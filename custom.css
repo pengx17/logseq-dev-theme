@@ -223,6 +223,7 @@ a.title h1.title {
   height: 28px;
   font-size: 12px;
   background: transparent;
+  color: var(--ls-search-icon-color,#9fa6b2);
 }
 
 /* vertical lines and bullets */
