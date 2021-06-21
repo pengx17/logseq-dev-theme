@@ -349,6 +349,10 @@ strong {
   font-family: var(--ct-page-title-font-family);
 }
 
+.ls-block .block-ref :is(h1, h2, h3, h4, h5) {
+  font-size: 1em;
+}
+
 .ls-block :is(h1, h2, h3, h4, h5)::after {
   margin-left: 0.5rem;
   font-family: var(--ct-code-font-family);
@@ -696,7 +700,8 @@ a.tag {
   padding: 0 4px;
   border-radius: 4px;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.2;
+  font-size: 0.8em;
 }
 
 a.tag:hover {
