@@ -1,7 +1,7 @@
 {
   "name": "logseq-dev-theme",
   "author": "pengx17",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A custom theme for dev",
   "logseq": {
     "themes": [
@@ -12,5 +12,9 @@
       }
     ],
     "id": "pengx17_dev_theme"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0"
   }
 }
