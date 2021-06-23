@@ -680,7 +680,8 @@ samp {
 }
 
 .tippy-tooltip-content > .tippy-wrapper > .blocks-container {
-  padding: 0 0.5em;
+  margin-top: 1.5em;
+  padding: 0.5em 1em 1em;
   min-width: 450px;
 }
 
@@ -738,7 +739,7 @@ kbd {
 }
 
 /* Page preview title */
-.tippy-wrapper > h2:first-of-type {
+.tippy-wrapper > :is(h2:first-of-type, .block-parents) {
   display: inline-flex;
   align-items: center;
   position: absolute;
@@ -755,6 +756,10 @@ kbd {
   border: 2px solid #000;
   border-radius: 4px;
   text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
+}
+
+.tippy-wrapper > :is(h2:first-of-type, .block-parents) a {
+  color: var(--ct-query-header-color);
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
