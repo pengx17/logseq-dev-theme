@@ -14,7 +14,7 @@
 
   --ct-code-font-family: "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW",
     monospace;
-  --ct-inline-code-font-size: 0.85em;
+  --ct-inline-code-font-size: 0.8em;
   --ct-inline-code-font-style: inherit;
   --ct-inline-code-border-radius: 2px;
   --ct-inline-code-padding: 2px 5px;
@@ -564,11 +564,16 @@ a.priority:before {
 /* highlight */
 
 mark {
-  font-family: var(--ct-page-title-font-family);
   border-radius: var(--ct-mark-border-radius);
-  background: var(--ct-mark-background);
-  color: var(--ct-mark-color);
+  background: transparent;
+  padding: 0;
   font-size: inherit;
+  text-decoration-style: solid;
+  text-decoration: underline;
+  text-decoration-color: var(--ct-warning-color);
+  text-decoration-thickness: 4px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -1px;
 }
 
 code,
@@ -817,9 +822,6 @@ html[data-theme="light"] {
 
   --ct-page-reference-color: var(--ls-active-primary-color);
 
-  --ct-mark-background: var(--ct-highlight-color);
-  --ct-mark-color: var(--ct-bold-color);
-
   --ls-icon-color: var(--ls-primary-text-color);
 
   --ct-block-reference-background: rgba(16, 107, 163, 0.1);
@@ -879,9 +881,6 @@ html[data-theme="dark"] {
   --ct-block-arrow-color: rgb(165, 165, 165);
 
   --ct-page-reference-color: var(--ls-active-primary-color);
-
-  --ct-mark-background: var(--ct-highlight-color);
-  --ct-mark-color: #000;
 
   --ls-icon-color: var(--ls-primary-text-color);
 
