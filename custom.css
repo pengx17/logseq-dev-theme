@@ -567,11 +567,12 @@ mark {
   border-radius: var(--ct-mark-border-radius);
   background: transparent;
   padding: 0;
+  color: inherit;
   font-size: inherit;
   text-decoration-style: solid;
   text-decoration: underline;
   text-decoration-color: var(--ct-warning-color);
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 3px;
   text-decoration-skip-ink: none;
   text-underline-offset: -1px;
 }
