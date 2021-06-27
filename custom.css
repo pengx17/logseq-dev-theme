@@ -24,7 +24,7 @@
   --ct-page-title-color: var(--ct-bold-color);
   --ct-page-title-font-size: 36px;
   --ct-page-title-line-height: 40px;
-  --ct-page-title-font-weight: 900;
+  --ct-page-title-font-weight: 600;
   --ct-page-title-font-style: normal;
 
   --ct-heading-font-family: var(--ct-page-title-font-family);
