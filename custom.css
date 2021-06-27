@@ -573,7 +573,6 @@ mark {
   text-decoration: underline;
   text-decoration-color: var(--ct-highlight-color);
   text-decoration-thickness: 3px;
-  text-decoration-skip-ink: none;
   text-underline-offset: -1px;
 }
 
