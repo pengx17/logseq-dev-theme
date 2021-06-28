@@ -2,26 +2,26 @@
 
 A theme inspired by Dev.to & Figma.
 
-## Warnings
-- I only use the light theme on daily basis.
-- Subject to change to meet my own needs.
-- I only have a Mac and other systems will not be tested.
-- I like Google Fonts and Fira Code.
-
-The easiest way to adopt this theme is to use jsDelivr CDN.
-
-1. Specify `:custom-css-url` in "logseq/config.edn"
-2. Add the following line to your `custom.css`:
-  ```css
-  @import url('https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/custom.css');
-  ```
-
 ## Working Demo
+
 https://knowledge-garden.vercel.app/
 
+## Usage
+
+The easiest way to adopt this theme is to use jsDelivr CDN by adding the following line to your `custom.css`. You can also change the `@master` part to use the latest version.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/custom.css");
+```
+
+Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
+
 ### demo (might be outdated)
+
 ![](./light.png)
 ![](./dark.png)
+
+### [Changelog](./CHANGELOG.md)
 
 ## Credits
 
