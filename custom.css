@@ -54,8 +54,6 @@
   --ct-checkbox-border-radius: 2px;
 
   --ct-task-done-text-decoration: none;
-
-  --ct-mark-border-radius: 2px;
 }
 
 html,
@@ -564,7 +562,6 @@ a.priority:before {
 /* highlight */
 
 mark {
-  border-radius: var(--ct-mark-border-radius);
   background: transparent;
   padding: 0;
   color: inherit;
@@ -572,8 +569,9 @@ mark {
   text-decoration-style: solid;
   text-decoration: underline;
   text-decoration-color: var(--ct-highlight-color);
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 4px;
   text-underline-offset: -1px;
+  text-decoration-skip-ink: none;
 }
 
 code,
