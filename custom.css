@@ -742,7 +742,7 @@ kbd {
 }
 
 /* Page preview title */
-.tippy-wrapper > :is(h2:first-of-type, .block-parents) {
+.tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) {
   display: inline-flex;
   align-items: center;
   position: absolute;
