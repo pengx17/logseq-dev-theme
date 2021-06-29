@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.4...v1.2.5) (2021-06-29)
+
+
+### Bug Fixes
+
+* fix title for namespace preview ([3668343](https://github.com/pengx17/logseq-dev-theme/commit/36683430c7c5adc5437e31bf765dff82b5ffa9f0))
+
 ## [1.2.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.3...v1.2.4) (2021-06-28)
 
 
