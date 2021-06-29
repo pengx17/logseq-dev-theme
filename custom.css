@@ -231,20 +231,17 @@ a.title h1.title {
     var(--ct-guideline-color);
 }
 
-.block-children:focus-within {
-  border-color: var(--ct-page-reference-color);
-}
-
 .bullet-container {
   width: 14px;
   height: 14px;
+  transform: translateX(-1px);
 }
 
 .bullet-container .bullet {
   width: var(--ct-bullet-size);
   height: var(--ct-bullet-size);
   background-color: var(--ct-bullet-color);
-  transform: scale(1.0001);
+  transform: scale(1.2);
 }
 
 a:hover > .bullet-container .bullet {
@@ -259,6 +256,10 @@ a:hover > .bullet-container .bullet {
   color: var(--ct-block-arrow-color);
 }
 
+.block-control:hover svg {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
 .ls-block .bullet {
   background-color: var(--ct-page-reference-color);
   box-shadow: 0 0 0 1px var(--ct-page-reference-color);
@@ -268,6 +269,65 @@ a:hover > .bullet-container .bullet {
   background-color: var(--ct-bullet-color);
   box-shadow: none;
   opacity: 0.3;
+  transform: scale(1);
+}
+
+.ls-block > div > div.items-center {
+  position: relative;
+}
+
+div.items-center::before,
+div.items-center::after,
+.ls-block::before,
+.ls-block::after {
+  transition: background-color 0.2s;
+}
+
+.doc-mode div.items-center::before,
+.doc-mode div.items-center::after,
+.doc-mode .ls-block::before,
+.doc-mode .ls-block::after {
+  display: none;
+}
+
+.ls-block:not([level="1"]):focus-within > div > div.items-center::before {
+  content: "";
+  height: 100%;
+  left: -2px;
+  right: 6px;
+  top: -50%;
+  position: absolute;
+  border-left: 2px solid var(--ct-page-reference-color);
+  border-bottom: 2px solid var(--ct-page-reference-color);
+  border-bottom-left-radius: 6px;
+}
+
+.ls-block:not([level="1"]):focus-within > div > div.items-center::after {
+  content: "";
+  height: calc(100% - 4px);
+  width: 2px;
+  top: -50%;
+  left: -2px;
+  position: absolute;
+  background-color: var(--ct-page-reference-color);
+}
+
+.block-children:focus-within > .ls-block::before {
+  content: "";
+  top: -10px;
+  bottom: 0;
+  width: 2px;
+  left: -2px;
+  position: absolute;
+  background-color: var(--ct-page-reference-color);
+}
+
+.block-children:focus-within > .ls-block:focus-within::before {
+  background: transparent;
+}
+
+.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
+  background: transparent;
 }
 
 /* lists */
