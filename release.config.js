@@ -6,5 +6,11 @@ module.exports = {
     "@semantic-release/changelog",
     "@semantic-release/github",
     "@semantic-release/git",
+    [
+      "@semantic-release/npm",
+      {
+        npmPublish: false,
+      },
+    ],
   ],
 };

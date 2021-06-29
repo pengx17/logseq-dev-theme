@@ -18,6 +18,7 @@ Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
 
 ### demo (might be outdated)
 
+![demo](./demo-video.gif)
 ![](./light.png)
 ![](./dark.png)
 
