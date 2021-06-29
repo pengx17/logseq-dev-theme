@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.5...v1.2.6) (2021-06-29)
+
+
+### Bug Fixes
+
+* **preview:** title color for namespace ([cf2c381](https://github.com/pengx17/logseq-dev-theme/commit/cf2c381044c25151dffd05eedea37d4b895b25cb))
+
 ## [1.2.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.4...v1.2.5) (2021-06-29)
 
 
