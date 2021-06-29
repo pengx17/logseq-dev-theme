@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.8...v1.3.0) (2021-06-29)
+
+
+### Features
+
+* **block:** add detaild tracing for editing block ([e59450d](https://github.com/pengx17/logseq-dev-theme/commit/e59450dab4f2d3a582a80a26fcd513ffe5e816c1))
+
 ## [1.2.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.7...v1.2.8) (2021-06-29)
 
 
