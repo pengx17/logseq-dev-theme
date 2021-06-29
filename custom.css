@@ -894,5 +894,5 @@ html[data-theme="dark"] {
 }
 
 .dark-theme .image-resize {
-  filter: brightness(0.8) saturate(90%);
+  filter: brightness(0.8) saturate(85%);
 }
