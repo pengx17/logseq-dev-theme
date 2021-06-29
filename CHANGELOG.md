@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.6...v1.2.7) (2021-06-29)
+
+
+### Bug Fixes
+
+* **image:** adjust dark theme filter ([fb8123b](https://github.com/pengx17/logseq-dev-theme/commit/fb8123b11455c406c6ba38b1b65a12865c5f1464))
+
 ## [1.2.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.5...v1.2.6) (2021-06-29)
 
 
