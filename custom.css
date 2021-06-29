@@ -761,7 +761,7 @@ kbd {
   text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
 }
 
-.tippy-wrapper > :is(h2:first-of-type, .block-parents) a {
+.tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) a {
   color: var(--ct-query-header-color);
 }
 
