@@ -269,15 +269,9 @@ a:hover > .bullet-container .bullet {
 div.items-center::before,
 div.items-center::after,
 .ls-block::before,
-.ls-block::after {
+.ls-block::after,
+.block-content-wrapper::before {
   transition: all 0.1s;
-}
-
-.doc-mode div.items-center::before,
-.doc-mode div.items-center::after,
-.doc-mode .ls-block::before,
-.doc-mode .ls-block::after {
-  display: none;
 }
 
 .ls-block > div > div.items-center::before {
@@ -316,7 +310,7 @@ div.items-center::after,
   background-color: var(--ct-page-reference-color);
 }
 
-.block-children:focus-within > .ls-block::before {
+.block-children:focus-within > .ls-block:not(:focus-within)::before {
   background-color: var(--ct-page-reference-color);
 }
 
@@ -330,12 +324,33 @@ div.items-center::after,
   background-color: transparent;
 }
 
-.block-children:focus-within > .ls-block:focus-within::before {
+.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
   background: transparent;
 }
 
-.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
-  background: transparent;
+.ls-block > div > .block-content-wrapper {
+  position: relative;
+}
+
+.ls-block > div > .block-content-wrapper::before {
+  content: "";
+  top: 1em;
+  bottom: 0;
+  width: 2px;
+  left: -17px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.ls-block:focus-within > div > .block-content-wrapper::before {
+  background-color: var(--ct-page-reference-color);
+}
+
+.doc-mode div.items-center::before,
+.doc-mode div.items-center::after,
+.doc-mode .ls-block::before,
+.doc-mode .ls-block::after {
+  display: none;
 }
 
 /* lists */

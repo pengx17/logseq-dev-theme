@@ -2,6 +2,8 @@
 
 A theme inspired by Dev.to & Figma.
 
+<img src="./logo.png" width="100" />
+
 ## Working Demo
 
 https://knowledge-garden.vercel.app/

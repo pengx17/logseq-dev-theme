@@ -11,7 +11,8 @@
         "description": "A custom theme for dev"
       }
     ],
-    "id": "pengx17_dev_theme"
+    "id": "pengx17_dev_theme",
+    "icon": "./logo.png"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
