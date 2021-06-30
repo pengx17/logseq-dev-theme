@@ -130,7 +130,6 @@ body {
   padding: 1rem;
   margin: -1rem;
   z-index: 10;
-  backdrop-filter: var(--ct-topbar-backdrop);
 }
 
 .sidebar-item.content > div > div:first-of-type + div {
@@ -192,7 +191,8 @@ a.title h1.title {
 .cp__header,
 .cp__right-sidebar-topbar {
   backdrop-filter: var(--ct-topbar-backdrop);
-  background-color: var(--ct-topbar-background) !important;
+  -webkit-backdrop-filter: var(--ct-topbar-backdrop);
+  height: var(--ct-header-height);
 }
 
 .cp__header::after,
@@ -880,6 +880,26 @@ progress::-webkit-progress-value {
   }
 }
 
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .cp__header,
+  .cp__right-sidebar-topbar,
+  .sidebar-item.content > div > div:first-of-type {
+    backdrop-filter: blur(20px);
+  }
+}
+
+@supports not (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .cp__header,
+  .cp__right-sidebar-topbar,
+  .sidebar-item.content > div > div:first-of-type {
+    background: var(--ct-header-bg-color);
+  }
+}
+
 .white-theme,
 html[data-theme="light"] {
   --ct-primary-color: #106ba3;
@@ -921,6 +941,9 @@ html[data-theme="light"] {
 
   --ct-kbd-bg-color: #fafbfc;
   --ct-kbd-border-color: #d1d5da;
+
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: rgba(255, 255, 255, 0.9);
 }
 
 #app-container::before {
@@ -981,6 +1004,9 @@ html[data-theme="dark"] {
 
   --ct-kbd-bg-color: #0d1117;
   --ct-kbd-border-color: #6e7681;
+
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: #272c35ee;
 }
 
 .dark-theme .image-resize {
