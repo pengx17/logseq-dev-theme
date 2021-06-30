@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.6...v1.4.7) (2021-06-30)
+
+
+### Bug Fixes
+
+* compatibility issue on safari ([78ca790](https://github.com/pengx17/logseq-dev-theme/commit/78ca790decc3677088cc218bed11aed5b086c491))
+
 ## [1.4.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.5...v1.4.6) (2021-06-30)
 
 
