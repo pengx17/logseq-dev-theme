@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.2...v1.4.3) (2021-06-30)
+
+
+### Bug Fixes
+
+* **threading:** fix threading for block views ([0a7f3ef](https://github.com/pengx17/logseq-dev-theme/commit/0a7f3ef6bc43a35ba791de8f5a1cd1fc77d39083))
+
 ## [1.4.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.1...v1.4.2) (2021-06-30)
 
 
