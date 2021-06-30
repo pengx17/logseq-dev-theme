@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.0...v1.5.1) (2021-06-30)
+
+
+### Bug Fixes
+
+* threading should not have pointer events ([496818a](https://github.com/pengx17/logseq-dev-theme/commit/496818a854dd1279eec5123c2711364df79e770f))
+
 # [1.5.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.7...v1.5.0) (2021-06-30)
 
 
