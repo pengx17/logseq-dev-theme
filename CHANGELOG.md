@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.0...v1.4.1) (2021-06-30)
+
+
+### Bug Fixes
+
+* add transition to threading ([1c77cad](https://github.com/pengx17/logseq-dev-theme/commit/1c77cadfd04d16f52997d2f23fecec2553051691))
+
 # [1.4.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.3.0...v1.4.0) (2021-06-30)
 
 
