@@ -296,7 +296,7 @@ div.items-center::after,
   position: absolute;
   border-left: 2px solid transparent;
   border-bottom: 2px solid transparent;
-  border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 10px;
 }
 
 .blocks-container > .ls-block > div > div.items-center::before,
@@ -311,7 +311,7 @@ div.items-center::after,
 
 .ls-block > div > div.items-center::after {
   content: "";
-  height: calc(100% - 4px);
+  height: calc(100% - 10px);
   width: 2px;
   top: -50%;
   left: -2px;
