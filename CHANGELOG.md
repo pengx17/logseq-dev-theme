@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.3.0...v1.4.0) (2021-06-30)
+
+
+### Features
+
+* **progress:** add progress styles ([7a9eace](https://github.com/pengx17/logseq-dev-theme/commit/7a9eace6184ebf6df524661f5739bc67e2f3e118))
+
 # [1.3.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.2.8...v1.3.0) (2021-06-29)
 
 
