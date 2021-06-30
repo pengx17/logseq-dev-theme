@@ -190,8 +190,6 @@ a.title h1.title {
 
 .cp__header,
 .cp__right-sidebar-topbar {
-  backdrop-filter: var(--ct-topbar-backdrop);
-  -webkit-backdrop-filter: var(--ct-topbar-backdrop);
   height: var(--ct-header-height);
 }
 
@@ -206,11 +204,6 @@ a.title h1.title {
   background-color: rgba(0, 0, 0, 0.16);
   display: block;
   content: "";
-}
-
-.cp__header,
-.cp__right-sidebar-topbar {
-  height: var(--ct-header-height);
 }
 
 .cp__header #search-field {
@@ -887,6 +880,7 @@ progress::-webkit-progress-value {
   .cp__right-sidebar-topbar,
   .sidebar-item.content > div > div:first-of-type {
     backdrop-filter: blur(20px);
+    background-color: transparent;
   }
 }
 
