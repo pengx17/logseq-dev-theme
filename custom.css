@@ -35,9 +35,6 @@
   --ct-header-height: 2.4em;
   --ct-topbar-backdrop: blur(20px);
 
-  --ct-card-border: 2px solid var(--ct-card-border-color);
-  --ct-card-radius: 6px;
-
   --ct-query-header-color: #fff;
   --ct-query-header-background: var(--ct-primary-color);
 
@@ -100,7 +97,6 @@ body {
   border-radius: var(--ct-sidebar-item-border-radius);
   margin: var(--ct-sidebar-padding) 0;
   background: transparent;
-  border-radius: var(--ct-card-radius);
   box-shadow: none;
 }
 
@@ -825,6 +821,23 @@ kbd {
   color: var(--ct-query-header-color);
 }
 
+/* Progress bar */
+progress {
+  vertical-align: middle;
+  border-radius: 8px;
+  height: 0.6em;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background: var(--ls-tertiary-background-color);
+}
+
+progress::-webkit-progress-value {
+  background: var(--ct-success-color);
+}
+
 /* Some tweaks on making this theme a bit more compact on mobile.
    Mobile cap is 640px */
 @media (max-width: 640px) {
@@ -921,8 +934,6 @@ html[data-theme="dark"] {
 
   --ls-primary-text-color: rgb(235, 235, 235);
   --ls-secondary-text-color: rgb(200, 200, 200);
-
-  --ct-card-border-color: var(--ls-quaternary-background-color);
 
   --ct-bold-color: #fff;
   --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
