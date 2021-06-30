@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.4...v1.4.5) (2021-06-30)
+
+
+### Bug Fixes
+
+* adjust threading curve ([c5123e4](https://github.com/pengx17/logseq-dev-theme/commit/c5123e48332092285f105d158e59134c3bea4aba))
+
 ## [1.4.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.3...v1.4.4) (2021-06-30)
 
 
