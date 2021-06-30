@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.3...v1.4.4) (2021-06-30)
+
+
+### Bug Fixes
+
+* backdrop-filter compatibility fix ([c3e199b](https://github.com/pengx17/logseq-dev-theme/commit/c3e199be3acee42274c5a846deed52a3c04b75a9))
+
 ## [1.4.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.2...v1.4.3) (2021-06-30)
 
 
