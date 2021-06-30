@@ -272,6 +272,7 @@ div.items-center::after,
 .ls-block::after,
 .block-content-wrapper::before {
   transition: all 0.1s;
+  pointer-events: none;
 }
 
 .ls-block > div > div.items-center::before {
