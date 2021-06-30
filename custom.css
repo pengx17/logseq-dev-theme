@@ -879,6 +879,7 @@ progress::-webkit-progress-value {
   .cp__header,
   .cp__right-sidebar-topbar,
   .sidebar-item.content > div > div:first-of-type {
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     background-color: transparent;
   }
