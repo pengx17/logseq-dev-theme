@@ -292,7 +292,7 @@ div.items-center::after,
   height: 100%;
   left: -2px;
   right: 6px;
-  top: -50%;
+  top: calc(-50% + 1px);
   position: absolute;
   border-left: 2px solid transparent;
   border-bottom: 2px solid transparent;
