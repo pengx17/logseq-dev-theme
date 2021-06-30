@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.7...v1.5.0) (2021-06-30)
+
+
+### Features
+
+* support multiline block parent ([22aad52](https://github.com/pengx17/logseq-dev-theme/commit/22aad52dc5fc845782190f95c827bf244b7bdfd4))
+
 ## [1.4.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.4.6...v1.4.7) (2021-06-30)
 
 
