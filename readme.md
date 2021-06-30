@@ -16,7 +16,7 @@ The easiest way to adopt this theme is to use jsDelivr CDN by adding the followi
 
 Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
 
-### demo (might be outdated)
+## Demo (might be outdated)
 
 ![demo](./demo-video.gif)
 ![](./light.png)
