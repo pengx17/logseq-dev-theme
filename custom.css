@@ -268,6 +268,7 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
+/* Editing block threading */
 .ls-block > div > div.items-center {
   position: relative;
 }
@@ -276,7 +277,7 @@ div.items-center::before,
 div.items-center::after,
 .ls-block::before,
 .ls-block::after {
-  transition: background-color 0.2s;
+  transition: all 0.1s;
 }
 
 .doc-mode div.items-center::before,
@@ -286,36 +287,48 @@ div.items-center::after,
   display: none;
 }
 
-.ls-block:not([level="1"]):focus-within > div > div.items-center::before {
+.ls-block:not([level="1"]) > div > div.items-center::before {
   content: "";
   height: 100%;
   left: -2px;
   right: 6px;
   top: -50%;
   position: absolute;
-  border-left: 2px solid var(--ct-page-reference-color);
-  border-bottom: 2px solid var(--ct-page-reference-color);
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   border-bottom-left-radius: 6px;
 }
 
-.ls-block:not([level="1"]):focus-within > div > div.items-center::after {
+.ls-block:not([level="1"]):focus-within > div > div.items-center::before {
+  border-color: var(--ct-page-reference-color);
+}
+
+.ls-block:not([level="1"]) > div > div.items-center::after {
   content: "";
   height: calc(100% - 4px);
   width: 2px;
   top: -50%;
   left: -2px;
   position: absolute;
+  background-color: transparent;
+}
+
+.ls-block:not([level="1"]):focus-within > div > div.items-center::after {
   background-color: var(--ct-page-reference-color);
 }
 
 .block-children:focus-within > .ls-block::before {
+  background-color: var(--ct-page-reference-color);
+}
+
+.block-children > .ls-block::before {
   content: "";
   top: -10px;
   bottom: 0;
   width: 2px;
   left: -2px;
   position: absolute;
-  background-color: var(--ct-page-reference-color);
+  background-color: transparent;
 }
 
 .block-children:focus-within > .ls-block:focus-within::before {
