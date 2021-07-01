@@ -343,7 +343,7 @@ div.items-center::after,
   background-color: transparent;
 }
 
-.ls-block:focus-within > div > .block-content-wrapper::before {
+.ls-block[haschild="true"]:focus-within > div > .block-content-wrapper::before {
   background-color: var(--ct-page-reference-color);
 }
 
