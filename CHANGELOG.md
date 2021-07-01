@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.2...v1.5.3) (2021-07-01)
+
+
+### Bug Fixes
+
+* do not draw parent level border when it has no child ([3e2c976](https://github.com/pengx17/logseq-dev-theme/commit/3e2c9762ba5d414df16ce9ea54de2c419853edff))
+
 ## [1.5.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.1...v1.5.2) (2021-07-01)
 
 
