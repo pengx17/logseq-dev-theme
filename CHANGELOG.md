@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.1...v1.5.2) (2021-07-01)
+
+
+### Bug Fixes
+
+* adjust priority tooltip ([5fc4ad0](https://github.com/pengx17/logseq-dev-theme/commit/5fc4ad08924a43e0c2d0b563698b326053c03ec4))
+
 ## [1.5.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.0...v1.5.1) (2021-06-30)
 
 
