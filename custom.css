@@ -271,7 +271,6 @@ div.items-center::after,
 .ls-block::before,
 .ls-block::after,
 .block-content-wrapper::before {
-  transition: all 0.1s;
   pointer-events: none;
 }
 
