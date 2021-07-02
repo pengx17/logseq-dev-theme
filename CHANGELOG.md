@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.3...v1.5.4) (2021-07-02)
+
+
+### Bug Fixes
+
+* disable threading transition ([c10c930](https://github.com/pengx17/logseq-dev-theme/commit/c10c930512a5a9af49d0cceeca68705beee5a2b2))
+
 ## [1.5.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.2...v1.5.3) (2021-07-01)
 
 
