@@ -1,0 +1,55 @@
+html[data-theme="dark"] #app-container::before {
+  opacity: 0.05;
+}
+
+.dark-theme,
+html[data-theme="dark"] {
+  --ct-primary-color: rgb(138, 187, 187);
+  --ct-secondary-color: rgb(112, 172, 172);
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #0dcf82;
+  --ct-highlight-color: #ffc600;
+
+  --ls-primary-background-color: #272c35;
+  --ls-secondary-background-color: #313942;
+  --ls-tertiary-background-color: #23364f;
+  --ls-quaternary-background-color: #395982;
+
+  --ls-primary-text-color: rgb(235, 235, 235);
+  --ls-secondary-text-color: rgb(200, 200, 200);
+
+  --ct-bold-color: #fff;
+  --ct-bold-color-transparent: rgba(255, 255, 255, 0.3);
+
+  --ls-link-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-hover-color: var(--ct-secondary-color);
+
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: var(--ct-secondary-color);
+  --ls-external-link-color: var(--ct-warning-color);
+
+  --ct-bullet-closed-color: #555;
+  --ct-block-arrow-color: rgb(165, 165, 165);
+
+  --ct-page-reference-color: var(--ls-active-primary-color);
+
+  --ls-icon-color: var(--ls-primary-text-color);
+
+  --ct-block-reference-background: rgba(16, 107, 163, 0.2);
+  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
+
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
+
+  --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
+
+  --ct-kbd-bg-color: #0d1117;
+  --ct-kbd-border-color: #6e7681;
+
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: #272c35ee;
+}
+
+.dark-theme .image-resize {
+  filter: brightness(0.8) saturate(85%);
+}

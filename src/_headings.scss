@@ -1,0 +1,104 @@
+/* Heading & Page title */
+h1.title {
+  margin-top: 8px;
+  font-family: var(--ct-page-title-font-family);
+  font-size: var(--ct-page-title-font-size);
+  font-weight: var(--ct-page-title-font-weight);
+  font-style: var(--ct-page-title-font-style);
+  color: var(--ct-page-title-color);
+  line-height: var(--ct-page-title-line-height);
+  text-shadow: var(--ct-page-title-text-shadow, none);
+}
+
+a.title h1.title {
+  margin-top: 0;
+  text-shadow: var(--ct-page-title-text-shadow, none);
+}
+
+.ls-block h2 {
+  font-family: var(--ct-heading-font-family);
+  font-size: var(--ct-heading-font-size);
+  font-weight: var(--ct-heading-font-weight);
+  font-style: var(--ct-heading-font-style);
+  color: var(--ct-heading-color);
+  text-shadow: var(--ct-heading-text-shadow, none);
+}
+
+.cp__header,
+.cp__right-sidebar-topbar {
+  height: var(--ct-header-height);
+}
+
+.cp__header::after,
+.cp__right-sidebar-topbar::after {
+  left: 0;
+  right: 0;
+  height: 1px;
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+  display: block;
+  content: "";
+}
+
+.cp__header #search-field {
+  height: 28px;
+  font-size: 12px;
+  background: transparent;
+  color: var(--ls-search-icon-color, #9fa6b2);
+}
+
+.ls-block :is(h1, h2, h3, h4, h5) {
+  font-family: var(--ct-page-title-font-family);
+}
+
+.ls-block .block-ref :is(h1, h2, h3, h4, h5) {
+  font-size: 1em;
+}
+
+.ls-block :is(h1, h2, h3, h4, h5)::after {
+  margin-left: 0.5rem;
+  font-family: var(--ct-code-font-family);
+  font-size: 0.6rem;
+  font-style: var(--ct-inline-code-font-style) !important;
+  border-radius: var(--ct-inline-code-border-radius);
+  padding: var(--ct-inline-code-padding) !important;
+  background: var(--ls-tertiary-background-color);
+  color: var(--ct-inline-code-color);
+  vertical-align: middle;
+  opacity: 0.3;
+}
+
+.ls-block :is(h1, h2, h3, h4, h5):hover::after {
+  opacity: 1;
+}
+
+.ls-block h1::after {
+  content: "h1";
+}
+
+.ls-block h2::after {
+  content: "h2";
+}
+
+.ls-block h3::after {
+  content: "h3";
+}
+
+.ls-block h4::after {
+  content: "h4";
+}
+
+.ls-block h5::after {
+  content: "h5";
+}
+
+.ls-block :is(h3, h4, h5) {
+  margin: 0.3em 0 0;
+}
+
+.ls-block :is(h1, h2) {
+  border-bottom: 1px solid var(--ls-quaternary-background-color);
+  margin: 0.4em 0 0;
+}

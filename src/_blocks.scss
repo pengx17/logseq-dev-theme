@@ -1,0 +1,180 @@
+/* vertical lines and bullets */
+.block-children {
+  border-left: var(--ct-guideline-size) var(--ct-guideline-style)
+    var(--ct-guideline-color);
+}
+
+.bullet-container {
+  width: 14px;
+  height: 14px;
+  transform: translateX(-1px);
+}
+
+.bullet-container .bullet {
+  width: var(--ct-bullet-size);
+  height: var(--ct-bullet-size);
+  background-color: var(--ct-bullet-color);
+  transform: scale(1.2);
+}
+
+a:hover > .bullet-container .bullet {
+  opacity: 1;
+}
+
+.bullet-container.bullet-closed {
+  background-color: var(--ct-bullet-closed-color);
+}
+
+.block-control svg {
+  color: var(--ct-block-arrow-color);
+}
+
+.block-control:hover svg {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.ls-block .bullet {
+  background-color: var(--ct-page-reference-color);
+  box-shadow: 0 0 0 1px var(--ct-page-reference-color);
+}
+
+.ls-block:not(:focus-within) .bullet {
+  background-color: var(--ct-bullet-color);
+  box-shadow: none;
+  opacity: 0.3;
+  transform: scale(1);
+}
+
+/* Editing block threading */
+.ls-block > div > div.items-center {
+  position: relative;
+}
+
+/* block reference */
+.block-ref {
+  border-radius: 2px;
+  font-size: 0.95em;
+  background: var(--ct-block-reference-background);
+}
+
+.block-ref:hover {
+  background: var(--ct-block-reference-background-hover);
+}
+
+.block-ref:before {
+  content: "#";
+  color: var(--ls-active-primary-color);
+  font-size: 12px;
+  padding: 0 4px 0 0;
+}
+
+.block-ref .block-body {
+  display: inline-block;
+}
+
+.open-block-ref-link {
+  opacity: 1;
+  font-family: Asap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+div.items-center::before,
+div.items-center::after,
+.ls-block::before,
+.ls-block::after,
+.block-content-wrapper::before {
+  pointer-events: none;
+}
+
+.ls-block > div > div.items-center::before {
+  content: "";
+  height: 100%;
+  left: -2px;
+  right: 6px;
+  top: calc(-50% + 1px);
+  position: absolute;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-bottom-left-radius: 10px;
+}
+
+.blocks-container > .ls-block > div > div.items-center::before,
+.blocks-container > .ls-block:focus-within > div > div.items-center::after,
+.blocks-container > .block-children:focus-within > .ls-block::before {
+  display: none;
+}
+
+.ls-block:focus-within > div > div.items-center::before {
+  border-color: var(--ct-page-reference-color);
+}
+
+.ls-block > div > div.items-center::after {
+  content: "";
+  height: calc(100% - 10px);
+  width: 2px;
+  top: -50%;
+  left: -2px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.ls-block:focus-within > div > div.items-center::after {
+  background-color: var(--ct-page-reference-color);
+}
+
+.block-children:focus-within > .ls-block:not(:focus-within)::before {
+  background-color: var(--ct-page-reference-color);
+}
+
+.block-children > .ls-block::before {
+  content: "";
+  top: -10px;
+  bottom: 0;
+  width: 2px;
+  left: -2px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
+  background: transparent;
+}
+
+.ls-block > div > .block-content-wrapper {
+  position: relative;
+}
+
+.ls-block > div > .block-content-wrapper::before {
+  content: "";
+  top: 1em;
+  bottom: 0;
+  width: 2px;
+  left: -17px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.ls-block[haschild="true"]:focus-within > div > .block-content-wrapper::before {
+  background-color: var(--ct-page-reference-color);
+}
+
+.doc-mode div.items-center::before,
+.doc-mode div.items-center::after,
+.doc-mode .ls-block::before,
+.doc-mode .ls-block::after {
+  display: none;
+}
+
+/* Block oversize issue */
+.block-content-wrapper {
+  max-width: calc(100% - 40px);
+}
+
+.block-content-wrapper > div.flex-1 {
+  width: 100%;
+}
+
+.block-content .resize {
+  max-width: -webkit-fill-available;
+}

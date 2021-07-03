@@ -1,0 +1,45 @@
+.white-theme,
+html[data-theme="light"] {
+  --ct-primary-color: #106ba3;
+  --ct-secondary-color: #0a4163;
+  --ct-warning-color: #ff7262;
+  --ct-success-color: #0dcf82;
+  --ct-highlight-color: #ffc600;
+
+  --ls-primary-background-color: #fff;
+  --ls-secondary-background-color: #f7f6f4;
+  --ls-tertiary-background-color: #f1eee8;
+  --ls-quaternary-background-color: #e8e5de;
+
+  --ls-primary-text-color: rgb(40, 40, 40);
+  --ls-secondary-text-color: #161e2e;
+
+  --ct-bold-color: #000;
+  --ct-bold-color-transparent: rgba(0, 0, 0, 0.2);
+
+  --ls-link-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-hover-color: var(--ct-secondary-color);
+
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: var(--ct-secondary-color);
+  --ls-external-link-color: var(--ct-warning-color);
+
+  --ct-bullet-closed-color: rgb(200, 200, 200);
+  --ct-block-arrow-color: rgb(98, 98, 98);
+
+  --ct-page-reference-color: var(--ls-active-primary-color);
+
+  --ls-icon-color: var(--ls-primary-text-color);
+
+  --ct-block-reference-background: rgba(16, 107, 163, 0.1);
+  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
+
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
+
+  --ct-kbd-bg-color: #fafbfc;
+  --ct-kbd-border-color: #d1d5da;
+
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: rgba(255, 255, 255, 0.9);
+}

@@ -1,0 +1,98 @@
+.theme-inner {
+  background: var(--ls-primary-background-color);
+}
+
+#main-content-container {
+  margin-top: 1rem !important;
+}
+
+.page {
+  margin-top: 0;
+}
+
+.cp__sidebar-main-content {
+  width: 100%;
+}
+
+.cp__sidebar-main-content > div {
+  padding: 16px 32px;
+  max-width: var(--ls-main-content-max-width);
+}
+
+/* Right side bar */
+.cp__right-sidebar-inner {
+  --ct-sidebar-padding: 0.5rem;
+}
+
+.cp__right-sidebar.is-open {
+  background: var(--ct-sidebar-background);
+}
+
+.cp__right-sidebar .sidebar-item {
+  margin: var(--ct-sidebar-padding) 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.cp__right-sidebar .sidebar-item:not(:last-of-type) {
+  border-bottom: 1px solid var(--ls-border-color);
+}
+
+.cp__right-sidebar {
+  color: var(--ct-sidebar-font-color);
+}
+
+.sidebar-item-list {
+  padding: 0;
+}
+
+.sidebar-item.color-level .color-level {
+  background: var(--color-level-1);
+}
+
+/* Right sidebar title */
+.sidebar-item .ml-1:not(.text-sm) {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 4px;
+  font-family: var(--ct-page-title-font-family);
+}
+
+.sidebar-item .ml-1 a {
+  color: var(--ls-primary-text-color);
+}
+
+.sidebar-item.content > div > div:first-of-type {
+  position: sticky;
+  top: var(--ct-header-height);
+  padding: 1rem;
+  margin: -1rem;
+  z-index: 10;
+}
+
+.sidebar-item.content > div > div:first-of-type + div {
+  margin-top: 1.5rem;
+}
+
+.cp__right-sidebar-inner .resizer {
+  background: var(--ct-sidebar-resizer-background);
+  width: var(--ct-sidebar-padding);
+  touch-action: none;
+  z-index: 2000;
+  opacity: 0.4;
+}
+
+.cp__right-sidebar-inner .resizer:hover {
+  background: var(--ct-sidebar-resizer-background-hover);
+  opacity: 0.6;
+}
+
+.cp__right-sidebar,
+.cp__sidebar-main-layout {
+  background-color: transparent;
+}
+
+/* Journals */
+#journals .journal-item:first-child {
+  margin-top: 0.5em;
+}
