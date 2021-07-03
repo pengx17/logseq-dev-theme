@@ -94,11 +94,14 @@ body {
 }
 
 .cp__right-sidebar .sidebar-item {
-  border-radius: var(--ct-sidebar-item-border-radius);
   margin: var(--ct-sidebar-padding) 0;
   background: transparent;
   box-shadow: none;
 }
+
+.cp__right-sidebar .sidebar-item:not(:last-of-type) {
+  border-bottom: 1px solid var(--ls-border-color);
+} 
 
 .cp__right-sidebar {
   color: var(--ct-sidebar-font-color);
