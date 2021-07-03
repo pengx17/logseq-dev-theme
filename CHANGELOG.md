@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.4...v1.5.5) (2021-07-03)
+
+
+### Bug Fixes
+
+* add a bottom-border to right sidebar items ([e22f96c](https://github.com/pengx17/logseq-dev-theme/commit/e22f96c5fa54c4de8ebafecf7bfd5208e7f4ea87))
+
 ## [1.5.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.3...v1.5.4) (2021-07-02)
 
 
