@@ -27,7 +27,7 @@
   --ct-heading-font-weight: 700;
   --ct-heading-font-style: normal;
 
-  --ct-header-height: 2.4em;
+  --ct-header-height: 42px;
   --ct-topbar-backdrop: blur(20px);
 
   --ct-query-header-color: #fff;
@@ -58,6 +58,10 @@ body {
 
 :root.is-mac {
   --ls-font-family: Overpass, "Noto Sans SC", sans-serif;
+}
+
+.cp__header.electron-mac {
+  height: var(--ct-header-height);
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
