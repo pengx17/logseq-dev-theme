@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.5...v1.5.6) (2021-07-06)
+
+
+### Bug Fixes
+
+* adjust the title height to prepare for new electron header on Mac ([7bc09b0](https://github.com/pengx17/logseq-dev-theme/commit/7bc09b01f38715ca06148540bd3d7f4a877bbbf9))
+
 ## [1.5.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.4...v1.5.5) (2021-07-03)
 
 
