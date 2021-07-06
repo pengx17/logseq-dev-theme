@@ -1,3 +1,10 @@
+## [1.5.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.7...v1.5.8) (2021-07-06)
+
+
+### Bug Fixes
+
+* threading offset issue with Zoom issue ([7632cb9](https://github.com/pengx17/logseq-dev-theme/commit/7632cb967a48f7cdbef2654782549728c73c15ef))
+
 ## [1.5.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.6...v1.5.7) (2021-07-06)
 
 
