@@ -1,3 +1,10 @@
+## [1.5.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.6...v1.5.7) (2021-07-06)
+
+
+### Bug Fixes
+
+* update custom.css manually ([5e6f0d6](https://github.com/pengx17/logseq-dev-theme/commit/5e6f0d6fca2b7a06cf973af7193aaa999d780b40))
+
 ## [1.5.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.5...v1.5.6) (2021-07-06)
 
 
