@@ -11,6 +11,11 @@ module.exports = {
         npmPublish: false,
       },
     ],
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        assets: ["CHANGELOG.md", "package.json", "yarn.lock", "custom.css"],
+      },
+    ],
   ],
 };

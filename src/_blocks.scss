@@ -1,3 +1,32 @@
+/* block reference */
+.block-ref {
+  border-radius: 2px;
+  font-size: 0.95em;
+  background: var(--ct-block-reference-background);
+}
+
+.block-ref:hover {
+  background: var(--ct-block-reference-background-hover);
+}
+
+.block-ref:before {
+  content: "#";
+  color: var(--ls-active-primary-color);
+  font-size: 12px;
+  padding: 0 4px 0 0;
+}
+
+.block-ref .block-body {
+  display: inline-block;
+}
+
+.open-block-ref-link {
+  opacity: 1;
+  font-family: Asap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
 /* vertical lines and bullets */
 .block-children {
   border-left: var(--ct-guideline-size) var(--ct-guideline-style)
@@ -45,38 +74,11 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
-/* Editing block threading */
+/************************* 
+ * Editing block threading
+ *************************/
 .ls-block > div > div.items-center {
   position: relative;
-}
-
-/* block reference */
-.block-ref {
-  border-radius: 2px;
-  font-size: 0.95em;
-  background: var(--ct-block-reference-background);
-}
-
-.block-ref:hover {
-  background: var(--ct-block-reference-background-hover);
-}
-
-.block-ref:before {
-  content: "#";
-  color: var(--ls-active-primary-color);
-  font-size: 12px;
-  padding: 0 4px 0 0;
-}
-
-.block-ref .block-body {
-  display: inline-block;
-}
-
-.open-block-ref-link {
-  opacity: 1;
-  font-family: Asap;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
 }
 
 div.items-center::before,
@@ -112,33 +114,31 @@ div.items-center::after,
 .ls-block > div > div.items-center::after {
   content: "";
   height: calc(100% - 10px);
-  width: 2px;
   top: -50%;
   left: -2px;
   position: absolute;
-  background-color: transparent;
+  border-left: 2px solid transparent;
 }
 
 .ls-block:focus-within > div > div.items-center::after {
-  background-color: var(--ct-page-reference-color);
-}
-
-.block-children:focus-within > .ls-block:not(:focus-within)::before {
-  background-color: var(--ct-page-reference-color);
+  border-color: var(--ct-page-reference-color);
 }
 
 .block-children > .ls-block::before {
   content: "";
   top: -10px;
   bottom: 0;
-  width: 2px;
+  border-left: 2px solid transparent;
   left: -2px;
   position: absolute;
-  background-color: transparent;
+}
+
+.block-children:focus-within > .ls-block:not(:focus-within)::before {
+  border-color: var(--ct-page-reference-color);
 }
 
 .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
-  background: transparent;
+  border-color: transparent;
 }
 
 .ls-block > div > .block-content-wrapper {
@@ -149,14 +149,13 @@ div.items-center::after,
   content: "";
   top: 1em;
   bottom: 0;
-  width: 2px;
   left: -17px;
   position: absolute;
-  background-color: transparent;
+  border-left: 2px solid transparent;
 }
 
 .ls-block[haschild="true"]:focus-within > div > .block-content-wrapper::before {
-  background-color: var(--ct-page-reference-color);
+  border-color: var(--ct-page-reference-color);
 }
 
 .doc-mode div.items-center::before,
