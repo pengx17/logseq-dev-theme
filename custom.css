@@ -34,7 +34,7 @@
   --ct-guideline-size: 2px;
   --ct-guideline-style: solid;
   --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
-  --ct-sidebar-resizer-background-hover: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
   --ct-bullet-size: 6px;
   --ct-bullet-color: var(--ct-bold-color);
   --ct-checkbox-border-radius: 2px;
@@ -253,9 +253,14 @@ a.title h1.title {
 
 .cp__header #search-field {
   height: 28px;
+  padding: 0;
   font-size: 12px;
   background: transparent;
   color: var(--ls-search-icon-color, #9fa6b2);
+}
+
+.cp__header #search-field:focus {
+  outline: var(--ct-secondary-color);
 }
 
 .cp__header.electron-mac {
@@ -265,11 +270,6 @@ a.title h1.title {
 #search {
   padding: 0;
   align-self: stretch;
-}
-
-.cp__header #search-field {
-  height: auto;
-  padding: 0;
 }
 
 #search > .inner {
