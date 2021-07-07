@@ -51,7 +51,7 @@ a.title h1.title {
 }
 
 .cp__header #search-field:focus {
-  outline: var(--ct-secondary-color);
+  outline: 2px solid var(--ct-secondary-color);
 }
 
 .cp__header.electron-mac {
