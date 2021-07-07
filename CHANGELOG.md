@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.6.0...v1.6.1) (2021-07-07)
+
+
+### Bug Fixes
+
+* search input outline color ([7a78d58](https://github.com/pengx17/logseq-dev-theme/commit/7a78d58d5645d92b527748208181f07b89b32570))
+
 # [1.6.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.9...v1.6.0) (2021-07-07)
 
 
