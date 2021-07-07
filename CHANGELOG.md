@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.0...v1.7.1) (2021-07-07)
+
+
+### Bug Fixes
+
+* remove figma cursor ([ec4e58c](https://github.com/pengx17/logseq-dev-theme/commit/ec4e58c92ed232378d14f7de13ad4f8006e20fb2))
+
 # [1.7.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.6.1...v1.7.0) (2021-07-07)
 
 
