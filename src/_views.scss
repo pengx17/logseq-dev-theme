@@ -79,12 +79,13 @@
   width: var(--ct-sidebar-padding);
   touch-action: none;
   z-index: 2000;
-  opacity: 0.4;
+  opacity: 1;
+  transition: background-color 0.2s 0.1s;
 }
 
 .cp__right-sidebar-inner .resizer:hover {
+  opacity: 1;
   background: var(--ct-sidebar-resizer-background-hover);
-  opacity: 0.6;
 }
 
 .cp__right-sidebar,
