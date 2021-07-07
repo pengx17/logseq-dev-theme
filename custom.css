@@ -53,8 +53,8 @@ body {
   --ls-font-family: Overpass, "Noto Sans SC", sans-serif;
 }
 
-.cp__header.electron-mac {
-  height: var(--ct-header-height);
+:root.is-mac.is-electron {
+  --ct-header-height: 48px;
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
@@ -256,6 +256,25 @@ a.title h1.title {
   font-size: 12px;
   background: transparent;
   color: var(--ls-search-icon-color, #9fa6b2);
+}
+
+.cp__header.electron-mac {
+  height: var(--ct-header-height);
+}
+
+#search {
+  padding: 0;
+  align-self: stretch;
+}
+
+.cp__header #search-field {
+  height: auto;
+  padding: 0;
+}
+
+#search > .inner {
+  display: flex;
+  align-items: center;
 }
 
 .ls-block :is(h1, h2, h3, h4, h5) {

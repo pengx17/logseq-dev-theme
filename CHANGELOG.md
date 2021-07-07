@@ -1,3 +1,10 @@
+## [1.5.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.8...v1.5.9) (2021-07-07)
+
+
+### Bug Fixes
+
+* prepare for new mac header ([282d648](https://github.com/pengx17/logseq-dev-theme/commit/282d648c777c0058831ca7d2f964a6fe2986d1f8))
+
 ## [1.5.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.5.7...v1.5.8) (2021-07-06)
 
 
