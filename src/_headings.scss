@@ -49,6 +49,25 @@ a.title h1.title {
   color: var(--ls-search-icon-color, #9fa6b2);
 }
 
+.cp__header.electron-mac {
+  height: var(--ct-header-height);
+}
+
+#search {
+  padding: 0;
+  align-self: stretch;
+}
+
+.cp__header #search-field {
+  height: auto;
+  padding: 0;
+}
+
+#search > .inner {
+  display: flex;
+  align-items: center;
+}
+
 .ls-block :is(h1, h2, h3, h4, h5) {
   font-family: var(--ct-page-title-font-family);
 }

@@ -60,8 +60,8 @@ body {
   --ls-font-family: Overpass, "Noto Sans SC", sans-serif;
 }
 
-.cp__header.electron-mac {
-  height: var(--ct-header-height);
+:root.is-mac.is-electron {
+  --ct-header-height: 48px;
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
