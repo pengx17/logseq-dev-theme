@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.6.1...v1.7.0) (2021-07-07)
+
+
+### Features
+
+* adopt Figma's cursor ([5c45247](https://github.com/pengx17/logseq-dev-theme/commit/5c45247fe65f01eceeeb5baec4fb2619211d2e5f))
+
 ## [1.6.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.6.0...v1.6.1) (2021-07-07)
 
 
