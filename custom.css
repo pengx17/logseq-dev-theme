@@ -239,7 +239,7 @@ a.title h1.title {
   height: var(--ct-header-height);
 }
 
-.is-mac.is-electron .cp__header,
+.is-mac.is-electron .cp__header *,
 .is-mac.is-electron .cp__right-sidebar-topbar * {
   cursor: default;
 }
@@ -281,6 +281,13 @@ a.title h1.title {
 #search > .inner {
   display: flex;
   align-items: center;
+}
+
+.cp__right-sidebar-settings a {
+  opacity: 0.6;
+}
+.cp__right-sidebar-settings a:hover {
+  opacity: 1;
 }
 
 .ls-block :is(h1, h2, h3, h4, h5) {

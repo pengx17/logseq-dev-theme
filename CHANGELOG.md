@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.2...v1.7.3) (2021-07-08)
+
+
+### Bug Fixes
+
+* right bar header link opacity ([60207fd](https://github.com/pengx17/logseq-dev-theme/commit/60207fd06583c88d0b97fd9dbd526ba952dab7c9))
+
 ## [1.7.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.1...v1.7.2) (2021-07-08)
 
 
