@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.1...v1.7.2) (2021-07-08)
+
+
+### Bug Fixes
+
+* use default cursor in the header for Mac OS desktop version ([9b105b2](https://github.com/pengx17/logseq-dev-theme/commit/9b105b24cebc1c9d65e83d77e8e71c1d1dbdcaf6))
+
 ## [1.7.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.0...v1.7.1) (2021-07-07)
 
 

@@ -239,6 +239,11 @@ a.title h1.title {
   height: var(--ct-header-height);
 }
 
+.is-mac.is-electron .cp__header,
+.is-mac.is-electron .cp__right-sidebar-topbar * {
+  cursor: default;
+}
+
 .cp__header::after,
 .cp__right-sidebar-topbar::after {
   left: 0;
