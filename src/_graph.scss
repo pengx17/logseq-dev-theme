@@ -1,0 +1,26 @@
+.cp__sidebar-main-content[data-is-global-graph-pages="true"] {
+  --graph-height: calc(100vh - var(--ct-header-height));
+
+  background: var(--ls-primary-background-color);
+  max-height: var(--graph-height);
+  margin: -1rem;
+
+  > div {
+    padding: 0;
+  }
+}
+
+#global-graph > .graph {
+  height: var(--graph-height) !important;
+}
+
+.graph-filters {
+  border: 2px solid #000;
+  box-shadow: 4px 4px rgba(0, 0, 0);
+  border-radius: 8px;
+
+  li:not(:last-of-type) {
+    border-bottom: 1px solid #000;
+  }
+}
+
