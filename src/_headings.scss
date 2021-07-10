@@ -27,6 +27,7 @@ a.title h1.title {
 .cp__header,
 .cp__right-sidebar-topbar {
   height: var(--ct-header-height);
+  width: 100%;
 }
 
 .is-mac.is-electron {
@@ -75,6 +76,17 @@ a.title h1.title {
 #search > .inner {
   display: flex;
   align-items: center;
+}
+
+#repo-switch {
+  white-space: nowrap;
+}
+
+#repo-name {
+  /* Show the last part of the repo instead */
+  direction: rtl;
+  text-align: left;
+  max-width: 120px;
 }
 
 .cp__right-sidebar-settings a {

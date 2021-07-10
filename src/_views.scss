@@ -1,9 +1,11 @@
-.theme-inner {
-  background: var(--ls-primary-background-color);
+#main-container {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-#main-content-container {
-  margin-top: 1rem !important;
+.theme-inner {
+  background: var(--ls-primary-background-color);
 }
 
 .page {
@@ -14,9 +16,8 @@
   width: 100%;
 }
 
-.cp__sidebar-main-content > div {
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
   padding: 16px 32px;
-  max-width: var(--ls-main-content-max-width);
 }
 
 /* Right side bar */
