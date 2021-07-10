@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.0...v1.8.1) (2021-07-10)
+
+
+### Bug Fixes
+
+* update external link color ([494e855](https://github.com/pengx17/logseq-dev-theme/commit/494e8558f8e89608b9cab9fa83add464426428be))
+
 # [1.8.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.3...v1.8.0) (2021-07-10)
 
 
