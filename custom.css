@@ -106,14 +106,17 @@ body {
   bottom: 0;
   position: absolute;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=) repeat;
+  background: none;
+}
+
+#main-container {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .theme-inner {
   background: var(--ls-primary-background-color);
-}
-
-#main-content-container {
-  margin-top: 1rem !important;
 }
 
 .page {
@@ -124,9 +127,8 @@ body {
   width: 100%;
 }
 
-.cp__sidebar-main-content > div {
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
   padding: 16px 32px;
-  max-width: var(--ls-main-content-max-width);
 }
 
 /* Right side bar */
@@ -237,6 +239,7 @@ a.title h1.title {
 .cp__header,
 .cp__right-sidebar-topbar {
   height: var(--ct-header-height);
+  width: 100%;
 }
 
 .is-mac.is-electron .cp__header *,
@@ -281,6 +284,17 @@ a.title h1.title {
 #search > .inner {
   display: flex;
   align-items: center;
+}
+
+#repo-switch {
+  white-space: nowrap;
+}
+
+#repo-name {
+  /* Show the last part of the repo instead */
+  direction: rtl;
+  text-align: left;
+  max-width: 120px;
 }
 
 .cp__right-sidebar-settings a {
@@ -927,6 +941,29 @@ a.tooltip-priority:first-of-type::before {
 .block-marker {
   font-family: var(--ct-code-font-family);
   font-size: var(--ct-inline-code-font-size);
+}
+
+.cp__sidebar-main-content[data-is-global-graph-pages=true] {
+  --graph-height: calc(100vh - var(--ct-header-height));
+  background: var(--ls-primary-background-color);
+  max-height: var(--graph-height);
+  margin: -1rem;
+}
+.cp__sidebar-main-content[data-is-global-graph-pages=true] > div {
+  padding: 0;
+}
+
+#global-graph > .graph {
+  height: var(--graph-height) !important;
+}
+
+.graph-filters {
+  border: 2px solid #000;
+  box-shadow: 4px 4px black;
+  border-radius: 8px;
+}
+.graph-filters li:not(:last-of-type) {
+  border-bottom: 1px solid #000;
 }
 
 html[data-theme=dark] #app-container::before {

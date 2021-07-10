@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.3...v1.8.0) (2021-07-10)
+
+
+### Bug Fixes
+
+* add missing file ([c956c91](https://github.com/pengx17/logseq-dev-theme/commit/c956c9102ea230aa6644cde1fa9194a723ed6ad1))
+
+
+### Features
+
+* removed dotted background and adapt for new graph in 0.2.3 ([d08ba1e](https://github.com/pengx17/logseq-dev-theme/commit/d08ba1edb072cd22c6e8302e92c94b56f21ca859))
+
 ## [1.7.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.7.2...v1.7.3) (2021-07-08)
 
 
