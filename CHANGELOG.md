@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.1...v1.8.2) (2021-07-14)
+
+
+### Bug Fixes
+
+* adapt new query header styles ([3d6d3a6](https://github.com/pengx17/logseq-dev-theme/commit/3d6d3a6871f7a477a03c8e603453502b5a5c496b))
+
 ## [1.8.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.0...v1.8.1) (2021-07-10)
 
 
