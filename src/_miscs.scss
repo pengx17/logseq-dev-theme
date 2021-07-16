@@ -90,11 +90,11 @@ a.tag:hover {
 }
 
 /* Page properties */
-.page-properties {
+.page-properties, .block-properties {
   margin: 0 0 0.5em 0;
   padding: 0.2em 0.5em;
   font-size: 0.8em;
-  background: var(--ls-tertiary-background-color);
+  background: var(--ls-secondary-background-color);
   font-family: var(--ct-code-font-family);
   display: inline-block;
   opacity: 0.8;
@@ -129,4 +129,12 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   background: var(--ct-success-color);
+}
+
+.cm-s-solarized.cm-s-dark {
+  background: var(--ls-secondary-background-color) !important;
+}
+
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+  background: var(--ls-tertiary-background-color) !important;
 }
