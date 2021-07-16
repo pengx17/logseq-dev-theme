@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.2...v1.8.3) (2021-07-16)
+
+
+### Bug Fixes
+
+* [#5](https://github.com/pengx17/logseq-dev-theme/issues/5) update codemirror and page/block properties background color ([67c27b9](https://github.com/pengx17/logseq-dev-theme/commit/67c27b90520f9190282b15e026efa0e755bc8a30))
+
 ## [1.8.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.1...v1.8.2) (2021-07-14)
 
 
