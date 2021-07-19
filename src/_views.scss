@@ -65,7 +65,7 @@
 
 .sidebar-item.content > div > div:first-of-type {
   position: sticky;
-  top: var(--ct-header-height);
+  top: 0;
   padding: 1rem;
   margin: -1rem;
   z-index: 10;
