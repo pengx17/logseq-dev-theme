@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.0...v1.9.1) (2021-07-19)
+
+
+### Bug Fixes
+
+* remove content max-width ([b1ad85a](https://github.com/pengx17/logseq-dev-theme/commit/b1ad85a32e304c8ab9849763c9948d3174d4481c))
+
 # [1.9.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.3...v1.9.0) (2021-07-19)
 
 
