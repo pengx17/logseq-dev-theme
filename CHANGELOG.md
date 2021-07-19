@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.3...v1.9.0) (2021-07-19)
+
+
+### Features
+
+* adapt right sidebar heading issue for 0.2.6 ([86a17c7](https://github.com/pengx17/logseq-dev-theme/commit/86a17c7153d1b55a3ae05c0648dcdee41f5e80b2))
+
 ## [1.8.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.8.2...v1.8.3) (2021-07-16)
 
 
