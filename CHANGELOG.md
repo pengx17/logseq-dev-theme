@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.4...v1.10.5) (2021-07-20)
+
+
+### Bug Fixes
+
+* make body headings a bit thinner ([5a05e4c](https://github.com/pengx17/logseq-dev-theme/commit/5a05e4cef3a17190c2a060dde18e5935a66fddb6))
+
 ## [1.10.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.3...v1.10.4) (2021-07-20)
 
 
