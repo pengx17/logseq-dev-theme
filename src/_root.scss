@@ -1,6 +1,6 @@
 :root {
   --ct-text-size: 16px;
-  --ct-line-height: 1.5;
+  --ct-line-height: 1.8;
   --ct-page-title-font-family: "Noto Serif SC", ui-serif, Georgia, Cambria,
     "Times New Roman", Times, serif;
   --ls-font-family: "Noto Sans SC", ui-sans-serif, system-ui, -apple-system,
@@ -57,6 +57,11 @@ body {
   font-family: var(--ls-font-family);
   overscroll-behavior-y: none;
   -webkit-font-smoothing: auto;
+  line-height: var(--ct-line-height);
+}
+
+textarea {
+  line-height: var(--ct-line-height);
 }
 
 :root.is-mac.is-electron {
