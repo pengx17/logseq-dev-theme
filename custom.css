@@ -312,6 +312,7 @@ a.title h1.title {
 
 .ls-block :is(h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5) {
   font-family: var(--ct-page-title-font-family);
+  font-weight: 500;
 }
 
 .ls-block .block-ref :is(h1, h2, h3, h4, h5) {
