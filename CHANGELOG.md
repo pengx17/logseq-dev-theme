@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.2...v1.10.0) (2021-07-20)
+
+
+### Features
+
+* use Noto fonts globally ([45c84b7](https://github.com/pengx17/logseq-dev-theme/commit/45c84b7ddf3c3ed70a68dfc77b9a981cb567ab72))
+
 ## [1.9.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.1...v1.9.2) (2021-07-20)
 
 
