@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.5...v1.10.6) (2021-07-20)
+
+
+### Bug Fixes
+
+* tweak font family ([4fb1ce7](https://github.com/pengx17/logseq-dev-theme/commit/4fb1ce724b214bd39602be6e912c837febf4814a))
+
 ## [1.10.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.4...v1.10.5) (2021-07-20)
 
 
