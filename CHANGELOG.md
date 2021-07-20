@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.2...v1.10.3) (2021-07-20)
+
+
+### Bug Fixes
+
+* remove unused style ([af57d25](https://github.com/pengx17/logseq-dev-theme/commit/af57d25a1e920a4b4861772fe7c6ad1f4d819c36))
+
 ## [1.10.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.1...v1.10.2) (2021-07-20)
 
 
