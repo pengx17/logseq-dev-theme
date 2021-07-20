@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.1...v1.9.2) (2021-07-20)
+
+
+### Bug Fixes
+
+* block/page properties should not be inline ([20de65c](https://github.com/pengx17/logseq-dev-theme/commit/20de65cf460d58952cc306afd787a3ce478d1b13))
+
 ## [1.9.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.0...v1.9.1) (2021-07-19)
 
 
