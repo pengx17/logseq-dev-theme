@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.3...v1.10.4) (2021-07-20)
+
+
+### Bug Fixes
+
+* make tags a bit taller ([ac046c2](https://github.com/pengx17/logseq-dev-theme/commit/ac046c24a0a43a3da4c008ebf54cc8b55eb6fc40))
+
 ## [1.10.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.2...v1.10.3) (2021-07-20)
 
 
