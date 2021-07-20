@@ -91,13 +91,11 @@ a.tag:hover {
 
 /* Page properties */
 .page-properties, .block-properties {
-  margin: 0 0 0.5em 0;
-  padding: 0.2em 0.5em;
+  margin: 0 0 0.5em -8px;
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
   font-family: var(--ct-code-font-family);
-  display: inline-block;
-  opacity: 0.8;
+  width: fit-content;
 }
 
 kbd {
