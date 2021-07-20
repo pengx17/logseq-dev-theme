@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.0...v1.10.1) (2021-07-20)
+
+
+### Bug Fixes
+
+* repo name is too short ([b73a2f4](https://github.com/pengx17/logseq-dev-theme/commit/b73a2f4368c51bf85db8bac2e820ed3f011f87c9))
+
 # [1.10.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.9.2...v1.10.0) (2021-07-20)
 
 

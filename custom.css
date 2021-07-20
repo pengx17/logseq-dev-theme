@@ -295,6 +295,7 @@ a.title h1.title {
   direction: rtl;
   text-align: left;
   max-width: 120px;
+  line-height: 1.5;
 }
 
 .cp__right-sidebar-settings a {
