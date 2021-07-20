@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.1...v1.10.2) (2021-07-20)
+
+
+### Bug Fixes
+
+* update line-heights for new fonts ([d9c3a8c](https://github.com/pengx17/logseq-dev-theme/commit/d9c3a8c6411d6a2d664f11766c31446d38d6c488))
+
 ## [1.10.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.0...v1.10.1) (2021-07-20)
 
 
