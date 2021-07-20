@@ -8,6 +8,10 @@
   background: var(--ls-primary-background-color);
 }
 
+#main-content-container {
+  margin-top: var(--ct-header-height) !important;
+}
+
 .page {
   margin-top: 0;
 }

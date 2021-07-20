@@ -1,13 +1,17 @@
 :root {
-  --ct-page-title-font-family: Asap, "Noto Sans SC", sans-serif;
   --ct-text-size: 16px;
   --ct-line-height: 1.5;
-  --ls-font-family: "Noto Sans SC", sans-serif;
+  --ct-page-title-font-family: "Noto Serif SC", ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+  --ls-font-family: "Noto Sans SC", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --ct-code-font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --ct-background: var(--ls-primary-background-color);
 
-  --ct-code-font-family: "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW",
-    monospace;
   --ct-inline-code-font-size: 0.8em;
   --ct-inline-code-font-style: inherit;
   --ct-inline-code-border-radius: 2px;
@@ -53,10 +57,6 @@ body {
   font-family: var(--ls-font-family);
   overscroll-behavior-y: none;
   -webkit-font-smoothing: auto;
-}
-
-:root.is-mac {
-  --ls-font-family: Overpass, "Noto Sans SC", sans-serif;
 }
 
 :root.is-mac.is-electron {
