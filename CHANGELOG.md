@@ -1,3 +1,10 @@
+## [1.10.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.8...v1.10.9) (2021-07-21)
+
+
+### Bug Fixes
+
+* threading offset ([0f26b82](https://github.com/pengx17/logseq-dev-theme/commit/0f26b820466c6cde1b8bf37cdf916329b0497051))
+
 ## [1.10.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.7...v1.10.8) (2021-07-21)
 
 
