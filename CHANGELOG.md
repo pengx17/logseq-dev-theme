@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.11.0...v1.12.0) (2021-07-21)
+
+
+### Features
+
+* use source sans instead of noto for default fonts ([46463c8](https://github.com/pengx17/logseq-dev-theme/commit/46463c8348bb561c7662fa2609565e73bfde30a3))
+
 # [1.11.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.12...v1.11.0) (2021-07-21)
 
 

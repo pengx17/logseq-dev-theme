@@ -1,16 +1,21 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
+@import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
+@font-face {
+  font-family: "Source Han Sans VF";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@2.003R/Variable/Subset/SourceHanSansCN-VF.otf");
+}
 :root {
-  --ct-text-size: 15px;
+  --ct-text-size: 16px;
   --ct-line-height: 1.5;
-  --ls-font-family: "Noto Sans", "Noto Sans SC", ui-sans-serif, system-ui,
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  --ct-page-title-font-family: "Noto Sans SC", ui-sans-serif, system-ui,
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  --ls-font-family: "Source Sans 3 VF", "Source Han Sans VF", ui-sans-serif,
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -515,7 +520,7 @@ div.items-center::after,
   content: "";
   top: 1em;
   bottom: 0;
-  left: -16px;
+  left: -17px;
   position: absolute;
   border-left: 2px solid transparent;
 }
@@ -596,7 +601,6 @@ div.items-center::after,
 
 /* lists */
 ol > li::marker {
-  font-family: Asap;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -617,6 +621,7 @@ ol > li::marker {
 b,
 strong {
   color: var(--ct-bold-color);
+  font-weight: 600;
 }
 
 /* External links */
