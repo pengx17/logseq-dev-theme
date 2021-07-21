@@ -7,7 +7,6 @@
 
 /* lists */
 ol > li::marker {
-  font-family: Asap;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -28,6 +27,7 @@ ol > li::marker {
 b,
 strong {
   color: var(--ct-bold-color);
+  font-weight: 600;
 }
 
 /* External links */
