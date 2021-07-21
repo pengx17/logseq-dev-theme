@@ -1,3 +1,10 @@
+## [1.10.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.7...v1.10.8) (2021-07-21)
+
+
+### Bug Fixes
+
+* thicker tag border ([34f2930](https://github.com/pengx17/logseq-dev-theme/commit/34f29307d8aef108df5bce9e274b1a95b467020a))
+
 ## [1.10.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.6...v1.10.7) (2021-07-21)
 
 
