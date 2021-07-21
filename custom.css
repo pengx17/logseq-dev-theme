@@ -387,6 +387,11 @@ a.title h1.title {
   display: inline-block;
 }
 
+.block-ref div.flex {
+  display: inline-block;
+  padding: 0 0.2em;
+}
+
 .open-block-ref-link {
   opacity: 1;
   font-family: Asap;

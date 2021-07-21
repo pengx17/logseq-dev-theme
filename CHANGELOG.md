@@ -1,3 +1,10 @@
+## [1.10.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.9...v1.10.10) (2021-07-21)
+
+
+### Bug Fixes
+
+* styling issue when block-ref has scheduled property ([f05489e](https://github.com/pengx17/logseq-dev-theme/commit/f05489e158c6a19e58f0ef12176f029f3c05858e))
+
 ## [1.10.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.8...v1.10.9) (2021-07-21)
 
 
