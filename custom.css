@@ -388,7 +388,7 @@ a.title h1.title {
 }
 
 .block-ref div.flex {
-  display: inline-block;
+  display: inline;
   padding: 0 0.2em;
 }
 

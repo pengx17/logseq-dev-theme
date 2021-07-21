@@ -1,3 +1,10 @@
+## [1.10.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.10...v1.10.11) (2021-07-21)
+
+
+### Bug Fixes
+
+* should use inline instead of inline-block ([82a671f](https://github.com/pengx17/logseq-dev-theme/commit/82a671f6576222db2b42f87d0c63aade7fb183df))
+
 ## [1.10.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.9...v1.10.10) (2021-07-21)
 
 
