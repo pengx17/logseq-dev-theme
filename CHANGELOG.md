@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.12...v1.11.0) (2021-07-21)
+
+
+### Features
+
+* renew selection color ([7ca4f39](https://github.com/pengx17/logseq-dev-theme/commit/7ca4f398016a270846b840fe28aa444019f8b0f9))
+
 ## [1.10.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.11...v1.10.12) (2021-07-21)
 
 

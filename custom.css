@@ -8,42 +8,11 @@
     Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   --ct-page-title-font-family: "Noto Sans SC", ui-sans-serif, system-ui,
-  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-  Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol", "Noto Color Emoji";
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   --ct-code-font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-:root {
-  --ct-background: var(--ls-primary-background-color);
-  --ct-inline-code-font-size: 0.8em;
-  --ct-inline-code-font-style: inherit;
-  --ct-inline-code-border-radius: 2px;
-  --ct-inline-code-padding: 2px 5px;
-  --ct-page-font-color: var(--ls-primary-text-color);
-  --ct-page-title-color: var(--ct-bold-color);
-  --ct-page-title-font-size: 36px;
-  --ct-page-title-line-height: 40px;
-  --ct-page-title-font-weight: 600;
-  --ct-page-title-font-style: normal;
-  --ct-heading-font-family: var(--ct-page-title-font-family);
-  --ct-heading-font-size: 25px;
-  --ct-heading-font-weight: 700;
-  --ct-heading-font-style: normal;
-  --ct-header-height: 42px;
-  --ct-topbar-backdrop: blur(20px);
-  --ct-query-header-color: #fff;
-  --ct-query-header-background: var(--ct-primary-color);
-  --ct-guideline-color: var(--ct-bold-color-transparent);
-  --ct-guideline-size: 2px;
-  --ct-guideline-style: solid;
-  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
-  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
-  --ct-bullet-size: 6px;
-  --ct-bullet-color: var(--ct-bold-color);
-  --ct-checkbox-border-radius: 2px;
-  --ct-task-done-text-decoration: none;
 }
 
 html,
@@ -59,8 +28,18 @@ textarea {
   line-height: var(--ct-line-height);
 }
 
+:root {
+  --ct-background: var(--ls-primary-background-color);
+  --ct-page-font-color: var(--ls-primary-text-color);
+}
+
 :root.is-mac.is-electron {
   --ct-header-height: 48px;
+}
+
+::selection {
+  background: var(--ct-primary-color);
+  color: var(--ls-selection-color);
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
@@ -104,15 +83,9 @@ textarea {
     background: var(--ct-header-bg-color);
   }
 }
-#app-container::before {
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=) repeat;
-  background: none;
+:root {
+  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
 }
 
 #main-container {
@@ -218,6 +191,20 @@ textarea {
 /* Journals */
 #journals .journal-item:first-child {
   margin-top: 0.5em;
+}
+
+:root {
+  --ct-page-title-color: var(--ct-bold-color);
+  --ct-page-title-font-size: 36px;
+  --ct-page-title-line-height: 40px;
+  --ct-page-title-font-weight: 600;
+  --ct-page-title-font-style: normal;
+  --ct-heading-font-family: var(--ct-page-title-font-family);
+  --ct-heading-font-size: 25px;
+  --ct-heading-font-weight: 700;
+  --ct-heading-font-style: normal;
+  --ct-header-height: 42px;
+  --ct-topbar-backdrop: blur(20px);
 }
 
 /* Heading & Page title */
@@ -363,6 +350,14 @@ a.title h1.title {
 
 .ls-block :is(h3, h4, h5) {
   margin: 0.3em 0 0;
+}
+
+:root {
+  --ct-guideline-color: var(--ct-bold-color-transparent);
+  --ct-guideline-size: 2px;
+  --ct-guideline-style: solid;
+  --ct-bullet-size: 6px;
+  --ct-bullet-color: var(--ct-bold-color);
 }
 
 /* block reference */
@@ -592,6 +587,13 @@ div.items-center::after,
   background: var(--ls-secondary-background-color);
 }
 
+:root {
+  --ct-inline-code-font-size: 0.8em;
+  --ct-inline-code-font-style: inherit;
+  --ct-inline-code-border-radius: 2px;
+  --ct-inline-code-padding: 2px 5px;
+}
+
 /* lists */
 ol > li::marker {
   font-family: Asap;
@@ -813,6 +815,11 @@ progress::-webkit-progress-value {
   color: var(--ct-query-header-color);
 }
 
+:root {
+  --ct-query-header-color: #fff;
+  --ct-query-header-background: var(--ct-primary-color);
+}
+
 /* query */
 .custom-query > div:first-child {
   background: var(--ls-secondary-background-color);
@@ -864,6 +871,11 @@ progress::-webkit-progress-value {
 
 .block-body > .custom-query .foldable-title .opacity-70 > * {
   color: var(--ct-query-header-color);
+}
+
+:root {
+  --ct-checkbox-border-radius: 2px;
+  --ct-task-done-text-decoration: none;
 }
 
 /* Markers */
@@ -1036,6 +1048,7 @@ html[data-theme=dark] {
   --ct-kbd-border-color: #6e7681;
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #272c35ee;
+  --ls-selection-color: #000;
 }
 
 .dark-theme .image-resize {
@@ -1072,6 +1085,7 @@ html[data-theme=light] {
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ct-kbd-bg-color: #fafbfc;
   --ct-kbd-border-color: #d1d5da;
+  --ls-selection-color: #fff;
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: rgba(255, 255, 255, 0.9);
 }
