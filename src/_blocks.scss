@@ -1,3 +1,12 @@
+:root {
+  --ct-guideline-color: var(--ct-bold-color-transparent);
+  --ct-guideline-size: 2px;
+  --ct-guideline-style: solid;
+
+  --ct-bullet-size: 6px;
+  --ct-bullet-color: var(--ct-bold-color);
+}
+
 /* block reference */
 .block-ref {
   border-radius: 2px;

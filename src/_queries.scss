@@ -1,5 +1,9 @@
-/* query */
+:root {
+  --ct-query-header-color: #fff;
+  --ct-query-header-background: var(--ct-primary-color);
+}
 
+/* query */
 .custom-query > div:first-child {
   background: var(--ls-secondary-background-color);
   border-radius: 8px;

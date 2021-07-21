@@ -1,3 +1,8 @@
+:root {
+  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
+}
+
 #main-container {
   position: absolute;
   width: 100%;

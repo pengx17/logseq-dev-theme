@@ -1,3 +1,10 @@
+:root {
+  --ct-inline-code-font-size: 0.8em;
+  --ct-inline-code-font-style: inherit;
+  --ct-inline-code-border-radius: 2px;
+  --ct-inline-code-padding: 2px 5px;
+}
+
 /* lists */
 ol > li::marker {
   font-family: Asap;

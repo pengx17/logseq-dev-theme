@@ -1,3 +1,19 @@
+:root {
+  --ct-page-title-color: var(--ct-bold-color);
+  --ct-page-title-font-size: 36px;
+  --ct-page-title-line-height: 40px;
+  --ct-page-title-font-weight: 600;
+  --ct-page-title-font-style: normal;
+
+  --ct-heading-font-family: var(--ct-page-title-font-family);
+  --ct-heading-font-size: 25px;
+  --ct-heading-font-weight: 700;
+  --ct-heading-font-style: normal;
+
+  --ct-header-height: 42px;
+  --ct-topbar-backdrop: blur(20px);
+}
+
 /* Heading & Page title */
 h1.title {
   margin-top: 8px;

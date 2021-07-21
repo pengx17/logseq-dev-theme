@@ -1,60 +1,15 @@
 :root {
   --ct-background: var(--ls-primary-background-color);
-
-  --ct-inline-code-font-size: 0.8em;
-  --ct-inline-code-font-style: inherit;
-  --ct-inline-code-border-radius: 2px;
-  --ct-inline-code-padding: 2px 5px;
-
   --ct-page-font-color: var(--ls-primary-text-color);
-
-  --ct-page-title-color: var(--ct-bold-color);
-  --ct-page-title-font-size: 36px;
-  --ct-page-title-line-height: 40px;
-  --ct-page-title-font-weight: 600;
-  --ct-page-title-font-style: normal;
-
-  --ct-heading-font-family: var(--ct-page-title-font-family);
-  --ct-heading-font-size: 25px;
-  --ct-heading-font-weight: 700;
-  --ct-heading-font-style: normal;
-
-  --ct-header-height: 42px;
-  --ct-topbar-backdrop: blur(20px);
-
-  --ct-query-header-color: #fff;
-  --ct-query-header-background: var(--ct-primary-color);
-
-  --ct-guideline-color: var(--ct-bold-color-transparent);
-  --ct-guideline-size: 2px;
-  --ct-guideline-style: solid;
-
-  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
-  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
-
-  --ct-bullet-size: 6px;
-  --ct-bullet-color: var(--ct-bold-color);
-
-  --ct-checkbox-border-radius: 2px;
-
-  --ct-task-done-text-decoration: none;
-}
-
-html,
-body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  overscroll-behavior-y: none;
-  -webkit-font-smoothing: auto;
-  line-height: var(--ct-line-height);
-}
-
-textarea {
-  line-height: var(--ct-line-height);
 }
 
 :root.is-mac.is-electron {
   --ct-header-height: 48px;
+}
+
+::selection {
+  background: var(--ct-primary-color);
+  color: var(--ls-selection-color);
 }
 
 /* Some tweaks on making this theme a bit more compact on mobile.
@@ -100,16 +55,4 @@ textarea {
   .sidebar-item.content > div > div:first-of-type {
     background: var(--ct-header-bg-color);
   }
-}
-
-#app-container::before {
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACHSURBVHgB7ddRCgIhFIbRa8wK3EH731OtQLdQCIUPDUP2IDidA4Lov4EvAoC11Frv7dhHXAIAAGAOLdZpMQAAYBYt1mkxAABgFi3WaTEAAOBHpZTUzt7ftvf47pKc8zW+sPo+pXR7XT/2W9A8AgAA/t5RW43uT9liR201uj9ri422lRYDWNETCUrqfCW92rQAAAAASUVORK5CYII=)
-    repeat;
-  background: none;
 }
