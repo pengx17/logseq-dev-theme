@@ -1,3 +1,10 @@
+## [1.10.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.11...v1.10.12) (2021-07-21)
+
+
+### Bug Fixes
+
+* fix wrong selector ([b6a8424](https://github.com/pengx17/logseq-dev-theme/commit/b6a8424a1575848806ab4bcf3d3280f2afa0c47b))
+
 ## [1.10.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.10...v1.10.11) (2021-07-21)
 
 
