@@ -1,16 +1,21 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
-  --ct-text-size: 16px;
-  --ct-line-height: 1.8;
-  --ct-page-title-font-family: "Noto Serif", "Noto Serif SC", ui-serif, Georgia, Cambria,
-    "Times New Roman", Times, serif;
-  --ls-font-family: "Noto Sans", "Noto Sans SC", ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
+  --ct-text-size: 15px;
+  --ct-line-height: 1.5;
+  --ls-font-family: "Noto Sans", "Noto Sans SC", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --ct-page-title-font-family: "Noto Sans SC", ui-sans-serif, system-ui,
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
   --ct-code-font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+:root {
   --ct-background: var(--ls-primary-background-color);
   --ct-inline-code-font-size: 0.8em;
   --ct-inline-code-font-style: inherit;
@@ -739,6 +744,7 @@ progress::-webkit-progress-value {
 .tippy-wrapper,
 .tippy-tooltip {
   background: transparent;
+  font-weight: unset !important;
 }
 
 .tippy-tooltip-content > .tippy-wrapper {
@@ -948,7 +954,7 @@ a.priority::before {
   color: var(--ls-primary-text-color);
   display: inline-block;
   font-size: 16px;
-  font-weight: 650;
+  font-weight: 600;
   height: 1rem;
   line-height: 1rem;
   text-align: center;

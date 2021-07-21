@@ -1,3 +1,10 @@
+## [1.10.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.6...v1.10.7) (2021-07-21)
+
+
+### Bug Fixes
+
+* do not use serif fonts ([ccfca6b](https://github.com/pengx17/logseq-dev-theme/commit/ccfca6bbae7fb64b7b3729804c2a6b6ad9c23852))
+
 ## [1.10.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.10.5...v1.10.6) (2021-07-20)
 
 
