@@ -46,15 +46,6 @@ a.title h1.title {
   width: 100%;
 }
 
-.is-mac.is-electron {
-  .cp__header,
-  .cp__right-sidebar-topbar {
-    * {
-      cursor: default;
-    }
-  }
-}
-
 .cp__header::after,
 .cp__right-sidebar-topbar::after {
   left: 0;
