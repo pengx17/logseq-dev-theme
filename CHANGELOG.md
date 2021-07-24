@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.12.0...v1.12.1) (2021-07-24)
+
+
+### Bug Fixes
+
+* update font path ([34ef6da](https://github.com/pengx17/logseq-dev-theme/commit/34ef6daea479c6c4d856559fb6c8a95adbfaeeac))
+
 # [1.12.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.11.0...v1.12.0) (2021-07-21)
 
 

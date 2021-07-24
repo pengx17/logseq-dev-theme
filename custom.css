@@ -6,7 +6,7 @@
   font-weight: 200 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@2.003R/Variable/Subset/SourceHanSansCN-VF.otf");
+  src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 :root {
   --ct-text-size: 16px;
@@ -242,11 +242,6 @@ a.title h1.title {
 .cp__right-sidebar-topbar {
   height: var(--ct-header-height);
   width: 100%;
-}
-
-.is-mac.is-electron .cp__header *,
-.is-mac.is-electron .cp__right-sidebar-topbar * {
-  cursor: default;
 }
 
 .cp__header::after,
