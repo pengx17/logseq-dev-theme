@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.2...v1.14.3) (2021-07-27)
+
+
+### Bug Fixes
+
+* remove custom-query background ([37fac20](https://github.com/pengx17/logseq-dev-theme/commit/37fac202c292776da4bcfc29f4dc9142b778b451))
+
 ## [1.14.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.1...v1.14.2) (2021-07-27)
 
 
