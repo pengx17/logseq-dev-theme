@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.12.1...v1.13.0) (2021-07-27)
+
+
+### Features
+
+* adapt threading for new logseq version ([cbd0fce](https://github.com/pengx17/logseq-dev-theme/commit/cbd0fce7db043dcb0de1b2e2538867bd7ab7f12f))
+
 ## [1.12.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.12.0...v1.12.1) (2021-07-24)
 
 

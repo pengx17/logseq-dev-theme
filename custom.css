@@ -362,8 +362,9 @@ a.title h1.title {
 
 /* block reference */
 .block-ref {
+  font-size: 14px;
+  padding: 1px 5px 0;
   border-radius: 2px;
-  font-size: 0.95em;
   background: var(--ct-block-reference-background);
 }
 
@@ -469,7 +470,9 @@ div.items-center::after,
 
 .blocks-container > .ls-block > div > div.items-center::before,
 .blocks-container > .ls-block:focus-within > div > div.items-center::after,
-.blocks-container > .block-children:focus-within > .ls-block::before {
+.blocks-container > .block-children:focus-within > .ls-block::before, .blocks-container > #lazy-blocks > .ls-block > div > div.items-center::before,
+.blocks-container > #lazy-blocks > .ls-block:focus-within > div > div.items-center::after,
+.blocks-container > #lazy-blocks > .block-children:focus-within > .ls-block::before {
   display: none;
 }
 
