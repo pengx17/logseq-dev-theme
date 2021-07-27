@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.1...v1.14.2) (2021-07-27)
+
+
+### Bug Fixes
+
+* make line-height a little bit larger ([e1f5254](https://github.com/pengx17/logseq-dev-theme/commit/e1f5254d0b96d5441fde42d64db735e095932d62))
+
 ## [1.14.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.0...v1.14.1) (2021-07-27)
 
 
