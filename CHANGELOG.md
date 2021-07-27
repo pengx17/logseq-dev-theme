@@ -1,3 +1,10 @@
+## [1.14.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.5...v1.14.6) (2021-07-27)
+
+
+### Bug Fixes
+
+* revert ([faf3b4a](https://github.com/pengx17/logseq-dev-theme/commit/faf3b4a9177626c224d2f15eb05fe07cd25db776))
+
 ## [1.14.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.4...v1.14.5) (2021-07-27)
 
 
