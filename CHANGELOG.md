@@ -1,3 +1,10 @@
+## [1.14.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.4...v1.14.5) (2021-07-27)
+
+
+### Bug Fixes
+
+* adjust some positions ([a3ac1cb](https://github.com/pengx17/logseq-dev-theme/commit/a3ac1cbd28cba14132be00f94fca6484d9231ead))
+
 ## [1.14.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.3...v1.14.4) (2021-07-27)
 
 

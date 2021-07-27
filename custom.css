@@ -9,7 +9,7 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 :root {
-  --ct-text-size: 15px;
+  --ct-text-size: 16px;
   --ct-line-height: 1.6;
   --ls-font-family: "Source Sans 3 VF", "Source Han Sans VF", ui-sans-serif,
     system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -403,7 +403,7 @@ a.title h1.title {
 .bullet-container {
   width: 14px;
   height: 14px;
-  transform: translateX(-1px);
+  transform: translateX(-1.5px);
 }
 
 .bullet-container .bullet {
@@ -464,6 +464,7 @@ a:hover > .bullet-container .bullet {
  * Editing block threading
  *************************/
 .ls-block > div > div.items-center {
+  height: 26px !important;
   position: relative;
 }
 
@@ -537,7 +538,7 @@ div.items-center::after,
   content: "";
   top: 1em;
   bottom: 0;
-  left: -17px;
+  left: -16px;
   position: absolute;
   border-left: 2px solid transparent;
 }
