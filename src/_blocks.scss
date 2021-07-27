@@ -9,8 +9,9 @@
 
 /* block reference */
 .block-ref {
+  font-size: 14px;
+  padding: 1px 5px 0;
   border-radius: 2px;
-  font-size: 0.95em;
   background: var(--ct-block-reference-background);
 }
 
@@ -115,10 +116,13 @@ div.items-center::after,
   border-bottom-left-radius: 10px;
 }
 
-.blocks-container > .ls-block > div > div.items-center::before,
-.blocks-container > .ls-block:focus-within > div > div.items-center::after,
-.blocks-container > .block-children:focus-within > .ls-block::before {
-  display: none;
+// Don't draw threading for the root level block. Better to have a "has-parent"
+.blocks-container, .blocks-container > #lazy-blocks {
+  > .ls-block > div > div.items-center::before,
+  > .ls-block:focus-within > div > div.items-center::after,
+  > .block-children:focus-within > .ls-block::before {
+    display: none;
+  }
 }
 
 .ls-block:focus-within > div > div.items-center::before {
