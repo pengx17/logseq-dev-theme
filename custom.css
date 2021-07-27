@@ -9,7 +9,7 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 :root {
-  --ct-text-size: 16px;
+  --ct-text-size: 15px;
   --ct-line-height: 1.6;
   --ls-font-family: "Source Sans 3 VF", "Source Han Sans VF", ui-sans-serif,
     system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -845,6 +845,7 @@ progress::-webkit-progress-value {
 /* query */
 .custom-query > div:first-child {
   border: 2px solid var(--ls-secondary-background-color);
+  background-color: var(--ls-tertiary-background-color);
   border-radius: 8px;
   padding: 1rem 1.5rem;
   position: relative;
@@ -1046,8 +1047,8 @@ html[data-theme=dark] {
   --ct-highlight-color: #ffc600;
   --ls-primary-background-color: #272c35;
   --ls-secondary-background-color: #313942;
-  --ls-tertiary-background-color: #23364f;
-  --ls-quaternary-background-color: #395982;
+  --ls-tertiary-background-color: #38434c;
+  --ls-quaternary-background-color: #404b55;
   --ls-primary-text-color: rgb(235, 235, 235);
   --ls-secondary-text-color: rgb(200, 200, 200);
   --ct-bold-color: #fff;
