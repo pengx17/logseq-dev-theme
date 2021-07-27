@@ -89,10 +89,6 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
-.block-content {
-  cursor: text;
-}
-
 .block-content::after {
   content: '';
   display: block;
