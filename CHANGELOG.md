@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.13.0...v1.14.0) (2021-07-27)
+
+
+### Features
+
+* add hovering block underline ([4e1824e](https://github.com/pengx17/logseq-dev-theme/commit/4e1824ee43581ffa29d7687d8e2cd2d92f36dddc))
+
 # [1.13.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.12.1...v1.13.0) (2021-07-27)
 
 

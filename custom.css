@@ -441,6 +441,24 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
+.block-content {
+  cursor: text;
+}
+
+.block-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.block-content:hover::after {
+  background: var(--ct-block-reference-background);
+}
+
 /************************* 
  * Editing block threading
  *************************/
