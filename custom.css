@@ -449,14 +449,15 @@ a:hover > .bullet-container .bullet {
   content: "";
   display: block;
   position: absolute;
-  height: 2px;
+  width: 4px;
+  height: 12px;
+  top: 6px;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: -0.5em;
 }
 
 .block-content:hover::after {
-  background: var(--ct-block-reference-background);
+  background: var(--ct-primary-color);
 }
 
 /************************* 

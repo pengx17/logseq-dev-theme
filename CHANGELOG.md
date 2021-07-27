@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.0...v1.14.1) (2021-07-27)
+
+
+### Bug Fixes
+
+* use a little bar to show hovering block ([77fd2a2](https://github.com/pengx17/logseq-dev-theme/commit/77fd2a269eaea730429dc1c45c7e98aee82854ce))
+
 # [1.14.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.13.0...v1.14.0) (2021-07-27)
 
 
