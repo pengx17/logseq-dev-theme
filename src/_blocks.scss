@@ -51,7 +51,7 @@
 .bullet-container {
   width: 14px;
   height: 14px;
-  transform: translateX(-1.5px);
+  transform: translateX(-1px);
 }
 
 .bullet-container .bullet {
@@ -187,7 +187,7 @@ div.items-center::after,
   content: "";
   top: 1em;
   bottom: 0;
-  left: -16px;
+  left: -17px;
   position: absolute;
   border-left: 2px solid transparent;
 }
