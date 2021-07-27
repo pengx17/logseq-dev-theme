@@ -1,3 +1,10 @@
+## [1.14.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.6...v1.14.7) (2021-07-27)
+
+
+### Bug Fixes
+
+* remove default block-content cursor ([02628c0](https://github.com/pengx17/logseq-dev-theme/commit/02628c0074062e46c05e85cdb47f44c397dd73c5))
+
 ## [1.14.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.5...v1.14.6) (2021-07-27)
 
 
