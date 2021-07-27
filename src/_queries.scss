@@ -5,7 +5,7 @@
 
 /* query */
 .custom-query > div:first-child {
-  background: var(--ls-secondary-background-color);
+  border: 2px solid var(--ls-secondary-background-color);
   border-radius: 8px;
   padding: 1rem 1.5rem;
   position: relative;
