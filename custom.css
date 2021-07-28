@@ -304,7 +304,7 @@ a.title h1.title {
 
 .ls-block :is(h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5) {
   font-family: var(--ct-page-title-font-family);
-  font-weight: 500;
+  font-weight: var(--ct-page-title-font-weight);
 }
 
 .ls-block .block-ref :is(h1, h2, h3, h4, h5) {
@@ -441,18 +441,19 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
-.block-content::after {
+.block-content > span > span > [id] {
+  position: relative;
+}
+.block-content > span > span > [id]::before {
   content: "";
   display: block;
   position: absolute;
   width: 4px;
-  height: 12px;
-  top: 6px;
-  bottom: 0;
-  left: -0.5em;
+  height: 40%;
+  top: 30%;
+  left: -8px;
 }
-
-.block-content:hover::after {
+.block-content:hover > span > span > [id]::before {
   background: var(--ct-primary-color);
 }
 
@@ -679,7 +680,6 @@ samp {
   padding: var(--ct-inline-code-padding) !important;
   background: var(--ls-tertiary-background-color);
   color: var(--ct-inline-code-color);
-  vertical-align: text-bottom;
   margin-right: 2px;
 }
 

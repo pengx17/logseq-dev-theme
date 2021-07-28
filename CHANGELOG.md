@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.7...v1.15.0) (2021-07-28)
+
+
+### Features
+
+* adjust block highlight position ([7c67286](https://github.com/pengx17/logseq-dev-theme/commit/7c6728621c4892fa40af76557d692e0f61ce3ad2))
+
 ## [1.14.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.6...v1.14.7) (2021-07-27)
 
 
