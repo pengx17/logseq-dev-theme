@@ -447,7 +447,7 @@ a:hover > .bullet-container .bullet {
   width: 4px;
   height: 12px;
   top: calc(50% - 6px);
-  left: -8px;
+  left: -6px;
 }
 .block-content-wrapper > div > .block-content:hover > span > span > :first-of-type::before {
   background: var(--ct-primary-color);
@@ -685,7 +685,7 @@ a.tag {
   padding: 0 4px;
   border-radius: 4px;
   font-weight: 600;
-  line-height: 1.6;
+  line-height: 1.4;
   font-size: 0.8em;
 }
 
