@@ -564,7 +564,7 @@ div.items-center::after,
 .embed,
 .embed-page,
 .embed-block {
-  box-shadow: 4px 4px black;
+  box-shadow: 1px 2px black;
   padding: 0.75em 0.5em;
   border: 2px solid #000;
   border-radius: 8px;

@@ -1,3 +1,10 @@
+## [1.15.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.2...v1.15.3) (2021-07-28)
+
+
+### Bug Fixes
+
+* lower the shadow a bit for embedded ([8d709c4](https://github.com/pengx17/logseq-dev-theme/commit/8d709c4a8519e7e1e3e6a47ef7ddfe02b0b32b3d))
+
 ## [1.15.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.1...v1.15.2) (2021-07-28)
 
 
