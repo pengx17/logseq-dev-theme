@@ -99,8 +99,8 @@ a.tag:hover {
   margin: 0 0 0.5em -8px;
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
-  font-family: var(--ct-code-font-family);
   width: fit-content;
+  min-width: 320px;
 }
 
 kbd {
