@@ -89,20 +89,26 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
-.block-content::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 4px;
-  height: 12px;
-  top: 6px;
-  bottom: 0;
-  left: -0.5em;
+.block-content {
+  & > span > span > [id] {
+    position: relative;
+  }
+
+  & > span > span > [id]::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 40%;
+    top: 30%;
+    left: -8px;
+  }
+
+  &:hover > span > span > [id]::before {
+    background: var(--ct-primary-color);
+  }
 }
 
-.block-content:hover::after {
-  background: var(--ct-primary-color);
-}
 
 /************************* 
  * Editing block threading
