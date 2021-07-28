@@ -1,3 +1,10 @@
+## [1.15.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.6...v1.15.7) (2021-07-28)
+
+
+### Bug Fixes
+
+* use first-child instead ([a86eec4](https://github.com/pengx17/logseq-dev-theme/commit/a86eec4d089bbb04941e8227da3f83ac0483faa7))
+
 ## [1.15.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.5...v1.15.6) (2021-07-28)
 
 
