@@ -1,3 +1,10 @@
+## [1.15.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.3...v1.15.4) (2021-07-28)
+
+
+### Bug Fixes
+
+* embed hover offset ([49cc573](https://github.com/pengx17/logseq-dev-theme/commit/49cc573f19252e13554c2a9e87a978f60f9b0982))
+
 ## [1.15.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.2...v1.15.3) (2021-07-28)
 
 
