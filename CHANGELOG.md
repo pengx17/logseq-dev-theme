@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.0...v1.15.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* use a lighter font weight for titles ([05bc98e](https://github.com/pengx17/logseq-dev-theme/commit/05bc98e14c19918e75e8f7b6f5caf78f9e890442))
+
 # [1.15.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.14.7...v1.15.0) (2021-07-28)
 
 
