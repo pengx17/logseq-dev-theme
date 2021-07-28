@@ -1,3 +1,10 @@
+## [1.15.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.4...v1.15.5) (2021-07-28)
+
+
+### Bug Fixes
+
+* block hovering selector fix ([9313735](https://github.com/pengx17/logseq-dev-theme/commit/9313735a95d2bcb5b2eabd430b38767f54c44889))
+
 ## [1.15.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.3...v1.15.4) (2021-07-28)
 
 

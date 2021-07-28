@@ -437,19 +437,19 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
-.block-content > span > span > [id] {
+.block-content-wrapper > div > .block-content > span > span > :first-of-type {
   position: relative;
 }
-.block-content > span > span > [id]::before {
+.block-content-wrapper > div > .block-content > span > span > :first-of-type::before {
   content: "";
   display: block;
   position: absolute;
   width: 4px;
-  height: 40%;
-  top: 30%;
+  height: 12px;
+  top: calc(50% - 6px);
   left: -8px;
 }
-.block-content:hover > span > span > [id]::before {
+.block-content-wrapper > div > .block-content:hover > span > span > :first-of-type::before {
   background: var(--ct-primary-color);
 }
 
