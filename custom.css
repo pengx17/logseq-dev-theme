@@ -768,7 +768,6 @@ progress::-webkit-progress-value {
   border-radius: 8px;
   overflow: hidden;
   background: var(--ls-primary-background-color);
-  box-shadow: 8px 8px #000;
 }
 
 .tippy-wrapper,
@@ -1042,8 +1041,8 @@ html[data-theme=dark] #app-container::before {
 
 .dark-theme,
 html[data-theme=dark] {
-  --ct-primary-color: rgb(138, 187, 187);
-  --ct-secondary-color: rgb(112, 172, 172);
+  --ct-primary-color: #a3cef1;
+  --ct-secondary-color: #6096ba;
   --ct-warning-color: #ff7262;
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;

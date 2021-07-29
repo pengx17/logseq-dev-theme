@@ -1,3 +1,15 @@
+# [1.17.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.2...v1.17.0) (2021-07-29)
+
+
+### Bug Fixes
+
+* remove box shadow of popovers ([acd9858](https://github.com/pengx17/logseq-dev-theme/commit/acd9858883618b1b8416c45e92d35c15a82259da))
+
+
+### Features
+
+* adjust primary color for dark ([a427281](https://github.com/pengx17/logseq-dev-theme/commit/a427281c4f7bb0f6090f6ab38888b787b6b1a584))
+
 ## [1.16.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.1...v1.16.2) (2021-07-29)
 
 
