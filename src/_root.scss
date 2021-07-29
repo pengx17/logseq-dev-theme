@@ -56,3 +56,7 @@
     background: var(--ct-header-bg-color);
   }
 }
+
+:not(.color-level) .color-level {
+  border: 2px solid var(--color-level-2);
+}
