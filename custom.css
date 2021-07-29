@@ -358,7 +358,7 @@ a.title h1.title {
 
 /* block reference */
 .block-ref {
-  font-size: 14px;
+  font-size: inherit;
   padding: 1px 5px 0;
   border-radius: 2px;
   background: var(--ct-block-reference-background);
@@ -371,7 +371,7 @@ a.title h1.title {
 .block-ref:before {
   content: "#";
   color: var(--ls-active-primary-color);
-  font-size: 12px;
+  font-size: 0.8em;
   padding: 0 4px 0 0;
 }
 
@@ -382,6 +382,10 @@ a.title h1.title {
 .block-ref div {
   display: inline;
   padding: 0 0.2em;
+}
+
+.block-ref .block-ref {
+  padding: 0 0 0 0.2em;
 }
 
 .open-block-ref-link {
@@ -1074,14 +1078,14 @@ html[data-theme=dark] {
 .white-theme,
 html[data-theme=light] {
   --ct-primary-color: #106ba3;
-  --ct-secondary-color: #0a4163;
+  --ct-secondary-color: #004174;
   --ct-warning-color: #ff7262;
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
   --ls-primary-background-color: #fff;
-  --ls-secondary-background-color: #f7f6f4;
-  --ls-tertiary-background-color: #f1eee8;
-  --ls-quaternary-background-color: #e8e5de;
+  --ls-secondary-background-color: #f6f6f6;
+  --ls-tertiary-background-color: #f1f1f1;
+  --ls-quaternary-background-color: #e4e4e4;
   --ls-primary-text-color: rgb(40, 40, 40);
   --ls-secondary-text-color: #161e2e;
   --ct-bold-color: #000;
