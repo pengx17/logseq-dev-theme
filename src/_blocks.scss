@@ -9,7 +9,7 @@
 
 /* block reference */
 .block-ref {
-  font-size: 14px;
+  font-size: inherit;
   padding: 1px 5px 0;
   border-radius: 2px;
   background: var(--ct-block-reference-background);
@@ -22,7 +22,7 @@
 .block-ref:before {
   content: "#";
   color: var(--ls-active-primary-color);
-  font-size: 12px;
+  font-size: 0.8em;
   padding: 0 4px 0 0;
 }
 
@@ -33,6 +33,10 @@
 .block-ref div {
   display: inline;
   padding: 0 0.2em;
+}
+
+.block-ref .block-ref {
+  padding: 0 0 0 0.2em;
 }
 
 .open-block-ref-link {
