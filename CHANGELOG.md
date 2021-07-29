@@ -1,3 +1,10 @@
+## [1.16.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.1...v1.16.2) (2021-07-29)
+
+
+### Bug Fixes
+
+* side panel margin & color-level border ([777537e](https://github.com/pengx17/logseq-dev-theme/commit/777537e453ac230fbe44b18739f1a59d662bb5a4))
+
 ## [1.16.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.0...v1.16.1) (2021-07-29)
 
 
