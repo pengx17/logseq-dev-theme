@@ -18,7 +18,7 @@
 
 :is(.doing, .now) .form-checkbox,
 :is(.doing, .now) .form-checkbox:focus {
-  background-color: var(--ct-primary-color) !important;
+  background-color: var(--ct-block-reference-background-hover) !important;
 }
 
 .waiting .form-checkbox,
