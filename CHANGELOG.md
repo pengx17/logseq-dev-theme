@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.0...v1.16.1) (2021-07-29)
+
+
+### Bug Fixes
+
+* adjust colors ([85db87d](https://github.com/pengx17/logseq-dev-theme/commit/85db87d3925054707bdb3db723d4595ac54de62f))
+
 # [1.16.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.15.7...v1.16.0) (2021-07-29)
 
 
