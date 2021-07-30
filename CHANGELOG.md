@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.1...v1.17.2) (2021-07-30)
+
+
+### Bug Fixes
+
+* adjust in progress marker background ([c97a4dd](https://github.com/pengx17/logseq-dev-theme/commit/c97a4dde7a82f290c47d913f28f625303f80452b))
+
 ## [1.17.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.0...v1.17.1) (2021-07-30)
 
 
