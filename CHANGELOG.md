@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.0...v1.17.1) (2021-07-30)
+
+
+### Bug Fixes
+
+* remove search box focus ring ([df746aa](https://github.com/pengx17/logseq-dev-theme/commit/df746aaeaeff6a601a433bd47ebd083ac6ae5797))
+
 # [1.17.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.16.2...v1.17.0) (2021-07-29)
 
 

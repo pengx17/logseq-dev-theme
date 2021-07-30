@@ -266,10 +266,6 @@ a.title h1.title {
   color: var(--ls-search-icon-color, #9fa6b2);
 }
 
-.cp__header #search-field:focus {
-  outline: 2px solid var(--ct-secondary-color);
-}
-
 .cp__header.electron-mac {
   height: var(--ct-header-height);
 }
