@@ -55,7 +55,7 @@ textarea {
   }
 
   .cp__sidebar-main-content > div {
-    padding: 1px 1em 1em 1em;
+    padding: 1px 1em 1em 1em !important;
     border: none;
   }
 
@@ -130,7 +130,6 @@ textarea {
 
 .cp__right-sidebar .sidebar-item {
   margin: var(--ct-sidebar-padding) 0;
-  background: transparent;
   box-shadow: none;
 }
 
@@ -145,10 +144,6 @@ textarea {
 .sidebar-item-list {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.sidebar-item.color-level .color-level {
-  background: var(--color-level-1);
 }
 
 /* Right sidebar title */
@@ -450,12 +445,18 @@ a:hover > .bullet-container .bullet {
   display: block;
   position: absolute;
   width: 4px;
-  height: 12px;
-  top: calc(50% - 6px);
-  left: -6px;
+  height: 10px;
+  top: calc(50% - 5px);
+  left: -8px;
+  transform: scaleY(0.5);
+  transition: all 0.2s;
+  opacity: 0;
+  background: var(--ct-primary-color);
+  border-radius: 2px;
 }
 .block-content-wrapper > div > .block-content:hover > span > span > :first-child::before {
-  background: var(--ct-primary-color);
+  opacity: 1;
+  transform: scaleY(1);
 }
 
 /************************* 

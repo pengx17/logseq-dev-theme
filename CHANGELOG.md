@@ -1,3 +1,11 @@
+## [1.17.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.2...v1.17.3) (2021-08-02)
+
+
+### Bug Fixes
+
+* make main view a bit more compact for mobile screens ([0992aeb](https://github.com/pengx17/logseq-dev-theme/commit/0992aeb0010c796927dd967fc389014064a88e35))
+* update some details ([f971483](https://github.com/pengx17/logseq-dev-theme/commit/f97148326c0f2ebb0e9d234e9c481ef56fe5c021))
+
 ## [1.17.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.1...v1.17.2) (2021-07-30)
 
 
