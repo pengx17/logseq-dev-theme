@@ -102,14 +102,20 @@ a:hover > .bullet-container .bullet {
       display: block;
       position: absolute;
       width: 4px;
-      height: 12px;
-      top: calc(50% - 6px);
-      left: -6px;
+      height: 10px;
+      top: calc(50% - 5px);
+      left: -8px;
+      transform: scaleY(0.5);
+      transition: all 0.2s;
+      opacity: 0;
+      background: var(--ct-primary-color);
+      border-radius: 2px;
     }
   }
 
   &:hover > span > span > :first-child::before {
-    background: var(--ct-primary-color);
+    opacity: 1;
+    transform: scaleY(1);
   }
 }
 

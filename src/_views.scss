@@ -40,7 +40,6 @@
 
 .cp__right-sidebar .sidebar-item {
   margin: var(--ct-sidebar-padding) 0;
-  background: transparent;
   box-shadow: none;
 }
 
@@ -55,10 +54,6 @@
 .sidebar-item-list {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.sidebar-item.color-level .color-level {
-  background: var(--color-level-1);
 }
 
 /* Right sidebar title */
