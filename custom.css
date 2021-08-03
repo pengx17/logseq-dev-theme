@@ -479,7 +479,7 @@ div.items-center::after,
   content: "";
   height: 100%;
   left: -2px;
-  right: 6px;
+  right: 7px;
   top: calc(-50% + 1px);
   position: absolute;
   border-left: 2px solid transparent;
@@ -535,7 +535,7 @@ div.items-center::after,
 
 .ls-block > div > .block-content-wrapper::before {
   content: "";
-  top: 1em;
+  top: 12px;
   bottom: 0;
   left: -17px;
   position: absolute;

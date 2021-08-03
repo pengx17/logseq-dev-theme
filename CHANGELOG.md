@@ -1,3 +1,10 @@
+## [1.17.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.3...v1.17.4) (2021-08-03)
+
+
+### Bug Fixes
+
+* bullet threading offset ([8934fc2](https://github.com/pengx17/logseq-dev-theme/commit/8934fc2a826bda92f44e944215963a6c2dbf3297))
+
 ## [1.17.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.2...v1.17.3) (2021-08-02)
 
 
