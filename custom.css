@@ -85,7 +85,7 @@ textarea {
   }
 }
 :not(.color-level) .color-level {
-  border: 2px solid var(--color-level-2);
+  box-shadow: 0 0 0 2px var(--color-level-2);
 }
 
 :root {
@@ -130,11 +130,7 @@ textarea {
 
 .cp__right-sidebar .sidebar-item {
   margin: var(--ct-sidebar-padding) 0;
-  box-shadow: none;
-}
-
-.cp__right-sidebar .sidebar-item:not(:last-of-type) {
-  border-bottom: 1px solid var(--ls-border-color);
+  border-radius: 2px;
 }
 
 .cp__right-sidebar {

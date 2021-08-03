@@ -1,3 +1,10 @@
+## [1.17.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.4...v1.17.5) (2021-08-03)
+
+
+### Bug Fixes
+
+* sidebar border colors ([46be98e](https://github.com/pengx17/logseq-dev-theme/commit/46be98e4cfcce76733d330b6c8f91fa40a0d322e))
+
 ## [1.17.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.3...v1.17.4) (2021-08-03)
 
 
