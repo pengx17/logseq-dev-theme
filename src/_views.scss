@@ -40,11 +40,7 @@
 
 .cp__right-sidebar .sidebar-item {
   margin: var(--ct-sidebar-padding) 0;
-  box-shadow: none;
-}
-
-.cp__right-sidebar .sidebar-item:not(:last-of-type) {
-  border-bottom: 1px solid var(--ls-border-color);
+  border-radius: 2px;
 }
 
 .cp__right-sidebar {

@@ -58,5 +58,5 @@
 }
 
 :not(.color-level) .color-level {
-  border: 2px solid var(--color-level-2);
+  box-shadow: 0 0 0 2px var(--color-level-2);
 }
