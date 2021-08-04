@@ -1043,6 +1043,7 @@ html[data-theme=dark] {
   --ls-secondary-background-color: #313942;
   --ls-tertiary-background-color: #38434c;
   --ls-quaternary-background-color: #404b55;
+  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: rgb(235, 235, 235);
   --ls-secondary-text-color: rgb(200, 200, 200);
   --ct-bold-color: #fff;
@@ -1083,6 +1084,7 @@ html[data-theme=light] {
   --ls-secondary-background-color: #f8f9fa;
   --ls-tertiary-background-color: #e9ecef;
   --ls-quaternary-background-color: #dee2e6;
+  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
   --color-level-4: #ced4da;
   --color-level-5: #adb5bd;
   --ls-primary-text-color: rgb(40, 40, 40);

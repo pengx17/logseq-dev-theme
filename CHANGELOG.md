@@ -1,3 +1,10 @@
+## [1.17.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.5...v1.17.6) (2021-08-04)
+
+
+### Bug Fixes
+
+* adjust table even row bg color ([b8ed200](https://github.com/pengx17/logseq-dev-theme/commit/b8ed20001b8a71ab59f4b98c32f6a3cec2f187ff))
+
 ## [1.17.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.4...v1.17.5) (2021-08-03)
 
 
