@@ -93,6 +93,7 @@ a:hover > .bullet-container .bullet {
   transform: scale(1);
 }
 
+// hovering block indicator
 .block-content-wrapper > div > .block-content {
   & > span > span > :first-child {
     position: relative;
