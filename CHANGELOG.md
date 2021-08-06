@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.7...v1.18.0) (2021-08-06)
+
+
+### Features
+
+* emoji range ([6bb7823](https://github.com/pengx17/logseq-dev-theme/commit/6bb78234c1e17353e16050f34b84380c9eb3a85c))
+
 ## [1.17.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.6...v1.17.7) (2021-08-06)
 
 
