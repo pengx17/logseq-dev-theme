@@ -1,3 +1,10 @@
+## [1.17.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.6...v1.17.7) (2021-08-06)
+
+
+### Bug Fixes
+
+* fix emoji display on windows ([0b3665d](https://github.com/pengx17/logseq-dev-theme/commit/0b3665d3af4009ad0a9d7e255dd34a89b224fa58))
+
 ## [1.17.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.5...v1.17.6) (2021-08-04)
 
 
