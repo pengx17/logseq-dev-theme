@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.19.0...v1.19.1) (2021-08-07)
+
+
+### Bug Fixes
+
+* change bullet active color var ([c087025](https://github.com/pengx17/logseq-dev-theme/commit/c087025d1cd1a65a86b8086caf1105587c5c258e))
+
 # [1.19.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.18.0...v1.19.0) (2021-08-07)
 
 

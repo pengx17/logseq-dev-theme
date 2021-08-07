@@ -357,6 +357,7 @@ a.title h1.title {
   --ct-guideline-style: solid;
   --ct-bullet-size: 6px;
   --ct-bullet-color: var(--ct-bold-color);
+  --ct-bullet-active-color: var(--ls-active-primary-color);
   --ct-block-max-width: calc(100% - 38px);
 }
 
@@ -434,8 +435,8 @@ a:hover > .bullet-container .bullet {
 }
 
 .ls-block .bullet {
-  background-color: var(--ct-page-reference-color);
-  box-shadow: 0 0 0 1px var(--ct-page-reference-color);
+  background-color: var(--ct-bullet-active-color);
+  box-shadow: 0 0 0 1px var(--ct-bullet-active-color);
 }
 
 .ls-block:not(:focus-within) .bullet {
@@ -504,7 +505,7 @@ div.items-center::after,
 }
 
 .ls-block:focus-within > div > div.items-center::before {
-  border-color: var(--ct-page-reference-color);
+  border-color: var(--ct-bullet-active-color);
 }
 
 .ls-block > div > div.items-center::after {
@@ -517,7 +518,7 @@ div.items-center::after,
 }
 
 .ls-block:focus-within > div > div.items-center::after {
-  border-color: var(--ct-page-reference-color);
+  border-color: var(--ct-bullet-active-color);
 }
 
 .block-children > .ls-block::before {
@@ -530,7 +531,7 @@ div.items-center::after,
 }
 
 .block-children:focus-within > .ls-block:not(:focus-within)::before {
-  border-color: var(--ct-page-reference-color);
+  border-color: var(--ct-bullet-active-color);
 }
 
 .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
@@ -551,7 +552,7 @@ div.items-center::after,
 }
 
 .ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
-  border-color: var(--ct-page-reference-color);
+  border-color: var(--ct-bullet-active-color);
 }
 
 .doc-mode div.items-center::before,
