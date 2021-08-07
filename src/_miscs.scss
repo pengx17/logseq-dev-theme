@@ -100,7 +100,14 @@ a.tag:hover {
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
   width: fit-content;
-  min-width: 320px;
+  padding-right: 2rem;
+  max-width: var(--ct-block-max-width);
+}
+
+.sidebar-item-list {
+  .page-properties, .block-properties {
+    background: var(--ls-tertiary-background-color);
+  }
 }
 
 kbd {

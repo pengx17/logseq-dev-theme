@@ -10,19 +10,23 @@ https://knowledge-garden.vercel.app/
 
 ## Usage
 
-The easiest way to adopt this theme is to use jsDelivr CDN by adding the following line to your `custom.css`. You can also change the `@master` part to use the latest version.
+The easiest way to adopt this theme is to use jsDelivr CDN by adding the following line to your `custom.css`. You can also change the `@main` part to use the latest version.
 
 ```css
+/* This must be the first line of the custom.css with other import rules */
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+
+/* You can also add other styles below to override the default theme values */
 ```
 
 Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
 
+
 ## Demo (might be outdated)
 
-![demo](./demo-video.gif)
-![](./light.png)
-![](./dark.png)
+![demo](./demo.png)
+
+<video src="./demo.mp4"></video>
 
 ### [Changelog](./CHANGELOG.md)
 

@@ -4,6 +4,7 @@
 }
 
 #main-container {
+  padding-top: var(--ct-header-height);
   position: absolute;
   width: 100%;
   overflow-x: hidden;
@@ -48,6 +49,10 @@
 }
 
 .sidebar-item-list {
+  padding-top: var(--ct-header-height);
+  position: absolute;
+  top: 0;
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
