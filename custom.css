@@ -100,6 +100,7 @@ textarea {
 }
 
 #main-container {
+  padding-top: var(--ct-header-height);
   position: absolute;
   width: 100%;
   overflow-x: hidden;
@@ -144,6 +145,10 @@ textarea {
 }
 
 .sidebar-item-list {
+  padding-top: var(--ct-header-height);
+  position: absolute;
+  top: 0;
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -352,6 +357,7 @@ a.title h1.title {
   --ct-guideline-style: solid;
   --ct-bullet-size: 6px;
   --ct-bullet-color: var(--ct-bold-color);
+  --ct-block-max-width: calc(100% - 38px);
 }
 
 /* block reference */
@@ -557,7 +563,7 @@ div.items-center::after,
 
 /* Block oversize issue */
 .block-content-wrapper {
-  max-width: calc(100% - 38px);
+  max-width: var(--ct-block-max-width);
 }
 
 .block-content-wrapper > div.flex-1 {
@@ -712,7 +718,12 @@ a.tag:hover {
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
   width: fit-content;
-  min-width: 320px;
+  padding-right: 2rem;
+  max-width: var(--ct-block-max-width);
+}
+
+.sidebar-item-list .page-properties, .sidebar-item-list .block-properties {
+  background: var(--ls-tertiary-background-color);
 }
 
 kbd {
