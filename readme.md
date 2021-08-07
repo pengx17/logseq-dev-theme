@@ -26,7 +26,8 @@ Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
 
 ![demo](./demo.png)
 
-<video src="./demo.mp4"></video>
+https://user-images.githubusercontent.com/584378/128587194-bd775264-b3ba-4303-8595-060953fe8030.mp4
+
 
 ### [Changelog](./CHANGELOG.md)
 
