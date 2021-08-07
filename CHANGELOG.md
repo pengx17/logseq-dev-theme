@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.18.0...v1.19.0) (2021-08-07)
+
+
+### Features
+
+* head height issue ([7225454](https://github.com/pengx17/logseq-dev-theme/commit/722545416b1960865ade44a35754f4983c2ebb34))
+
 # [1.18.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.17.7...v1.18.0) (2021-08-06)
 
 
