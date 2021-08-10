@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.19.1...v1.20.0) (2021-08-10)
+
+
+### Features
+
+* extract bullet_threading css ([c245957](https://github.com/pengx17/logseq-dev-theme/commit/c245957bb01010053e46b9eb67953eba679900a8))
+
 ## [1.19.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.19.0...v1.19.1) (2021-08-07)
 
 
