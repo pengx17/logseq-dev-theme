@@ -21,6 +21,19 @@ The easiest way to adopt this theme is to use jsDelivr CDN by adding the followi
 
 Alternatively, you can download this repo and load it as a Logseq Theme Plugin.
 
+### Only use bullet threading styles
+
+Since version `1.20.0`, you can opt in with the only the bullet threading css, which is `bullet_threading.css`.
+To change the color and width, set the following variables in `custom.css`:
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/bullet_threading.css");
+
+:root {
+  --ls-block-bullet-active-color: your-favorite-color;
+  --ls-block-bullet-threading-width: 2px;
+}
+```
 
 ## Demo (might be outdated)
 

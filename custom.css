@@ -352,9 +352,6 @@ a.title h1.title {
 }
 
 :root {
-  --ct-guideline-color: var(--ct-bold-color-transparent);
-  --ct-guideline-size: 2px;
-  --ct-guideline-style: solid;
   --ct-bullet-size: 6px;
   --ct-bullet-color: var(--ct-bold-color);
   --ct-bullet-active-color: var(--ls-active-primary-color);
@@ -398,17 +395,6 @@ a.title h1.title {
   font-family: Asap;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-}
-
-/* vertical lines and bullets */
-.block-children {
-  border-left: var(--ct-guideline-size) var(--ct-guideline-style) var(--ct-guideline-color);
-}
-
-.bullet-container {
-  width: 14px;
-  height: 14px;
-  transform: translateX(-1px);
 }
 
 .bullet-container .bullet {
@@ -468,100 +454,6 @@ a:hover > .bullet-container .bullet {
   transform: scaleY(1);
 }
 
-/************************* 
- * Editing block threading
- *************************/
-.ls-block > div > div.items-center {
-  height: 26px !important;
-  position: relative;
-}
-
-div.items-center::before,
-div.items-center::after,
-.ls-block::before,
-.ls-block::after,
-.block-content-wrapper::before {
-  pointer-events: none;
-}
-
-.ls-block > div > div.items-center::before {
-  content: "";
-  height: 100%;
-  left: -2px;
-  right: 7px;
-  top: calc(-50% + 1px);
-  position: absolute;
-  border-left: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  border-bottom-left-radius: 10px;
-}
-
-.blocks-container > .ls-block > div > div.items-center::before,
-.blocks-container > .ls-block:focus-within > div > div.items-center::after,
-.blocks-container > .block-children:focus-within > .ls-block::before, .blocks-container > #lazy-blocks > .ls-block > div > div.items-center::before,
-.blocks-container > #lazy-blocks > .ls-block:focus-within > div > div.items-center::after,
-.blocks-container > #lazy-blocks > .block-children:focus-within > .ls-block::before {
-  display: none;
-}
-
-.ls-block:focus-within > div > div.items-center::before {
-  border-color: var(--ct-bullet-active-color);
-}
-
-.ls-block > div > div.items-center::after {
-  content: "";
-  height: calc(100% - 10px);
-  top: -50%;
-  left: -2px;
-  position: absolute;
-  border-left: 2px solid transparent;
-}
-
-.ls-block:focus-within > div > div.items-center::after {
-  border-color: var(--ct-bullet-active-color);
-}
-
-.block-children > .ls-block::before {
-  content: "";
-  top: -10px;
-  bottom: 0;
-  border-left: 2px solid transparent;
-  left: -2px;
-  position: absolute;
-}
-
-.block-children:focus-within > .ls-block:not(:focus-within)::before {
-  border-color: var(--ct-bullet-active-color);
-}
-
-.block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
-  border-color: transparent;
-}
-
-.ls-block > div > .block-content-wrapper {
-  position: relative;
-}
-
-.ls-block > div > .block-content-wrapper::before {
-  content: "";
-  top: 12px;
-  bottom: 0;
-  left: -17px;
-  position: absolute;
-  border-left: 2px solid transparent;
-}
-
-.ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
-  border-color: var(--ct-bullet-active-color);
-}
-
-.doc-mode div.items-center::before,
-.doc-mode div.items-center::after,
-.doc-mode .ls-block::before,
-.doc-mode .ls-block::after {
-  display: none;
-}
-
 /* Block oversize issue */
 .block-content-wrapper {
   max-width: var(--ct-block-max-width);
@@ -573,6 +465,98 @@ div.items-center::after,
 
 .block-content .resize {
   max-width: -webkit-fill-available;
+}
+
+:root {
+  --ls-block-bullet-active-color: var(--ls-link-text-color);
+  --ls-block-bullet-threading-width: 1px;
+}
+
+.block-control {
+  z-index: 1;
+}
+
+.block-children {
+  border-left-width: var(--ls-block-bullet-threading-width);
+}
+
+.block-content-wrapper {
+  position: relative;
+}
+
+.bullet-container {
+  height: 14px !important;
+  width: 14px !important;
+  transform: translateX(-1.5px);
+}
+
+/* Block bullet path should only show in a nested block */
+.ls-block .bullet {
+  background-color: var(--ls-block-bullet-active-color);
+}
+.ls-block div.items-center {
+  position: relative;
+  height: 26px !important;
+}
+.ls-block:not(:focus-within) .bullet {
+  background-color: var(--ls-block-bullet-color);
+  transform: scale(1);
+}
+.ls-block .ls-block > div > div.items-center::before {
+  pointer-events: none;
+  content: "";
+  left: 0;
+  right: 6px;
+  top: -1px;
+  bottom: -1px;
+  transform: translate(calc(var(--ls-block-bullet-threading-width) * -1), calc(-50% + var(--ls-block-bullet-threading-width) * 0.5));
+  /* shift left 1px for border */
+  position: absolute;
+  border-left: var(--ls-block-bullet-threading-width) solid transparent;
+  border-bottom: var(--ls-block-bullet-threading-width) solid transparent;
+  border-bottom-left-radius: 10px;
+}
+.ls-block .ls-block:focus-within > div > div.items-center::before {
+  border-color: var(--ls-block-bullet-active-color);
+}
+.ls-block .block-children > .ls-block::before {
+  pointer-events: none;
+  content: "";
+  top: -1rem;
+  bottom: 0;
+  border-left: var(--ls-block-bullet-threading-width) solid transparent;
+  left: 0;
+  transform: translate(calc(var(--ls-block-bullet-threading-width) * -1));
+  position: absolute;
+}
+.ls-block .block-children:focus-within > .ls-block:not(:focus-within)::before {
+  border-color: var(--ls-block-bullet-active-color);
+}
+.ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
+  border-color: transparent;
+}
+
+.ls-block[haschild=true] > div > .block-content-wrapper::before {
+  pointer-events: none;
+  content: "";
+  top: 12px;
+  bottom: 0;
+  left: -17px;
+  position: absolute;
+  border-left: var(--ls-block-bullet-threading-width) solid transparent;
+}
+.ls-block[haschild=true] > .heading > .block-content-wrapper::before {
+  top: calc(50% + 2px);
+}
+.ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
+  border-color: var(--ls-block-bullet-active-color);
+}
+
+.doc-mode div.items-center::before,
+.doc-mode div.items-center::after,
+.doc-mode .ls-block::before,
+.doc-mode .ls-block::after {
+  display: none;
 }
 
 /* embed */
