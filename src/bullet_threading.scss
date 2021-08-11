@@ -18,6 +18,7 @@
 .bullet-container {
   height: 14px !important;
   width: 14px !important;
+  position: relative;
   transform: translateX(-1.5px);
 }
 
@@ -38,17 +39,14 @@
     transform: scale(1);
   }
 
+  /* Basic "curve" */
   .ls-block > div > div.items-center::before {
     pointer-events: none;
     content: "";
-    left: 0;
+    left: calc(var(--ls-block-bullet-threading-width) * -1);
     right: 6px;
-    top: -1px;
-    bottom: -1px;
-    transform: translate(
-      calc(var(--ls-block-bullet-threading-width) * -1),
-      calc(-50% + var(--ls-block-bullet-threading-width) * 0.5)
-    );
+    top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+    bottom: 50%;
     /* shift left 1px for border */
     position: absolute;
     border-left: var(--ls-block-bullet-threading-width) solid transparent;
@@ -66,8 +64,7 @@
     top: -1rem;
     bottom: 0;
     border-left: var(--ls-block-bullet-threading-width) solid transparent;
-    left: 0;
-    transform: translate(calc(var(--ls-block-bullet-threading-width) * -1));
+    left: calc(var(--ls-block-bullet-threading-width) * -1);
     position: absolute;
   }
 
@@ -78,28 +75,31 @@
   .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
     border-color: transparent;
   }
+
+  /* Fix for headings like h1, h2 etc */
+  > .items-baseline {
+    align-items: initial;
+  }
+
+  /* Fix multi-line blocks with children */
+  &[haschild="true"] {
+    > div > .block-content-wrapper::before {
+      pointer-events: none;
+      content: "";
+      top: 12px;
+      bottom: 0;
+      left: -17px;
+      position: absolute;
+      border-left: var(--ls-block-bullet-threading-width) solid transparent;
+    }
+
+    &:focus-within > div > .block-content-wrapper::before {
+      border-color: var(--ls-block-bullet-active-color);
+    }
+  }
 }
 
-.ls-block[haschild="true"] {
-  > div > .block-content-wrapper::before {
-    pointer-events: none;
-    content: "";
-    top: 12px;
-    bottom: 0;
-    left: -17px;
-    position: absolute;
-    border-left: var(--ls-block-bullet-threading-width) solid transparent;
-  }
-
-  > .heading > .block-content-wrapper::before {
-    top: calc(50% + 2px);
-  }
-
-  &:focus-within > div > .block-content-wrapper::before {
-    border-color: var(--ls-block-bullet-active-color);
-  }
-}
-
+/* Disable for doc mode */
 .doc-mode div.items-center::before,
 .doc-mode div.items-center::after,
 .doc-mode .ls-block::before,
