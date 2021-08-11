@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.0...v1.20.1) (2021-08-11)
+
+
+### Bug Fixes
+
+* block threading for headings ([3347856](https://github.com/pengx17/logseq-dev-theme/commit/33478562121e743282891659cfc5bc32f2443954))
+
 # [1.20.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.19.1...v1.20.0) (2021-08-10)
 
 

@@ -487,10 +487,16 @@ a:hover > .bullet-container .bullet {
 .bullet-container {
   height: 14px !important;
   width: 14px !important;
+  position: relative;
   transform: translateX(-1.5px);
 }
 
 /* Block bullet path should only show in a nested block */
+.ls-block {
+  /* Basic "curve" */
+  /* Fix for headings like h1, h2 etc */
+  /* Fix multi-line blocks with children */
+}
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
 }
@@ -505,11 +511,10 @@ a:hover > .bullet-container .bullet {
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
   content: "";
-  left: 0;
+  left: calc(var(--ls-block-bullet-threading-width) * -1);
   right: 6px;
-  top: -1px;
-  bottom: -1px;
-  transform: translate(calc(var(--ls-block-bullet-threading-width) * -1), calc(-50% + var(--ls-block-bullet-threading-width) * 0.5));
+  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+  bottom: 50%;
   /* shift left 1px for border */
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
@@ -525,8 +530,7 @@ a:hover > .bullet-container .bullet {
   top: -1rem;
   bottom: 0;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
-  left: 0;
-  transform: translate(calc(var(--ls-block-bullet-threading-width) * -1));
+  left: calc(var(--ls-block-bullet-threading-width) * -1);
   position: absolute;
 }
 .ls-block .block-children:focus-within > .ls-block:not(:focus-within)::before {
@@ -535,7 +539,9 @@ a:hover > .bullet-container .bullet {
 .ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
   border-color: transparent;
 }
-
+.ls-block > .items-baseline {
+  align-items: initial;
+}
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
@@ -545,13 +551,11 @@ a:hover > .bullet-container .bullet {
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
 }
-.ls-block[haschild=true] > .heading > .block-content-wrapper::before {
-  top: calc(50% + 2px);
-}
 .ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
   border-color: var(--ls-block-bullet-active-color);
 }
 
+/* Disable for doc mode */
 .doc-mode div.items-center::before,
 .doc-mode div.items-center::after,
 .doc-mode .ls-block::before,
@@ -1111,4 +1115,8 @@ html[data-theme=light] {
   --ls-selection-color: #fff;
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: rgba(255, 255, 255, 0.9);
+}
+
+:root {
+  --ls-block-bullet-threading-width: 2px;
 }
