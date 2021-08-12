@@ -20,7 +20,6 @@ html[data-theme="light"] {
   --ls-secondary-text-color: #161e2e;
 
   --ct-bold-color: #000;
-  --ct-bold-color-transparent: rgba(0, 0, 0, 0.2);
 
   --ls-link-text-color: var(--ct-primary-color);
   --ls-link-ref-text-color: var(--ct-primary-color);
@@ -30,7 +29,10 @@ html[data-theme="light"] {
   --ls-active-secondary-color: var(--ct-secondary-color);
   --ls-external-link-color: var(--ct-secondary-color);
 
-  --ct-bullet-closed-color: rgb(200, 200, 200);
+  --ls-guideline-color: var(--ls-tertiary-background-color);
+  --ls-block-bullet-color: var(--ls-tertiary-background-color);
+  --ls-bullet-closed-color: var(--ls-secondary-text-color);
+  --ls-block-bullet-border-color: var(--ls-quaternary-background-color);
   --ct-block-arrow-color: rgb(98, 98, 98);
 
   --ct-page-reference-color: var(--ls-active-primary-color);
@@ -41,9 +43,6 @@ html[data-theme="light"] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
 
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
-
-  --ct-kbd-bg-color: #fafbfc;
-  --ct-kbd-border-color: #d1d5da;
 
   --ls-selection-color: #fff;
 

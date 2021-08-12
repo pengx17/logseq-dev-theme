@@ -27,6 +27,7 @@
 .ls-block {
   .bullet {
     background-color: var(--ls-block-bullet-active-color);
+    box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
   }
 
   div.items-center {
@@ -37,6 +38,7 @@
   &:not(:focus-within) .bullet {
     background-color: var(--ls-block-bullet-color);
     transform: scale(1);
+    box-shadow: none;
   }
 
   /* Basic "curve" */

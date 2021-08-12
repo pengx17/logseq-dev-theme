@@ -1,5 +1,5 @@
 :root {
-  --ct-query-header-color: #fff;
+  --ct-query-header-color: var(--ls-primary-background-color);
   --ct-query-header-background: var(--ct-primary-color);
 }
 
@@ -25,18 +25,13 @@
 :not(.dsl-query) > .custom-query .custom-query-title {
   display: inline-block;
   opacity: 1;
-  padding: 5px 10px 2px 10px !important;
+  padding: 2px 10px !important;
   background: var(--ct-query-header-background);
   color: var(--ct-query-header-color);
   font-family: var(--ct-code-font-family);
   font-size: var(--ct-inline-code-font-size);
   font-style: var(--ct-inline-code-font-style) !important;
   border-radius: var(--ct-inline-code-border-radius);
-  text-shadow: 1px 1px 0px black, 1px 1px 1px rgb(136, 136, 136);
-}
-
-:not(.dsl-query):not(#today-queries) > .custom-query .custom-query-title {
-  margin-bottom: 1.5em;
 }
 
 :not(.dsl-query) > .custom-query .custom-query-title > .flex-row {

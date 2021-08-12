@@ -1,8 +1,7 @@
+@import "bullet_threading.scss";
+
 :root {
   --ct-bullet-size: 6px;
-  --ct-bullet-color: var(--ct-bold-color);
-  --ct-bullet-active-color: var(--ls-active-primary-color);
-
   --ct-block-max-width: calc(100% - 38px);
 }
 
@@ -48,16 +47,11 @@
 .bullet-container .bullet {
   width: var(--ct-bullet-size);
   height: var(--ct-bullet-size);
-  background-color: var(--ct-bullet-color);
   transform: scale(1.2);
 }
 
 a:hover > .bullet-container .bullet {
   opacity: 1;
-}
-
-.bullet-container.bullet-closed {
-  background-color: var(--ct-bullet-closed-color);
 }
 
 .block-control svg {
@@ -66,18 +60,6 @@ a:hover > .bullet-container .bullet {
 
 .block-control:hover svg {
   filter: drop-shadow(2px 4px 6px black);
-}
-
-.ls-block .bullet {
-  background-color: var(--ct-bullet-active-color);
-  box-shadow: 0 0 0 1px var(--ct-bullet-active-color);
-}
-
-.ls-block:not(:focus-within) .bullet {
-  background-color: var(--ct-bullet-color);
-  box-shadow: none;
-  opacity: 0.3;
-  transform: scale(1);
 }
 
 // hovering block indicator
