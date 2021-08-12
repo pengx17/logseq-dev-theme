@@ -30,6 +30,7 @@
 }
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
+  box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
 }
 .ls-block div.items-center {
   position: relative;
@@ -38,6 +39,7 @@
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
   transform: scale(1);
+  box-shadow: none;
 }
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;

@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.1...v1.20.2) (2021-08-12)
+
+
+### Bug Fixes
+
+* code cleanup ([49e9cbd](https://github.com/pengx17/logseq-dev-theme/commit/49e9cbde05c2d425c62b1e4237e65e50789c1b49))
+
 ## [1.20.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.0...v1.20.1) (2021-08-11)
 
 
