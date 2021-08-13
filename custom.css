@@ -761,7 +761,7 @@ progress::-webkit-progress-value {
   display: flex;
   flex-flow: column;
 }
-.tippy-tooltip-content > .tippy-wrapper.overflow-y-auto > div {
+.tippy-tooltip-content > .tippy-wrapper.overflow-y-auto > div:last-of-type {
   overflow: auto;
   height: -webkit-fill-available;
   padding: 1.5em 1em 1em;

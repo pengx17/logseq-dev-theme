@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.3...v1.20.4) (2021-08-13)
+
+
+### Bug Fixes
+
+* block-ref popover ([b6b9d5b](https://github.com/pengx17/logseq-dev-theme/commit/b6b9d5bd3093f3b3dbfc00e01d56eeef47b5595a))
+
 ## [1.20.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.2...v1.20.3) (2021-08-13)
 
 
