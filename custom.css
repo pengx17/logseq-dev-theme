@@ -653,6 +653,10 @@ samp {
   font-size: 0.8em;
 }
 
+pre {
+  white-space: pre-wrap;
+}
+
 /* inline code */
 :not(pre) > code {
   font-family: var(--ct-code-font-family);
@@ -756,20 +760,11 @@ progress::-webkit-progress-value {
   overflow: visible;
   display: flex;
   flex-flow: column;
-  max-height: calc(100vh - 20px);
 }
-
-.tippy-tooltip-content > .tippy-wrapper > .page-blocks-inner {
+.tippy-tooltip-content > .tippy-wrapper.overflow-y-auto > div {
   overflow: auto;
   height: -webkit-fill-available;
-  padding: 0.5em 1em 1em;
-  margin-top: 1.5em;
-  min-width: 450px;
-}
-
-.tippy-tooltip-content > .tippy-wrapper > .blocks-container {
-  margin-top: 1.5em;
-  padding: 0.5em 1em 1em;
+  padding: 1.5em 1em 1em;
   min-width: 450px;
 }
 
@@ -800,7 +795,6 @@ progress::-webkit-progress-value {
   font-style: var(--ct-inline-code-font-style) !important;
   border: 2px solid #000;
   border-radius: 4px;
-  text-shadow: 1px 1px 0px black, 1px 1px 1px #888888;
 }
 
 .tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) a {

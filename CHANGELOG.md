@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.2...v1.20.3) (2021-08-13)
+
+
+### Bug Fixes
+
+* popup not be able to scroll after 0.3.3 ([476a5e3](https://github.com/pengx17/logseq-dev-theme/commit/476a5e381f8274fa05fe882cf9948df8d9b04616))
+
 ## [1.20.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.1...v1.20.2) (2021-08-12)
 
 
