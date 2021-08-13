@@ -62,6 +62,10 @@ samp {
   font-size: 0.8em;
 }
 
+pre {
+  white-space: pre-wrap;
+}
+
 /* inline code */
 
 :not(pre) > code {

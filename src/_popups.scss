@@ -30,21 +30,13 @@
   overflow: visible;
   display: flex;
   flex-flow: column;
-  max-height: calc(100vh - 20px);
-}
 
-.tippy-tooltip-content > .tippy-wrapper > .page-blocks-inner {
-  overflow: auto;
-  height: -webkit-fill-available;
-  padding: 0.5em 1em 1em;
-  margin-top: 1.5em;
-  min-width: 450px;
-}
-
-.tippy-tooltip-content > .tippy-wrapper > .blocks-container {
-  margin-top: 1.5em;
-  padding: 0.5em 1em 1em;
-  min-width: 450px;
+  > div {
+    overflow: auto;
+    height: -webkit-fill-available;
+    padding: 1.5em 1em 1em;
+    min-width: 450px;
+  }
 }
 
 .tippy-popper .arrow-regular {
