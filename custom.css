@@ -499,6 +499,10 @@ a.title h1.title {
   transform: scale(1.2);
 }
 
+.bullet-container.bullet-closed .bullet {
+  background-color: var(--ls-primary-background-color);
+}
+
 a:hover > .bullet-container .bullet {
   opacity: 1;
 }

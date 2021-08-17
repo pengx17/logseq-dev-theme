@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.4...v1.20.5) (2021-08-17)
+
+
+### Bug Fixes
+
+* bullet closed color ([2fb24ef](https://github.com/pengx17/logseq-dev-theme/commit/2fb24ef038da208961d32b67fcf25135bea9b675))
+
 ## [1.20.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.3...v1.20.4) (2021-08-13)
 
 
