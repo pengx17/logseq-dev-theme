@@ -1,3 +1,10 @@
+## [1.20.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.5...v1.20.6) (2021-08-18)
+
+
+### Bug Fixes
+
+* heading position when not showing threading ([f9932de](https://github.com/pengx17/logseq-dev-theme/commit/f9932dea7c2c5a9b650c923b62fbd1b551c79011))
+
 ## [1.20.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.4...v1.20.5) (2021-08-17)
 
 

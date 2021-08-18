@@ -24,8 +24,8 @@
 
 /* Block bullet path should only show in a nested block */
 .ls-block {
-  /* Basic "curve" */
   /* Fix for headings like h1, h2 etc */
+  /* Basic "curve" */
   /* Fix multi-line blocks with children */
 }
 .ls-block .bullet {
@@ -36,10 +36,16 @@
   position: relative;
   height: 26px !important;
 }
+.ls-block > .items-baseline {
+  align-items: initial;
+}
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
   transform: scale(1);
   box-shadow: none;
+}
+.ls-block:not(:focus-within) > .items-baseline {
+  align-items: baseline;
 }
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
@@ -71,9 +77,6 @@
 }
 .ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
   border-color: transparent;
-}
-.ls-block > .items-baseline {
-  align-items: initial;
 }
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
