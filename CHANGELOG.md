@@ -1,3 +1,10 @@
+## [1.20.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.6...v1.20.7) (2021-08-23)
+
+
+### Bug Fixes
+
+* hovering block indicator position ([3827c95](https://github.com/pengx17/logseq-dev-theme/commit/3827c95cc423fd49726129543d50be75fc92a4aa))
+
 ## [1.20.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.5...v1.20.6) (2021-08-18)
 
 
