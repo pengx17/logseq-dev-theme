@@ -811,6 +811,10 @@ progress::-webkit-progress-value {
   color: var(--ct-query-header-color);
 }
 
+.tippy-popper .add-button {
+  display: none;
+}
+
 :root {
   --ct-query-header-color: var(--ls-primary-background-color);
   --ct-query-header-background: var(--ct-primary-color);

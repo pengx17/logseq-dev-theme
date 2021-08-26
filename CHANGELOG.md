@@ -1,3 +1,10 @@
+## [1.20.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.7...v1.20.8) (2021-08-26)
+
+
+### Bug Fixes
+
+* hide add button for page preview ([df2bbc5](https://github.com/pengx17/logseq-dev-theme/commit/df2bbc5f0a4c143c4850b0d7feee8c5ec58f8670))
+
 ## [1.20.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.6...v1.20.7) (2021-08-23)
 
 
