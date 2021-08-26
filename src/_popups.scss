@@ -70,3 +70,8 @@
 .tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) a {
   color: var(--ct-query-header-color);
 }
+
+// Hide add button for page preview
+.tippy-popper .add-button {
+  display: none;
+}
