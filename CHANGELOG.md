@@ -1,3 +1,10 @@
+## [1.20.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.8...v1.20.9) (2021-08-30)
+
+
+### Bug Fixes
+
+* revert turning inline into inline-block ([1c5e3ec](https://github.com/pengx17/logseq-dev-theme/commit/1c5e3ec5ea9dfaaf7416614d10a21c1e31b54661))
+
 ## [1.20.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.7...v1.20.8) (2021-08-26)
 
 
