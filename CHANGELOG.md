@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.9...v1.21.0) (2021-09-22)
+
+
+### Features
+
+* adapt youtube video size automatically ([30d2f4d](https://github.com/pengx17/logseq-dev-theme/commit/30d2f4d27bb815b9a266e61509faa109031c1b80))
+
 ## [1.20.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.8...v1.20.9) (2021-08-30)
 
 
