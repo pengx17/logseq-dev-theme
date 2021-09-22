@@ -40,3 +40,21 @@
 .cp__right-sidebar .embed-block {
   background: var(--ls-secondary-background-color);
 }
+
+@media (min-width: 800px) {
+  .cp__sidebar-main-content[style*="wide"] iframe[id*="youtube-player-"] {
+    height: 400px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .cp__sidebar-main-content[style*="wide"] iframe[id*="youtube-player-"] {
+    height: 500px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cp__sidebar-main-content[style*="wide"] iframe[id*="youtube-player-"] {
+    height: 600px !important;
+  }
+}
