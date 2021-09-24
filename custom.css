@@ -834,8 +834,8 @@ progress::-webkit-progress-value {
 
 /* query */
 .custom-query > div:first-child {
-  border: 2px solid var(--ls-secondary-background-color);
-  background-color: var(--ls-tertiary-background-color);
+  box-shadow: 0 0 0 2px var(--color-level-2);
+  background-color: var(--color-level-1);
   border-radius: 8px;
   padding: 1rem 1.5rem;
   position: relative;
@@ -843,10 +843,6 @@ progress::-webkit-progress-value {
 
 .embed .custom-query > div:first-child {
   background: var(--ls-tertiary-background-color);
-}
-
-:is(#today-queries > div > div, .dsl-query .custom-query > .flex) > div.initial {
-  margin-top: 12px;
 }
 
 .dsl-query .custom-query-title > .font-medium,
