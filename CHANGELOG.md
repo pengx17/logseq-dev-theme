@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.0...v1.21.1) (2021-09-24)
+
+
+### Bug Fixes
+
+* update for new custom query block style ([eab936d](https://github.com/pengx17/logseq-dev-theme/commit/eab936ddcc01cb3538f958c659e21e4568c9ccab))
+
 # [1.21.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.20.9...v1.21.0) (2021-09-22)
 
 
