@@ -1,3 +1,10 @@
+## [1.21.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.2...v1.21.3) (2021-09-26)
+
+
+### Bug Fixes
+
+* tooltip padding ([e7efd7f](https://github.com/pengx17/logseq-dev-theme/commit/e7efd7fbea6961c88fe6f262f5765b9d8b161dcd))
+
 ## [1.21.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.1...v1.21.2) (2021-09-24)
 
 
