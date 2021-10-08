@@ -1,3 +1,10 @@
+## [1.21.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.3...v1.21.4) (2021-10-08)
+
+
+### Bug Fixes
+
+* when left-sidebar is on, the user should still see right side controls ([71fc089](https://github.com/pengx17/logseq-dev-theme/commit/71fc0899d6da3c6301c22410debd5d61966b93ec))
+
 ## [1.21.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.2...v1.21.3) (2021-09-26)
 
 
