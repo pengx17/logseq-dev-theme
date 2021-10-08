@@ -11,6 +11,8 @@ html[data-theme="light"] {
   --ls-tertiary-background-color: #e9ecef;
   --ls-quaternary-background-color: #dee2e6;
 
+  --ls-border-color: var(--ls-tertiary-background-color);
+
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
 
   --color-level-4: #ced4da;
