@@ -893,8 +893,9 @@ progress::-webkit-progress-value {
   border-radius: var(--ct-marker-border-radius);
   border: 2px solid var(--ct-checkbox-color) !important;
   background-color: transparent !important;
-  height: calc(var(--ct-marker-size) - 1px);
-  width: calc(var(--ct-marker-size) - 1px);
+  height: calc(var(--ct-marker-size) - 4px);
+  width: calc(var(--ct-marker-size) - 4px);
+  margin-top: -3px !important;
 }
 
 :is(.doing, .now) .form-checkbox,

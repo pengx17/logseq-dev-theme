@@ -1,3 +1,10 @@
+## [1.21.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.5...v1.21.6) (2021-10-11)
+
+
+### Bug Fixes
+
+* revert checkbox size ([fef3704](https://github.com/pengx17/logseq-dev-theme/commit/fef370465913becf5e9843930cdcbda281671012))
+
 ## [1.21.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.4...v1.21.5) (2021-10-11)
 
 
