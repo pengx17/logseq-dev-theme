@@ -1,3 +1,10 @@
+## [1.21.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.4...v1.21.5) (2021-10-11)
+
+
+### Bug Fixes
+
+* marker styles ([48773f5](https://github.com/pengx17/logseq-dev-theme/commit/48773f5bd8286e5fe5de696eed8b13e2bc870d53))
+
 ## [1.21.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.3...v1.21.4) (2021-10-08)
 
 
