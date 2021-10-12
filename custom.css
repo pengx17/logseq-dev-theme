@@ -370,7 +370,6 @@ a.title h1.title {
   height: 14px !important;
   width: 14px !important;
   position: relative;
-  transform: translateX(-1.5px);
 }
 
 /* Block bullet path should only show in a nested block */
@@ -434,7 +433,7 @@ a.title h1.title {
   content: "";
   top: 12px;
   bottom: 0;
-  left: -17px;
+  left: -15px;
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
 }
@@ -959,7 +958,6 @@ a[priority]::before,
 a.priority::before {
   border: 1px solid #eee;
   border-radius: var(--ct-marker-border-radius);
-  padding-left: 1px;
   font-size: 12px;
   font-weight: 600;
   height: var(--ct-marker-size);

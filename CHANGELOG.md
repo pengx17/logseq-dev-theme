@@ -1,3 +1,10 @@
+## [1.21.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.6...v1.21.7) (2021-10-12)
+
+
+### Bug Fixes
+
+* adapt for Logseq 0.4.3 ([f434c51](https://github.com/pengx17/logseq-dev-theme/commit/f434c51ccb4ad0d3057f231f90096652fb96b26b))
+
 ## [1.21.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.5...v1.21.6) (2021-10-11)
 
 
