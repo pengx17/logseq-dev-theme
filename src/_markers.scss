@@ -76,7 +76,6 @@ a[priority]::before,
 a.priority::before {
   border: 1px solid #eee;
   border-radius: var(--ct-marker-border-radius);
-  padding-left: 1px;
   font-size: 12px;
   font-weight: 600;
   height: var(--ct-marker-size);

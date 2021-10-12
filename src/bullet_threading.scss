@@ -19,7 +19,6 @@
   height: 14px !important;
   width: 14px !important;
   position: relative;
-  transform: translateX(-1.5px);
 }
 
 /* Block bullet path should only show in a nested block */
@@ -94,7 +93,7 @@
       content: "";
       top: 12px;
       bottom: 0;
-      left: -17px;
+      left: -15px;
       position: absolute;
       border-left: var(--ls-block-bullet-threading-width) solid transparent;
     }
