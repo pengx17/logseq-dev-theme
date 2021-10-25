@@ -66,6 +66,12 @@ a:hover > .bullet-container .bullet {
   filter: drop-shadow(2px 4px 6px black);
 }
 
+.block-control .rotating-arrow {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--ls-primary-background-color);
+}
+
 // hovering block indicator
 .block-content-wrapper > div > .block-content {
   & > span > span > :first-child {
