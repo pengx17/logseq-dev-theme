@@ -1,3 +1,10 @@
+## [1.21.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.8...v1.21.9) (2021-10-25)
+
+
+### Bug Fixes
+
+* bullets collapse control should not be covered by thread ([d9d6395](https://github.com/pengx17/logseq-dev-theme/commit/d9d63958fca644ab4fd9a28c243537c499e6d046))
+
 ## [1.21.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.7...v1.21.8) (2021-10-25)
 
 
