@@ -1,3 +1,11 @@
+## [1.21.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.7...v1.21.8) (2021-10-25)
+
+
+### Bug Fixes
+
+* block ref preview header opacity ([e3e6894](https://github.com/pengx17/logseq-dev-theme/commit/e3e6894ff9eb2d73148d5d87f1681c459441c8ac))
+* left sidebar fonts ([ebfbf94](https://github.com/pengx17/logseq-dev-theme/commit/ebfbf94d75f1c27a9645c62375adcb61fdfc8627))
+
 ## [1.21.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.6...v1.21.7) (2021-10-12)
 
 

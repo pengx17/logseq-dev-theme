@@ -200,6 +200,11 @@ textarea {
   margin-top: 0.5em;
 }
 
+.left-sidebar-inner .nav-content-item {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
 :root {
   --ct-page-title-color: var(--ct-bold-color);
   --ct-page-title-font-size: 36px;
@@ -488,7 +493,6 @@ a.title h1.title {
 
 .open-block-ref-link {
   opacity: 1;
-  font-family: Asap;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -810,6 +814,7 @@ progress::-webkit-progress-value {
   left: -0.5em;
   top: -0.75em;
   z-index: 2;
+  opacity: 1;
   padding: 2px 1em 2px 1em !important;
   background: var(--ct-query-header-background);
   white-space: nowrap;
