@@ -524,6 +524,15 @@ a:hover > .bullet-container .bullet {
   display: inline-block;
   border-radius: 50%;
   background-color: var(--ls-primary-background-color);
+  width: 1rem;
+  height: 1rem;
+  margin-left: 2px;
+  margin-top: 2px;
+  box-shadow: 0 0 4px 2px var(--ls-primary-background-color);
+}
+
+.block-control .rotating-arrow > svg {
+  margin-left: 0 !important;
 }
 
 .block-content-wrapper > div > .block-content > span > span > :first-child {

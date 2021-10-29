@@ -1,3 +1,10 @@
+## [1.21.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.9...v1.21.10) (2021-10-29)
+
+
+### Bug Fixes
+
+* make block control a little bit nicer ([350885f](https://github.com/pengx17/logseq-dev-theme/commit/350885fb151a0d11c1697c44f790791966e222f1))
+
 ## [1.21.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.8...v1.21.9) (2021-10-25)
 
 
