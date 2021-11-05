@@ -76,3 +76,8 @@ body {
 textarea {
   line-height: var(--ct-line-height);
 }
+
+// Source Han Sans VF does not support italic
+i {
+  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
+}
