@@ -1,3 +1,10 @@
+## [1.21.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.10...v1.21.11) (2021-11-05)
+
+
+### Bug Fixes
+
+* italic fonts ([67105a3](https://github.com/pengx17/logseq-dev-theme/commit/67105a34855ca36b2ef5089ed26299c7dae3b8a3))
+
 ## [1.21.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.9...v1.21.10) (2021-10-29)
 
 

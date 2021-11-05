@@ -34,6 +34,10 @@ textarea {
   line-height: var(--ct-line-height);
 }
 
+i {
+  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
+}
+
 :root {
   --ct-background: var(--ls-primary-background-color);
   --ct-page-font-color: var(--ls-primary-text-color);
