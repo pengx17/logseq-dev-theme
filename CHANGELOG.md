@@ -1,3 +1,10 @@
+## [1.21.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.11...v1.21.12) (2021-11-10)
+
+
+### Bug Fixes
+
+* adjust priority marker positioning ([1b22af3](https://github.com/pengx17/logseq-dev-theme/commit/1b22af3c659ff2ee4951b4ba522313482cadccc2))
+
 ## [1.21.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.10...v1.21.11) (2021-11-05)
 
 
