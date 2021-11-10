@@ -1,7 +1,7 @@
 :root {
   --ct-marker-border-radius: 4px;
   --ct-task-done-text-decoration: none;
-  --ct-marker-size: 20px;
+  --ct-marker-size: 16px;
   --ct-checkbox-color: var(--ls-active-primary-color);
 }
 
@@ -11,9 +11,8 @@
   border-radius: var(--ct-marker-border-radius);
   border: 2px solid var(--ct-checkbox-color) !important;
   background-color: transparent !important;
-  height: calc(var(--ct-marker-size) - 4px);
-  width: calc(var(--ct-marker-size) - 4px);
-  margin-top: -3px !important;
+  height: var(--ct-marker-size);
+  width: var(--ct-marker-size);
 }
 
 :is(.doing, .now) .form-checkbox,
@@ -68,18 +67,17 @@ a.priority[href="#/page/A" i],
 [href="#/page/C" i] {
   display: inline-flex;
   opacity: 1 !important;
-  height: var(--ct-marker-size);
-  width: var(--ct-marker-size);
 }
 
 a[priority]::before,
 a.priority::before {
+  transform: translateY(-1px);
   border: 1px solid #eee;
   border-radius: var(--ct-marker-border-radius);
   font-size: 12px;
   font-weight: 600;
-  height: var(--ct-marker-size);
-  width: var(--ct-marker-size);
+  height: calc(var(--ct-marker-size) + 4px);
+  width: calc(var(--ct-marker-size) + 4px);
   line-height: 1.5;
   text-align: center;
   display: inline-flex;
