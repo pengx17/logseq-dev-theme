@@ -1,3 +1,10 @@
+## [1.21.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.12...v1.21.13) (2021-11-10)
+
+
+### Bug Fixes
+
+* bullet positioning ([fd8ad71](https://github.com/pengx17/logseq-dev-theme/commit/fd8ad718f98c29d42b1097c5ea8624beb792e122))
+
 ## [1.21.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.11...v1.21.12) (2021-11-10)
 
 
