@@ -661,6 +661,10 @@ strong {
   font-weight: 600;
 }
 
+.with-bg-color :is(b, strong) {
+  color: inherit;
+}
+
 /* External links */
 .external-link,
 .external-link:hover {
@@ -729,7 +733,8 @@ a.tag:hover {
 }
 
 /* Page properties */
-.page-properties, .block-properties {
+.page-properties,
+.block-properties {
   margin: 0 0 0.5em -8px;
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
@@ -738,7 +743,8 @@ a.tag:hover {
   max-width: var(--ct-block-max-width);
 }
 
-.sidebar-item-list .page-properties, .sidebar-item-list .block-properties {
+.sidebar-item-list .page-properties,
+.sidebar-item-list .block-properties {
   background: var(--ls-tertiary-background-color);
 }
 

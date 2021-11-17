@@ -1,3 +1,10 @@
+## [1.21.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.14...v1.21.15) (2021-11-17)
+
+
+### Bug Fixes
+
+* strong elements should inherit their color ([a7a3778](https://github.com/pengx17/logseq-dev-theme/commit/a7a3778f52d5ac6d2428744b858b09fa617621cd))
+
 ## [1.21.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.13...v1.21.14) (2021-11-17)
 
 
