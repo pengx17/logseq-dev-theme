@@ -1,3 +1,10 @@
+## [1.21.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.13...v1.21.14) (2021-11-17)
+
+
+### Bug Fixes
+
+* scrolling issue in 0.4.6 ([ca0934d](https://github.com/pengx17/logseq-dev-theme/commit/ca0934d455c8673c29fd3652a28615e67b42e432))
+
 ## [1.21.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.12...v1.21.13) (2021-11-10)
 
 

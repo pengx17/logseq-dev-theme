@@ -97,6 +97,10 @@ i {
   box-shadow: 0 0 0 2px var(--color-level-2);
 }
 
+.scrollbar-spacing {
+  height: 100%;
+}
+
 :root {
   --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
   --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
