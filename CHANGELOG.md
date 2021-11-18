@@ -1,3 +1,10 @@
+## [1.21.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.15...v1.21.16) (2021-11-18)
+
+
+### Bug Fixes
+
+* threading styles regression for 0.4.6 ([a997d7e](https://github.com/pengx17/logseq-dev-theme/commit/a997d7e66069c2f2f710d64990e73928c0bce1af))
+
 ## [1.21.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.14...v1.21.15) (2021-11-17)
 
 
