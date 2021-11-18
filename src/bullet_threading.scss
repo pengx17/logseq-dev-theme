@@ -19,6 +19,7 @@
   height: 14px !important;
   width: 14px !important;
   position: relative;
+  transform: translate(1px, -1px);
 }
 
 /* Block bullet path should only show in a nested block */
@@ -34,10 +35,19 @@
     height: 26px !important;
   }
 
+  /* Fix for headings like h1, h2 etc */
+  > .items-baseline {
+    align-items: initial;
+  }
+
   &:not(:focus-within) .bullet {
     background-color: var(--ls-block-bullet-color);
     transform: scale(1);
     box-shadow: none;
+  }
+
+  &:not(:focus-within) > .items-baseline {
+    align-items: baseline;
   }
 
   /* Basic "curve" */
