@@ -782,6 +782,22 @@ progress::-webkit-progress-value {
   background: var(--ls-tertiary-background-color) !important;
 }
 
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber,
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.CodeMirror {
+  background-color: var(--color-level-1);
+  box-shadow: 0 0 0 2px var(--color-level-2);
+}
+
 /* Popups */
 .tippy-tooltip {
   padding: 0.5em 0;

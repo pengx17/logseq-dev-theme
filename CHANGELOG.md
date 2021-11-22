@@ -1,3 +1,10 @@
+## [1.21.17](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.16...v1.21.17) (2021-11-22)
+
+
+### Bug Fixes
+
+* smaller code mirror font-size ([ce5925e](https://github.com/pengx17/logseq-dev-theme/commit/ce5925e01314f205acac1e6ba3bf2073cc4526be))
+
 ## [1.21.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.15...v1.21.16) (2021-11-18)
 
 
