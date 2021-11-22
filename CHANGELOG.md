@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.17...v1.22.0) (2021-11-22)
+
+
+### Features
+
+* sticky journal titles ([82a7343](https://github.com/pengx17/logseq-dev-theme/commit/82a73430955e218e4a35e5dc530e9414682bca46))
+
 ## [1.21.17](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.16...v1.21.17) (2021-11-22)
 
 
