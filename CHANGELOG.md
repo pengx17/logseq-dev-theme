@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.0...v1.22.1) (2021-12-09)
+
+
+### Bug Fixes
+
+* block-ref issue in logseq ([6d9b49f](https://github.com/pengx17/logseq-dev-theme/commit/6d9b49fb254501ac320a00316ea685d416d1230e))
+
 # [1.22.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.21.17...v1.22.0) (2021-11-22)
 
 
