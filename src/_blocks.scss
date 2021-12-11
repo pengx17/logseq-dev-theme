@@ -7,6 +7,7 @@
 
 /* block reference */
 .block-ref {
+  display: inline;
   font-size: inherit;
   padding: 1px 5px 0;
   border-radius: 2px;
@@ -33,11 +34,12 @@
   padding: 0 0.2em;
 }
 
-.block-ref .flex {
-  display: inline-flex;
+.block-ref .flex.flex-row.justify-between {
+  display: inline;
 }
 
 .block-ref .block-ref {
+  display: inline;
   padding: 0 0 0 0.2em;
 }
 
