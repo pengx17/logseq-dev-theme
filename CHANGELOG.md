@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.1...v1.22.2) (2021-12-11)
+
+
+### Bug Fixes
+
+* heading & block ref changes ([abc31e3](https://github.com/pengx17/logseq-dev-theme/commit/abc31e36b21855d74cd7be5721f841d091b817cc))
+
 ## [1.22.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.0...v1.22.1) (2021-12-09)
 
 
