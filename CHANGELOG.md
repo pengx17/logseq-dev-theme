@@ -1,3 +1,10 @@
+## [1.22.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.3...v1.22.4) (2021-12-20)
+
+
+### Bug Fixes
+
+* calc & lang indicator styles ([6d78f4b](https://github.com/pengx17/logseq-dev-theme/commit/6d78f4b799419c0ff1de6079769e646b170f0085))
+
 ## [1.22.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.2...v1.22.3) (2021-12-20)
 
 
