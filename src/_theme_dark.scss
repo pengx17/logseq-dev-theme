@@ -14,7 +14,7 @@ html[data-theme="dark"] {
   --ls-secondary-background-color: #313942;
   --ls-tertiary-background-color: #38434c;
   --ls-quaternary-background-color: #404b55;
-  
+
   --ls-border-color: var(--ls-tertiary-background-color);
 
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
@@ -23,15 +23,15 @@ html[data-theme="dark"] {
   --ls-secondary-text-color: rgb(200, 200, 200);
 
   --ct-bold-color: #fff;
-  
+
   --ls-link-text-color: var(--ct-primary-color);
   --ls-link-ref-text-color: var(--ct-primary-color);
   --ls-link-ref-text-hover-color: var(--ct-secondary-color);
-  
+
   --ls-active-primary-color: var(--ct-primary-color);
   --ls-active-secondary-color: var(--ct-secondary-color);
   --ls-external-link-color: var(--ct-secondary-color);
-  
+
   --ls-guideline-color: var(--ls-tertiary-background-color);
   --ls-block-bullet-color: var(--ls-tertiary-background-color);
   --ls-bullet-closed-color: var(--ls-secondary-text-color);
@@ -53,6 +53,7 @@ html[data-theme="dark"] {
   --ct-header-bg-color: #272c35ee;
 
   --ls-selection-color: #000;
+  --ls-block-highlight-color: var(--color-level-1);
 }
 
 .dark-theme .image-resize {
