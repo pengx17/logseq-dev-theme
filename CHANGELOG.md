@@ -1,3 +1,10 @@
+## [1.22.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.2...v1.22.3) (2021-12-20)
+
+
+### Bug Fixes
+
+* update dark mode selection color ([0d9b59b](https://github.com/pengx17/logseq-dev-theme/commit/0d9b59b866427205f7aa07ece1ff32329ed4e207))
+
 ## [1.22.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.1...v1.22.2) (2021-12-11)
 
 
