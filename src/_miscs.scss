@@ -162,3 +162,18 @@ progress::-webkit-progress-value {
   background-color: var(--color-level-1);
   box-shadow: 0 0 0 2px var(--color-level-2);
 }
+
+.extensions__code-calc {
+  top: 8px;
+}
+
+.extensions__code-calc-output-line {
+  height: 16px;
+  font-size: 12px;
+}
+
+.extensions__code-lang {
+  margin-left: 4px;
+  height: 28px;
+  border-radius: 4px;
+}
