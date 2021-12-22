@@ -110,7 +110,6 @@ i {
   padding-top: var(--ct-header-height);
   position: absolute;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .theme-inner {

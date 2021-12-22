@@ -1,3 +1,10 @@
+## [1.22.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.4...v1.22.5) (2021-12-22)
+
+
+### Bug Fixes
+
+* [#24](https://github.com/pengx17/logseq-dev-theme/issues/24) not be able to scroll horizontally ([b093433](https://github.com/pengx17/logseq-dev-theme/commit/b0934330168cfc1d7783d6a52b355ec9107c9920))
+
 ## [1.22.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.3...v1.22.4) (2021-12-20)
 
 
