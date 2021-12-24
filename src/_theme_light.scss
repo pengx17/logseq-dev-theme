@@ -6,6 +6,13 @@ html[data-theme="light"] {
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
 
+  --color-level-1: #f1f5f9;
+  --color-level-2: #e2e8f0;
+  --color-level-3: #cbd5e1;
+  --color-level-4: #b9c1ca;
+  --color-level-5: #aeb5bd;
+  --color-level-6: #969ca5;
+
   --ls-primary-background-color: #ffffff;
   --ls-secondary-background-color: #f8f9fa;
   --ls-tertiary-background-color: #e9ecef;
@@ -14,9 +21,6 @@ html[data-theme="light"] {
   --ls-border-color: var(--ls-tertiary-background-color);
 
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-
-  --color-level-4: #ced4da;
-  --color-level-5: #adb5bd;
 
   --ls-primary-text-color: rgb(40, 40, 40);
   --ls-secondary-text-color: #161e2e;

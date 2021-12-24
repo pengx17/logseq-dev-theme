@@ -158,9 +158,22 @@ progress::-webkit-progress-value {
   line-height: 16px;
 }
 
+.cm-s-solarized div.CodeMirror-selected {
+  background: var(--ct-primary-color);
+  color: var(--ls-selection-color);
+}
+
 .CodeMirror {
   background-color: var(--color-level-1);
   box-shadow: 0 0 0 2px var(--color-level-2);
+}
+
+.cm-s-solarized div.CodeMirror-selected {
+  background: var(--color-level-4) !important;
+}
+
+.extensions__code > .CodeMirror {
+  padding-top: 0;
 }
 
 .extensions__code-calc {
