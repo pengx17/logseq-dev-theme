@@ -1,3 +1,10 @@
+## [1.22.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.5...v1.22.6) (2021-12-24)
+
+
+### Bug Fixes
+
+* update colors ([291a4ac](https://github.com/pengx17/logseq-dev-theme/commit/291a4ac9904d282c3abc65758e971b150bbd622f))
+
 ## [1.22.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.4...v1.22.5) (2021-12-22)
 
 
