@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.0...v1.23.1) (2021-12-26)
+
+
+### Bug Fixes
+
+* block toggle rounded border ([60b3783](https://github.com/pengx17/logseq-dev-theme/commit/60b3783971d64437fe15baf6e7165e40a337bae4))
+
 # [1.23.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.7...v1.23.0) (2021-12-26)
 
 
