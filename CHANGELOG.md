@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.7...v1.23.0) (2021-12-26)
+
+
+### Features
+
+* update block-ref style ([6c177a3](https://github.com/pengx17/logseq-dev-theme/commit/6c177a3c36df5302200b2be8ff7d97aa5cac67d0))
+
 ## [1.22.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.6...v1.22.7) (2021-12-26)
 
 
