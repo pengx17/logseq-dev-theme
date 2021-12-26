@@ -396,6 +396,7 @@ a.title h1.title {
 }
 
 .block-children {
+  border-left-color: var(--ls-guideline-color);
   border-left-width: var(--ls-block-bullet-threading-width);
 }
 
@@ -404,7 +405,6 @@ a.title h1.title {
 }
 
 .block-children-left-border {
-  border-radius: 2px;
   z-index: 10;
   position: absolute;
   height: 100%;

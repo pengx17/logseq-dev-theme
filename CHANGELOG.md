@@ -1,3 +1,10 @@
+## [1.22.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.6...v1.22.7) (2021-12-26)
+
+
+### Bug Fixes
+
+* adapt for new block toggle styles ([1427d05](https://github.com/pengx17/logseq-dev-theme/commit/1427d05ad957b98cdec89325ee125a7d99c6657a))
+
 ## [1.22.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.22.5...v1.22.6) (2021-12-24)
 
 
