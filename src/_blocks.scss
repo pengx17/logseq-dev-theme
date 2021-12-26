@@ -9,20 +9,8 @@
 .block-ref {
   display: inline;
   font-size: inherit;
-  padding: 1px 5px 0;
-  border-radius: 2px;
-  background: var(--ct-block-reference-background);
-}
-
-.block-ref:hover {
-  background: var(--ct-block-reference-background-hover);
-}
-
-.block-ref:before {
-  content: "#";
-  color: var(--ls-active-primary-color);
-  font-size: 0.8em;
-  padding: 0 4px 0 0;
+  border-bottom-color: var(--ct-primary-color);
+  border-bottom-style: dashed;
 }
 
 .block-ref .block-body {
@@ -31,7 +19,6 @@
 
 .block-ref div {
   display: inline;
-  padding: 0 0.2em;
 }
 
 .block-ref .flex.flex-row.justify-between {
