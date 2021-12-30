@@ -10,17 +10,17 @@ html[data-theme="dark"] {
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
 
-  --color-level-1: #272c35;
-  --color-level-2: #313942;
-  --color-level-3: #38434c;
-  --color-level-4: #404b55;
-  --color-level-5: #525f6b;
-  --color-level-6: #606e7a;
+  --color-level-1: #313942;
+  --color-level-2: #38434c;
+  --color-level-3: #404b55;
+  --color-level-4: #525f6b;
+  --color-level-5: #606e7a;
+  --color-level-6: #697885;
 
-  --ls-primary-background-color: var(--color-level-1);
-  --ls-secondary-background-color: var(--color-level-2);
-  --ls-tertiary-background-color: var(--color-level-3);
-  --ls-quaternary-background-color: var(--color-level-4);
+  --ls-primary-background-color: #272c35;
+  --ls-secondary-background-color: var(--color-level-1);
+  --ls-tertiary-background-color: var(--color-level-2);
+  --ls-quaternary-background-color: var(--color-level-3);
 
   --ls-border-color: var(--ls-tertiary-background-color);
 
