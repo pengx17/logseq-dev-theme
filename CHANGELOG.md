@@ -1,3 +1,10 @@
+## [1.23.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.2...v1.23.3) (2021-12-30)
+
+
+### Bug Fixes
+
+* incorrect color theme ([91f8b37](https://github.com/pengx17/logseq-dev-theme/commit/91f8b37a0ac0be9594627fb0780b2aaf2f99eb88))
+
 ## [1.23.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.1...v1.23.2) (2021-12-30)
 
 
