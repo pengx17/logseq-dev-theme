@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.1...v1.23.2) (2021-12-30)
+
+
+### Bug Fixes
+
+* prepare for standalone plugin ([ae0a327](https://github.com/pengx17/logseq-dev-theme/commit/ae0a327584e2470b4aaaae26fb3eda37530cfe65))
+
 ## [1.23.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.0...v1.23.1) (2021-12-26)
 
 
