@@ -860,7 +860,7 @@ progress::-webkit-progress-value {
 
 .extensions__code-lang {
   margin-left: 4px;
-  height: 28px;
+  height: 26px;
   border-radius: 4px;
 }
 
@@ -1164,7 +1164,7 @@ html[data-theme=dark] {
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #272c35ee;
   --ls-selection-color: #000;
-  --ls-block-highlight-color: var(--color-level-1);
+  --ls-block-highlight-color: #32445a;
 }
 
 .dark-theme .image-resize {
