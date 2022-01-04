@@ -1,3 +1,10 @@
+## [1.23.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.5...v1.23.6) (2022-01-04)
+
+
+### Bug Fixes
+
+* lower block toggle bar ([5245dbe](https://github.com/pengx17/logseq-dev-theme/commit/5245dbe431d0f96f536c3730ac04c5bd4bf0ba72))
+
 ## [1.23.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.4...v1.23.5) (2022-01-04)
 
 

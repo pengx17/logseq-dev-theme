@@ -17,7 +17,7 @@
 }
 
 .block-children-left-border {
-  z-index: 10;
+  z-index: 1;
   position: absolute;
   height: 100%;
   width: 4px;
