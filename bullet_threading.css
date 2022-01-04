@@ -9,7 +9,7 @@
 
 .block-children {
   border-left-color: var(--ls-guideline-color);
-  border-left-width: var(--ls-block-bullet-threading-width);
+  border-left-width: var(--ls-block-bullet-threading-width) !important;
 }
 
 .block-children-container {
