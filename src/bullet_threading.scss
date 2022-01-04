@@ -9,7 +9,8 @@
 
 .block-children {
   border-left-color: var(--ls-guideline-color);
-  border-left-width: var(--ls-block-bullet-threading-width);
+  // Must override this to make it compatible with other themes
+  border-left-width: var(--ls-block-bullet-threading-width) !important;
 }
 
 .block-children-container {
