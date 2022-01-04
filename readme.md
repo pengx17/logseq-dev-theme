@@ -8,7 +8,15 @@ A theme inspired by Dev.to & Figma.
 
 https://knowledge-garden.vercel.app/
 
+
 ## Usage
+
+### Marketplace
+This theme and bullet threading are available in the Marketplace.
+
+![](./marketplace.png)
+
+### Using custom.css
 
 The easiest way to adopt this theme is to use jsDelivr CDN by adding the following line to your `custom.css`. You can also change the `@main` part to use the latest version.
 
