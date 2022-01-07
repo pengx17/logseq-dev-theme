@@ -1,3 +1,10 @@
+## [1.23.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.6...v1.23.7) (2022-01-07)
+
+
+### Bug Fixes
+
+* remove the margin of code ([d388875](https://github.com/pengx17/logseq-dev-theme/commit/d38887510c87834ac77e64ed5ad7b5bed513c8d5))
+
 ## [1.23.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.5...v1.23.6) (2022-01-04)
 
 
