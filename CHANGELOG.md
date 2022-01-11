@@ -1,3 +1,10 @@
+## [1.23.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.8...v1.23.9) (2022-01-11)
+
+
+### Bug Fixes
+
+* for nightly release ([d35209d](https://github.com/pengx17/logseq-dev-theme/commit/d35209d8a7fdfb1d31d66f521d4b2da07e2bbaae))
+
 ## [1.23.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.7...v1.23.8) (2022-01-11)
 
 
