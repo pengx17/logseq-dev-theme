@@ -13,7 +13,7 @@
 }
 
 #main-content-container {
-  margin-top: var(--ct-header-height) !important;
+  padding-top: var(--ct-header-height);
 }
 
 .page {
@@ -110,7 +110,7 @@
 
 #journals > div > div > div > div.flex.flex-col > div.content {
   position: sticky;
-  top: 50px;
+  top: 40px;
   z-index: 1;
 
   .journal-title > h1 {
