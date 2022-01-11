@@ -128,7 +128,7 @@ i {
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-  padding: 16px 32px;
+  padding: 32px;
 }
 
 /* Right side bar */
