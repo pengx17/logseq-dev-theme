@@ -1,3 +1,10 @@
+## [1.23.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.10...v1.23.11) (2022-01-11)
+
+
+### Bug Fixes
+
+* left sidebar styles ([bcf387e](https://github.com/pengx17/logseq-dev-theme/commit/bcf387ec62a7bb0491d6d940d03dbf118583b38b))
+
 ## [1.23.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.9...v1.23.10) (2022-01-11)
 
 
