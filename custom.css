@@ -107,7 +107,6 @@ i {
 }
 
 #main-container {
-  padding-top: var(--ct-header-height);
   position: absolute;
   width: 100%;
 }
