@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+.cp__sidebar-main-content:not([data-is-global-graph-pages="true"]) > div {
   padding: 32px;
 }
 
@@ -103,6 +103,32 @@
   margin-top: 0.5em;
 }
 
+#left-sidebar {
+  height: 100%;
+  padding-top: var(--ct-header-height);
+}
+
+.left-sidebar-inner {
+  height: 100%;
+}
+
+.left-sidebar-inner > .wrap {
+  margin-top: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: calc(100% - var(--ct-header-height));
+}
+
+.left-sidebar-inner a.item > span {
+  transform: translateY(2px);
+  margin-top: 0;
+}
+
+.left-sidebar-inner .new-page {
+  position: absolute;
+  bottom: 0;
+}
+
 .left-sidebar-inner .nav-content-item {
   font-size: 0.875rem;
   font-weight: 500;
@@ -116,6 +142,5 @@
   .journal-title > h1 {
     backdrop-filter: blur(5px);
     border-radius: 4px;
-  }  
+  }
 }
-

@@ -85,11 +85,7 @@ a.title h1.title {
 }
 
 #repo-name {
-  /* Show the last part of the repo instead */
-  direction: rtl;
-  text-align: left;
-  max-width: 120px;
-  line-height: 1.5;
+  max-width: 150px;
 }
 
 .cp__right-sidebar-settings a {
