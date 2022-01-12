@@ -1,3 +1,10 @@
+## [1.23.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.11...v1.23.12) (2022-01-12)
+
+
+### Bug Fixes
+
+* enlarge page content padding ([936f9b6](https://github.com/pengx17/logseq-dev-theme/commit/936f9b619a3bde4353b443f09a88cf07703905c8))
+
 ## [1.23.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.10...v1.23.11) (2022-01-11)
 
 
