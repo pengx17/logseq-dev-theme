@@ -112,6 +112,11 @@
   border-color: var(--ls-block-bullet-active-color);
 }
 
+@media (max-width: 640px) {
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+    left: -11px;
+  }
+}
 /* Disable for doc mode */
 .doc-mode div.items-center::before,
 .doc-mode div.items-center::after,

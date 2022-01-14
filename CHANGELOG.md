@@ -1,3 +1,10 @@
+## [1.23.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.12...v1.23.13) (2022-01-14)
+
+
+### Bug Fixes
+
+* bullet offset ([6c2f83c](https://github.com/pengx17/logseq-dev-theme/commit/6c2f83c112b324748ab7626cf488955ffe3cae7b))
+
 ## [1.23.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.11...v1.23.12) (2022-01-12)
 
 
