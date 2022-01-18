@@ -1,3 +1,10 @@
+## [1.23.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.13...v1.23.14) (2022-01-18)
+
+
+### Bug Fixes
+
+* h2 blink issue ([f098307](https://github.com/pengx17/logseq-dev-theme/commit/f09830753ba347953b2a727a2931a435eeefe07f))
+
 ## [1.23.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.12...v1.23.13) (2022-01-14)
 
 
