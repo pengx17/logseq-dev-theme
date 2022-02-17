@@ -133,14 +133,3 @@
   font-size: 0.875rem;
   font-weight: 500;
 }
-
-#journals > div > div > div > div.flex.flex-col > div.content {
-  position: sticky;
-  top: 40px;
-  z-index: 1;
-
-  .journal-title > h1 {
-    backdrop-filter: blur(5px);
-    border-radius: 4px;
-  }
-}
