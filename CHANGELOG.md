@@ -1,3 +1,10 @@
+## [1.23.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.15...v1.23.16) (2022-02-17)
+
+
+### Bug Fixes
+
+* remove sticky journal title ([48c6727](https://github.com/pengx17/logseq-dev-theme/commit/48c6727d52c099a5c1bdcaa02301d9e12b67097b))
+
 ## [1.23.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.23.14...v1.23.15) (2022-02-17)
 
 
