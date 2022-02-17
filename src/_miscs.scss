@@ -102,6 +102,12 @@ a.tag:hover {
   border-radius: 4px;
 }
 
+/* Makes texts in bg always readable */
+.with-bg-color * {
+  color: white !important;
+  border-color: white !important;
+}
+
 /* Page properties */
 .page-properties,
 .block-properties {
