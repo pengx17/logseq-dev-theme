@@ -597,6 +597,11 @@ a:hover > .bullet-container .bullet {
   margin-left: 0 !important;
 }
 
+.ls-block div.items-center {
+  position: relative;
+  height: 26px !important;
+}
+
 .block-content-wrapper > div > .block-content > span > span > :first-child {
   position: relative;
 }
