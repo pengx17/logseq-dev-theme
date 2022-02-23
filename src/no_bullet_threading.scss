@@ -3,7 +3,6 @@
 @import "root.scss";
 @import "views.scss";
 @import "headings.scss";
-@import "bullet_threading.scss";
 @import "blocks.scss";
 @import "embed.scss";
 @import "miscs.scss";
@@ -13,7 +12,3 @@
 @import "graph.scss";
 @import "theme_dark.scss";
 @import "theme_light.scss";
-
-:root {
-  --ls-block-bullet-threading-width: 2px;
-}

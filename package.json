@@ -7,13 +7,12 @@
     "themes": [
       {
         "name": "Dev theme",
-        "url": "./custom.css",
-        "description": "A custom theme for dev"
+        "url": "./custom.css"
       },
       {
-        "name": "Dev theme - bullet threading only",
-        "url": "./bullet_threading.css",
-        "description": "Bullet threading (already included in Dev Theme)"
+        "name": "Dev theme - WITHOUT bullet threading",
+        "url": "./no_bullet_threading.css",
+        "description": "Dev theme without bullet threading"
       }
     ],
     "id": "pengx17_dev_theme",
@@ -22,7 +21,8 @@
   "scripts": {
     "build:main": "yarn sass src/main.scss custom.css --no-source-map",
     "build:bt": "yarn sass src/bullet_threading.scss bullet_threading.css --no-source-map",
-    "build": "yarn build:main && yarn build:bt"
+    "build:no-bt": "yarn sass src/no_bullet_threading.scss no_bullet_threading.css --no-source-map",
+    "build": "yarn build:main && yarn build:bt && yarn build:no-bt"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
