@@ -47,10 +47,6 @@ To change the color and width, set the following variables in `custom.css`:
 
 If your theme defines border colors for the `children-block`, the bullet threading css may not work as expected.
 
-#### Why not a standalone plugin?
-
-To make it more accessible & portable for both Web and desktop.
-
 ## Demo (might be outdated)
 
 ![demo](./demo.png)
