@@ -6,8 +6,7 @@ A theme inspired by Dev.to & Figma.
 
 ## Working Demo
 
-https://knowledge-garden.vercel.app/
-
+https://pengx17.github.io/knowledge-garden/
 
 ## Usage
 
