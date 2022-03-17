@@ -177,8 +177,9 @@ progress::-webkit-progress-value {
   background: var(--color-level-4) !important;
 }
 
-.extensions__code > .CodeMirror {
-  padding-top: 0;
+
+.extensions__code {
+  margin-top: 8px;
 }
 
 .extensions__code-calc {
@@ -194,4 +195,8 @@ progress::-webkit-progress-value {
   margin-left: 4px;
   height: 26px;
   border-radius: 4px;
+}
+
+.extensions__code-lang + div {
+  margin-top: 0 !important;
 }
