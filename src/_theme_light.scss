@@ -1,5 +1,7 @@
 .white-theme,
-html[data-theme="light"] {
+.light-theme,
+html[data-theme="light"],
+html[data-theme="white"] {
   --ct-primary-color: #106ba3;
   --ct-secondary-color: #004174;
   --ct-warning-color: #ff7262;
