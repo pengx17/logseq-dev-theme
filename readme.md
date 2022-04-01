@@ -4,9 +4,16 @@ A theme inspired by Dev.to & Figma.
 
 <img src="./logo.png" width="100" />
 
+This theme is actively maintained and is used in daily basis by the author. It should have best UX on Mac OS.
+
+Features:
+- providing bullet threading for editing blocks (also available as [a standalone plugin](https://github.com/pengx17/logseq-plugin-bullet-threading))
+- elegant font choices
+- delightful colors for markers
+
 ## Working Demo
 
-https://pengx17.github.io/knowledge-garden/
+Check out my published knowledge garden at https://pengx17.github.io/knowledge-garden/. Though since the graph is readonly, you cannot test bullet threading feature with it.
 
 ## Usage
 
@@ -42,7 +49,11 @@ To change the color and width, set the following variables in `custom.css`:
 }
 ```
 
-#### Caveats
+## Customization
+
+This theme does not provide official customization options. However, you can still change most of the colors and fonts. Please take a look [this issue for guidance](https://github.com/pengx17/logseq-dev-theme/issues/46).
+
+## Caveats
 
 If your theme defines border colors for the `children-block`, the bullet threading css may not work as expected.
 
@@ -53,7 +64,9 @@ If your theme defines border colors for the `children-block`, the bullet threadi
 https://user-images.githubusercontent.com/584378/128587194-bd775264-b3ba-4303-8595-060953fe8030.mp4
 
 
-### [Changelog](./CHANGELOG.md)
+## Changelong
+
+You may refer to [Changelog](./CHANGELOG.md), but it might not be well organized.
 
 ## Credits
 
