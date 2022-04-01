@@ -1,3 +1,10 @@
+## [1.24.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.24.2...v1.24.3) (2022-04-01)
+
+
+### Bug Fixes
+
+* threading in the first block of the embedded ([986e791](https://github.com/pengx17/logseq-dev-theme/commit/986e7913b1822aaaf9f3f44c7389758fd6963ee3))
+
 ## [1.24.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.24.1...v1.24.2) (2022-03-28)
 
 

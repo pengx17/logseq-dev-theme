@@ -1,6 +1,9 @@
 :root {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
+  --ls-block-bullet-threading-width: var(
+    --ls-block-bullet-threading-width-overwrite,
+    1px
+  );
 }
 
 .block-control {
@@ -110,6 +113,10 @@
 }
 .ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
   border-color: var(--ls-block-bullet-active-color);
+}
+
+:is(.embed-block > div, .embed-page) > div > div > div > div.ls-block > div > div.items-center::before {
+  border-color: transparent !important;
 }
 
 @media (max-width: 640px) {
