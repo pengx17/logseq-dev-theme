@@ -1,6 +1,9 @@
 :root {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
+  --ls-block-bullet-threading-width: var(
+    --ls-block-bullet-threading-width-overwrite,
+    1px
+  );
 }
 
 .block-control {
@@ -127,9 +130,20 @@
   }
 }
 
+// A dirty fix for removing threading for the root blocks in embedded
+:is(.embed-block > div, .embed-page)
+  > div
+  > div
+  > div
+  > div.ls-block
+  > div
+  > div.items-center::before {
+  border-color: transparent !important;
+}
+
 // Fix https://github.com/pengx17/logseq-plugin-bullet-threading/issues/1
 @media (max-width: 640px) {
-  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+  .ls-block[haschild="true"] > div > .block-content-wrapper::before {
     left: -11px;
   }
 }
