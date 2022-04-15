@@ -247,7 +247,7 @@ i {
   --ct-heading-font-size: 25px;
   --ct-heading-font-weight: 700;
   --ct-heading-font-style: normal;
-  --ct-header-height: 42px;
+  --ct-header-height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
   --ct-topbar-backdrop: blur(20px);
 }
 
@@ -274,11 +274,6 @@ a.title h1.title {
   font-style: var(--ct-heading-font-style);
   color: var(--ct-heading-color);
   text-shadow: var(--ct-heading-text-shadow, none);
-}
-
-.cp__header,
-.cp__right-sidebar-topbar {
-  height: var(--ct-header-height);
 }
 
 .cp__header::after,
@@ -541,6 +536,14 @@ a.title h1.title {
   font-size: inherit;
   border-bottom-color: var(--ct-primary-color);
   border-bottom-style: dashed;
+}
+
+.block-body {
+  width: 100%;
+}
+
+.block-body .raw_html {
+  max-width: 100%;
 }
 
 .block-ref .block-body {

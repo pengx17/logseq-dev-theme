@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.24.3...v1.25.0) (2022-04-15)
+
+
+### Features
+
+* adapt mobile styles ([440961c](https://github.com/pengx17/logseq-dev-theme/commit/440961cc568dc06513d383515784f58cf4216498))
+
 ## [1.24.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.24.2...v1.24.3) (2022-04-01)
 
 
