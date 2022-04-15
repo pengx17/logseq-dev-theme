@@ -18,9 +18,6 @@
   html {
     font-size: 14px;
   }
-  #main-content-container {
-    padding: 0;
-  }
   .cp__sidebar-main-content > div {
     padding: 1px 1em 1em 1em !important;
     border: none;
@@ -33,6 +30,11 @@
   .custom-query {
     padding: 0 1rem;
   }
+}
+
+/* Fix iphone issues */
+html.is-native-iphone #left-sidebar {
+  top: 0 !important;
 }
 
 @supports (
