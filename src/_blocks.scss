@@ -11,6 +11,14 @@
   border-bottom-style: dashed;
 }
 
+.block-body  {
+  width: 100%;
+}
+
+.block-body .raw_html {
+  max-width: 100%;
+}
+
 .block-ref .block-body {
   display: inline-block;
 }
