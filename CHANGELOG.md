@@ -1,3 +1,10 @@
+## [1.25.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.1...v1.25.2) (2022-04-15)
+
+
+### Bug Fixes
+
+* first journal item height ([7d40029](https://github.com/pengx17/logseq-dev-theme/commit/7d40029380ac9c7292570ab31ebe1dd234efd7c7))
+
 ## [1.25.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.0...v1.25.1) (2022-04-15)
 
 
