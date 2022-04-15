@@ -59,10 +59,6 @@ i {
     font-size: 14px;
   }
 
-  #main-content-container {
-    padding: 0;
-  }
-
   .cp__sidebar-main-content > div {
     padding: 1px 1em 1em 1em !important;
     border: none;
@@ -77,6 +73,11 @@ i {
     padding: 0 1rem;
   }
 }
+/* Fix iphone issues */
+html.is-native-iphone #left-sidebar {
+  top: 0 !important;
+}
+
 @supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
   .cp__header,
 .cp__right-sidebar-topbar,
@@ -116,7 +117,7 @@ i {
 }
 
 #main-content-container {
-  padding-top: var(--ct-header-height);
+  padding-top: var(--ct-header-height) !important;
 }
 
 .page {
@@ -901,6 +902,10 @@ progress::-webkit-progress-value {
 
 .extensions__code-lang + div {
   margin-top: 0 !important;
+}
+
+.link_preview__root {
+  max-width: 100%;
 }
 
 /* Popups */

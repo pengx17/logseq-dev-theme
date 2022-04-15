@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.0...v1.25.1) (2022-04-15)
+
+
+### Bug Fixes
+
+* header paddings ([c61d414](https://github.com/pengx17/logseq-dev-theme/commit/c61d414c707b32f25ce69b8280d4b58f8f23a039))
+
 # [1.25.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.24.3...v1.25.0) (2022-04-15)
 
 
