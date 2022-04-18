@@ -3,7 +3,12 @@
   --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
 }
 
+#left-container {
+  overflow: auto !important;
+}
+
 #main-container {
+  height: auto !important;
   position: absolute;
   width: 100%;
 }
