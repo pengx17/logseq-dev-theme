@@ -1,3 +1,10 @@
+## [1.25.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.2...v1.25.3) (2022-04-18)
+
+
+### Bug Fixes
+
+* fix scrollbar issue ([2d48f01](https://github.com/pengx17/logseq-dev-theme/commit/2d48f0151a097242f0199a37fd9b5aaa13b9ca76))
+
 ## [1.25.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.1...v1.25.2) (2022-04-15)
 
 
