@@ -1,3 +1,10 @@
+## [1.25.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.4...v1.25.5) (2022-04-20)
+
+
+### Bug Fixes
+
+* #main-container min height ([4623f47](https://github.com/pengx17/logseq-dev-theme/commit/4623f4781778de591154e7c1028188baa1d86814))
+
 ## [1.25.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.3...v1.25.4) (2022-04-20)
 
 
