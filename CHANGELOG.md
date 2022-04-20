@@ -1,3 +1,11 @@
+## [1.25.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.3...v1.25.4) (2022-04-20)
+
+
+### Bug Fixes
+
+* build is missing no_bullet_threading.css ([5b4a2b1](https://github.com/pengx17/logseq-dev-theme/commit/5b4a2b15db66edee5d9816a190d68d444f0978b9))
+* dates in date picker is not visible ([6cede63](https://github.com/pengx17/logseq-dev-theme/commit/6cede636f8b3ee42e649b4439a95dc456af75c94)), closes [#50](https://github.com/pengx17/logseq-dev-theme/issues/50)
+
 ## [1.25.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.2...v1.25.3) (2022-04-18)
 
 
