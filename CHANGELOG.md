@@ -1,3 +1,10 @@
+## [1.25.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.5...v1.25.6) (2022-04-20)
+
+
+### Bug Fixes
+
+* solid left border in doc mod ([c94113b](https://github.com/pengx17/logseq-dev-theme/commit/c94113bd8acb6ff9443e53a6cbdf301bba036722))
+
 ## [1.25.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.4...v1.25.5) (2022-04-20)
 
 

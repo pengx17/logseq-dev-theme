@@ -131,3 +131,7 @@
 .doc-mode .ls-block::after {
   display: none;
 }
+
+.doc-mode .block-children {
+  border-left-width: 0px !important;
+}

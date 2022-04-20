@@ -538,6 +538,10 @@ a.title h1.title {
   display: none;
 }
 
+.doc-mode .block-children {
+  border-left-width: 0px !important;
+}
+
 :root {
   --ct-bullet-size: 6px;
   --ct-block-max-width: calc(100% - 38px);
