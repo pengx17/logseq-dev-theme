@@ -122,6 +122,7 @@ html.is-native-iphone #left-sidebar {
   height: auto !important;
   position: absolute;
   width: 100%;
+  min-height: 100%;
 }
 
 .theme-inner {
