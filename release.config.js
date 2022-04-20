@@ -19,6 +19,7 @@ module.exports = {
           "yarn.lock",
           "custom.css",
           "bullet_threading.css",
+          "no_bullet_threading.css"
         ],
       },
     ],
