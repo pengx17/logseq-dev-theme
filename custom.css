@@ -85,20 +85,21 @@ html.is-native-iphone #left-sidebar {
   min-height: fit-content;
 }
 
+.cp__header,
+.cp__right-sidebar-topbar {
+  background: var(--ct-header-bg-color);
+}
+
+@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
+  .sidebar-item.content > div > div:first-of-type {
+    background: var(--ct-header-bg-color);
+  }
+}
 @supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-.sidebar-item.content > div > div:first-of-type {
+  .sidebar-item.content > div > div:first-of-type {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     background-color: transparent;
-  }
-}
-@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-.sidebar-item.content > div > div:first-of-type {
-    background: var(--ct-header-bg-color);
   }
 }
 :not(.color-level) .color-level {
@@ -114,31 +115,12 @@ html.is-native-iphone #left-sidebar {
   --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
 }
 
-.cp__header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-#main-container {
-  position: absolute;
-  width: 100%;
-}
-
 .theme-inner {
   background: var(--ls-primary-background-color);
 }
 
-#main-content-container {
-  padding-top: var(--ct-header-height) !important;
-}
-
 .page {
   margin-top: 0;
-}
-
-.cp__sidebar-main-content {
-  width: 100%;
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
@@ -301,14 +283,6 @@ a.title h1.title {
   background-color: rgba(0, 0, 0, 0.16);
   display: block;
   content: "";
-}
-
-.cp__header #search-field {
-  height: 28px;
-  padding: 0;
-  font-size: 12px;
-  background: transparent;
-  color: var(--ls-search-icon-color, #9fa6b2);
 }
 
 .cp__header.electron-mac {
@@ -1226,7 +1200,6 @@ html[data-theme=dark] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
-  /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #272c35ee;
   --ls-selection-color: #000;
   --ls-block-highlight-color: #32445a;
@@ -1277,7 +1250,6 @@ html[data-theme=white] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ls-selection-color: #fff;
-  /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: rgba(255, 255, 255, 0.9);
 }
 

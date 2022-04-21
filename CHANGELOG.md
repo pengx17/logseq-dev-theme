@@ -1,3 +1,10 @@
+## [1.25.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.9...v1.25.10) (2022-04-21)
+
+
+### Bug Fixes
+
+* remove backdrop-filter for headers ([45788a6](https://github.com/pengx17/logseq-dev-theme/commit/45788a6f9b87655eefba60f7635d115f84c4ce3c))
+
 ## [1.25.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.8...v1.25.9) (2022-04-21)
 
 
