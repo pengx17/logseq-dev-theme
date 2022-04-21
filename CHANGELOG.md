@@ -1,3 +1,10 @@
+## [1.25.8](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.7...v1.25.8) (2022-04-21)
+
+
+### Reverts
+
+* Revert "fix: journal page load issue" ([0b341ea](https://github.com/pengx17/logseq-dev-theme/commit/0b341ead0f8f9e4d4c7e7873066e9c159246df45))
+
 ## [1.25.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.6...v1.25.7) (2022-04-21)
 
 
