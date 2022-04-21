@@ -114,12 +114,13 @@ html.is-native-iphone #left-sidebar {
   --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
 }
 
-#left-container {
-  overflow: auto !important;
+.cp__header {
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 #main-container {
-  height: auto !important;
   position: absolute;
   width: 100%;
 }
