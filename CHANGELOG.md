@@ -1,3 +1,10 @@
+## [1.25.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.6...v1.25.7) (2022-04-21)
+
+
+### Bug Fixes
+
+* journal page load issue ([071c295](https://github.com/pengx17/logseq-dev-theme/commit/071c29507959d4a3c7601b9a845abf58078c43fb))
+
 ## [1.25.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.5...v1.25.6) (2022-04-20)
 
 
