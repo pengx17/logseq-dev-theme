@@ -3,31 +3,12 @@
   --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
 }
 
-.cp__header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-#main-container {
-  position: absolute;
-  width: 100%;
-}
-
 .theme-inner {
   background: var(--ls-primary-background-color);
 }
 
-#main-content-container {
-  padding-top: var(--ct-header-height) !important;
-}
-
 .page {
   margin-top: 0;
-}
-
-.cp__sidebar-main-content {
-  width: 100%;
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages="true"]) > div {
