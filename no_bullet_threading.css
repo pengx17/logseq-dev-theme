@@ -123,10 +123,6 @@ html.is-native-iphone #left-sidebar {
   margin-top: 0;
 }
 
-.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-  padding: 64px 32px;
-}
-
 /* Right side bar */
 .cp__right-sidebar-inner {
   --ct-sidebar-padding: 0.5rem;

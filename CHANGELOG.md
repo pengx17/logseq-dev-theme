@@ -1,3 +1,10 @@
+## [1.25.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.10...v1.25.11) (2022-04-21)
+
+
+### Bug Fixes
+
+* remove large padding ([326d306](https://github.com/pengx17/logseq-dev-theme/commit/326d306ed1361b306895a2b44803893ce88b0931))
+
 ## [1.25.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.9...v1.25.10) (2022-04-21)
 
 
