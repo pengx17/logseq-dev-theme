@@ -1,3 +1,10 @@
+## [1.25.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.11...v1.25.12) (2022-04-23)
+
+
+### Bug Fixes
+
+* query border is not shown ([b5b61e4](https://github.com/pengx17/logseq-dev-theme/commit/b5b61e4d8e9d7166da90be6069dffc47ebb0d24a))
+
 ## [1.25.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.10...v1.25.11) (2022-04-21)
 
 
