@@ -1,3 +1,10 @@
+## [1.25.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.13...v1.25.14) (2022-04-25)
+
+
+### Bug Fixes
+
+* block content sometimes overflow ([61ee122](https://github.com/pengx17/logseq-dev-theme/commit/61ee1222515088a95d503aa478bb17e79aec14fd))
+
 ## [1.25.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.12...v1.25.13) (2022-04-25)
 
 

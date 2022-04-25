@@ -413,6 +413,7 @@ a.title h1.title {
 }
 
 .block-content-wrapper {
+  padding: 1px;
   position: relative;
   overflow-x: visible !important;
   /* Fixme: overflow? */
