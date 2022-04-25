@@ -37,6 +37,12 @@
 
 .block-content-wrapper {
   position: relative;
+  overflow-x: visible !important;
+  /* Fixme: overflow? */
+}
+
+.block-content-wrapper > div:first-child {
+  overflow-x: auto;
 }
 
 .bullet-container {

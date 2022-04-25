@@ -1,3 +1,10 @@
+## [1.25.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.12...v1.25.13) (2022-04-25)
+
+
+### Bug Fixes
+
+* multiline threading sometimes got covered ([4c8067c](https://github.com/pengx17/logseq-dev-theme/commit/4c8067c7ed88dd18234dae9ef9841bfef625fa24))
+
 ## [1.25.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.11...v1.25.12) (2022-04-23)
 
 
