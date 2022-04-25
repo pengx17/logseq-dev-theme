@@ -1,3 +1,10 @@
+## [1.25.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.15...v1.25.16) (2022-04-25)
+
+
+### Bug Fixes
+
+* edit layout shift issue ([8926098](https://github.com/pengx17/logseq-dev-theme/commit/89260981146c545c25dab5d38e98367c1d87dfe1))
+
 ## [1.25.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.14...v1.25.15) (2022-04-25)
 
 
