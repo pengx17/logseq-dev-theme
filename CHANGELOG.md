@@ -1,3 +1,10 @@
+## [1.25.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.14...v1.25.15) (2022-04-25)
+
+
+### Bug Fixes
+
+* fix previous not properly ([a12e47e](https://github.com/pengx17/logseq-dev-theme/commit/a12e47e3f66f5a8ba94ad7e7f2415042147584ea))
+
 ## [1.25.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.13...v1.25.14) (2022-04-25)
 
 
