@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.16...v1.26.0) (2022-04-27)
+
+
+### Features
+
+* allow users to overwrite the threading color in plugin ([218a1d8](https://github.com/pengx17/logseq-dev-theme/commit/218a1d86d8bdde7e7d865ba28d7346e13228abec))
+
 ## [1.25.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.15...v1.25.16) (2022-04-25)
 
 
