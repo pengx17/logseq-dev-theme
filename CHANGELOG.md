@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.0...v1.26.1) (2022-04-27)
+
+
+### Bug Fixes
+
+* default active threading color ([2aa32d1](https://github.com/pengx17/logseq-dev-theme/commit/2aa32d16b4330e77966b9a8350b013f04b200126))
+
 # [1.26.0](https://github.com/pengx17/logseq-dev-theme/compare/v1.25.16...v1.26.0) (2022-04-27)
 
 

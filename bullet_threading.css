@@ -1,7 +1,7 @@
 :root {
   --ls-block-bullet-active-color: var(
     --ls-block-bullet-threading-active-color-overwrite,
-    --ls-link-text-color
+    var(--ls-link-text-color)
   );
   --ls-block-bullet-threading-width: var(
     --ls-block-bullet-threading-width-overwrite,
