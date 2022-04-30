@@ -75,4 +75,6 @@ html.is-native-iphone #left-sidebar {
 // See: https://github.com/logseq/logseq/commit/955648beeb98e00aefa167c8001c8fee6ed20cd1#diff-0a1590918f1e6dd3d7a862dd75cac598e0dc1ca3bdd790df91a67b5f5ec89f8b
 .scrollbar-spacing {
   height: 100%;
+  overflow: auto !important;
+  scrollbar-gutter: stable;
 }
