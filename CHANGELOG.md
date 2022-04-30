@@ -1,3 +1,10 @@
+## [1.26.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.1...v1.26.2) (2022-04-30)
+
+
+### Bug Fixes
+
+* a workaround for draw offset ([1a10135](https://github.com/pengx17/logseq-dev-theme/commit/1a10135e9a826451d8901078f2389bc62322d226))
+
 ## [1.26.1](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.0...v1.26.1) (2022-04-27)
 
 

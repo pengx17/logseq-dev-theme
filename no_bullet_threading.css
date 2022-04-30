@@ -108,6 +108,8 @@ html.is-native-iphone #left-sidebar {
 
 .scrollbar-spacing {
   height: 100%;
+  overflow: auto !important;
+  scrollbar-gutter: stable;
 }
 
 :root {
