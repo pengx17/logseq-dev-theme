@@ -1,3 +1,10 @@
+## [1.26.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.2...v1.26.3) (2022-05-02)
+
+
+### Bug Fixes
+
+* date picker text color in dark mode ([5e3ec8f](https://github.com/pengx17/logseq-dev-theme/commit/5e3ec8f124afcefc1af81c8002f1a76804440f69))
+
 ## [1.26.2](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.1...v1.26.2) (2022-04-30)
 
 

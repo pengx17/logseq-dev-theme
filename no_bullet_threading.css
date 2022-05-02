@@ -759,10 +759,6 @@ progress::-webkit-progress-value {
   max-width: 100%;
 }
 
-.rc-datepicker {
-  color: #333;
-}
-
 /* Popups */
 .tippy-tooltip {
   padding: 0.5em 0;
