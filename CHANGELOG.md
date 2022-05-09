@@ -1,3 +1,10 @@
+## [1.26.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.3...v1.26.4) (2022-05-09)
+
+
+### Bug Fixes
+
+* heading styles minor changes ([1fa7fd7](https://github.com/pengx17/logseq-dev-theme/commit/1fa7fd737b4a2be00af8f28fe63174f8a32669a4))
+
 ## [1.26.3](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.2...v1.26.3) (2022-05-02)
 
 
