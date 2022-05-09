@@ -89,20 +89,12 @@ a.title h1.title {
   font-weight: var(--ct-page-title-font-weight);
 }
 
-.ls-block :is(h3, h4) {
-  margin: 0.3em 0 0;
-}
-
 .ls-block :is(h3, h4, .h3, .h4) {
-  font-weight: 400;
+  margin: 0.3em 0 0;
 }
 
 .ls-block :is(h4, .h4) {
   opacity: 0.8;
-}
-
-.ls-block :is(h5, .h5):not(textarea) {
-  transform: translateY(-8px);
 }
 
 .ls-block .block-ref :is(h1, h2, h3, h4, h5) {
