@@ -123,7 +123,7 @@
   }
 
   /* Fix multi-line blocks with children */
-  &[haschild="true"] {
+  &[haschild] {
     > div > .block-content-wrapper::before {
       pointer-events: none;
       content: "";
