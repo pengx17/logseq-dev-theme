@@ -484,7 +484,7 @@ a.title h1.title {
 .ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
   border-color: transparent;
 }
-.ls-block[haschild=true] > div > .block-content-wrapper::before {
+.ls-block[haschild] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
   top: 12px;
@@ -493,7 +493,7 @@ a.title h1.title {
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
 }
-.ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
+.ls-block[haschild]:focus-within > div > .block-content-wrapper::before {
   border-color: var(--ls-block-bullet-active-color);
 }
 

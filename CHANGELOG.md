@@ -1,3 +1,10 @@
+## [1.26.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.4...v1.26.5) (2022-05-12)
+
+
+### Bug Fixes
+
+* multi-line blocks issue ([e5a53d4](https://github.com/pengx17/logseq-dev-theme/commit/e5a53d413454f05a31164a5f4fe599b016ff35d1))
+
 ## [1.26.4](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.3...v1.26.4) (2022-05-09)
 
 
