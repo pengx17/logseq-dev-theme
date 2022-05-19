@@ -491,6 +491,12 @@ a:hover > .bullet-container .bullet {
   max-width: -webkit-fill-available;
 }
 
+.add-button-link-wrap:hover .add-button-link {
+  color: var(--ls-primary-text-color);
+  opacity: 0.6 !important;
+  transform: scale(0.9);
+}
+
 /* embed */
 .embed,
 .embed-page,

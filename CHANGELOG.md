@@ -1,3 +1,10 @@
+## [1.26.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.5...v1.26.6) (2022-05-19)
+
+
+### Bug Fixes
+
+* add link row style ([a4c5ede](https://github.com/pengx17/logseq-dev-theme/commit/a4c5ede4f1bbc44a52d40707748fe63fe2b89b85))
+
 ## [1.26.5](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.4...v1.26.5) (2022-05-12)
 
 
