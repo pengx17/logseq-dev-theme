@@ -502,7 +502,7 @@ a.title h1.title {
 }
 
 @media (max-width: 640px) {
-  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+  .ls-block[haschild] > div > .block-content-wrapper::before {
     left: -11px;
   }
 }

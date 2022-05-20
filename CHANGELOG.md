@@ -1,3 +1,10 @@
+## [1.26.7](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.6...v1.26.7) (2022-05-20)
+
+
+### Bug Fixes
+
+* bullet threading issue on small screens ([100557b](https://github.com/pengx17/logseq-dev-theme/commit/100557b9b99541de476fc85c1a5cbc0b97317999))
+
 ## [1.26.6](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.5...v1.26.6) (2022-05-19)
 
 
