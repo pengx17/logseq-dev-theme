@@ -28,6 +28,7 @@
   font-size: var(--ct-inline-code-font-size);
   font-style: var(--ct-inline-code-font-style) !important;
   border-radius: var(--ct-inline-code-border-radius);
+  width: auto;
 }
 
 :not(.dsl-query) > .custom-query .custom-query-title > .flex-row {
@@ -47,4 +48,9 @@
 
 .block-body > .custom-query .foldable-title .opacity-70 > * {
   color: var(--ct-query-header-color);
+}
+
+// what is this? should we remove it in upstream instead?
+.custom-query-title > .svg-small {
+  display: none;
 }
