@@ -111,7 +111,7 @@ a.tag:hover {
 /* Page properties */
 .page-properties,
 .block-properties {
-  margin: 0 0 0.5em -8px;
+  margin: 0 0 0.5em;
   font-size: 0.8em;
   background: var(--ls-secondary-background-color);
   width: fit-content;
@@ -203,4 +203,8 @@ progress::-webkit-progress-value {
 
 .link_preview__root {
   max-width: 100%;
+}
+
+.page-icon {
+  font-family: 'Inter', sans-serif;
 }
