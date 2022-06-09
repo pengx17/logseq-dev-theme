@@ -1,3 +1,10 @@
+## [1.26.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.9...v1.26.10) (2022-06-09)
+
+
+### Bug Fixes
+
+* query header display issue ([871c3dc](https://github.com/pengx17/logseq-dev-theme/commit/871c3dc18687131eed69f9fd6213e80716cff2f0))
+
 ## [1.26.9](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.8...v1.26.9) (2022-06-06)
 
 
