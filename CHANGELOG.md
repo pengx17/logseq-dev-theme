@@ -1,3 +1,10 @@
+## [1.26.11](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.10...v1.26.11) (2022-06-17)
+
+
+### Bug Fixes
+
+* add margin to embed to fix focus/hovering clipping issue ([84215c8](https://github.com/pengx17/logseq-dev-theme/commit/84215c87f409e9175cf4820a156304037812ae18))
+
 ## [1.26.10](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.9...v1.26.10) (2022-06-09)
 
 
