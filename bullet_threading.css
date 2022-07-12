@@ -44,12 +44,6 @@
   /* Fixme: overflow? */
 }
 
-.block-content-wrapper > div:first-child {
-  padding: 1px;
-  margin: -1px;
-  overflow-x: auto;
-}
-
 .bullet-container {
   height: 14px !important;
   width: 14px !important;
