@@ -436,16 +436,10 @@ a.title h1.title {
   position: relative;
   height: 26px !important;
 }
-.ls-block > .items-baseline {
-  align-items: initial;
-}
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
   transform: scale(1);
   box-shadow: none;
-}
-.ls-block:not(:focus-within) > .items-baseline {
-  align-items: baseline;
 }
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
