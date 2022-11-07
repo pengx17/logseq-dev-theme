@@ -1,9 +1,8 @@
-.cp__sidebar-main-content[data-is-global-graph-pages="true"] {
+body[data-page=graph] .cp__sidebar-main-content {
   --graph-height: calc(100vh - var(--ct-header-height));
 
   background: var(--ls-primary-background-color);
   max-height: var(--graph-height);
-  margin: -1rem;
 
   > div {
     padding: 0;
