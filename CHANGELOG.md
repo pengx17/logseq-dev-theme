@@ -1,3 +1,10 @@
+## [1.26.13](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.12...v1.26.13) (2022-11-07)
+
+
+### Bug Fixes
+
+* style issues ([620ea7c](https://github.com/pengx17/logseq-dev-theme/commit/620ea7cf0580c4d9839290451908397042fa9fcb)), closes [#79](https://github.com/pengx17/logseq-dev-theme/issues/79)
+
 ## [1.26.12](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.11...v1.26.12) (2022-07-12)
 
 

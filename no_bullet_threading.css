@@ -213,7 +213,6 @@ html.is-native-iphone #left-sidebar {
   margin-top: 0;
   padding-top: 12px;
   padding-bottom: 12px;
-  height: calc(100% - var(--ct-header-height));
 }
 
 .left-sidebar-inner a.item > span {
@@ -994,13 +993,12 @@ a.tooltip-priority:first-of-type::before {
   font-size: var(--ct-inline-code-font-size);
 }
 
-.cp__sidebar-main-content[data-is-global-graph-pages=true] {
+body[data-page=graph] .cp__sidebar-main-content {
   --graph-height: calc(100vh - var(--ct-header-height));
   background: var(--ls-primary-background-color);
   max-height: var(--graph-height);
-  margin: -1rem;
 }
-.cp__sidebar-main-content[data-is-global-graph-pages=true] > div {
+body[data-page=graph] .cp__sidebar-main-content > div {
   padding: 0;
 }
 
