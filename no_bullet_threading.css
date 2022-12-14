@@ -397,6 +397,10 @@ a.title h1.title {
   display: inline;
 }
 
+.block-ref .block-body > .cp__fenced-code-block div {
+  display: block !important;
+}
+
 .block-ref .flex.flex-row.justify-between {
   display: inline;
 }
