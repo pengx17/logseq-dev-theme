@@ -500,6 +500,17 @@ a:hover > .bullet-container .bullet {
   transform: scale(0.9);
 }
 
+.block-ref a.fade-link::before, .block-ref a.fade-link::after,
+.block-ref .timestamp .opacity-80::before, .block-ref .timestamp .opacity-80::after {
+  content: "    ";
+}
+
+.block-ref a.fade-link,
+.block-ref .timestamp-label,
+.block-ref .timestamp .opacity-80 {
+  font-size: 75% !important;
+}
+
 /* embed */
 .embed,
 .embed-page,

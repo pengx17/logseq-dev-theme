@@ -1,3 +1,10 @@
+## [1.26.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.14...v1.26.15) (2022-12-14)
+
+
+### Bug Fixes
+
+* **scheduled:** add space between content, time cost and scheduled date when references ([52a9a15](https://github.com/pengx17/logseq-dev-theme/commit/52a9a15e9085664788a219822a58b64956f9c857))
+
 ## [1.26.14](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.13...v1.26.14) (2022-12-14)
 
 
