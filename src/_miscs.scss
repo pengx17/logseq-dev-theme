@@ -111,9 +111,9 @@ a.tag:hover {
 /* Page properties */
 .page-properties,
 .block-properties {
+  --ls-page-properties-background-color: var(--ls-secondary-background-color);
   margin: 0 0 0.5em;
   font-size: 0.8em;
-  background: var(--ls-secondary-background-color);
   width: fit-content;
   padding-right: 2rem;
   max-width: var(--ct-block-max-width);
@@ -122,7 +122,7 @@ a.tag:hover {
 .sidebar-item-list {
   .page-properties,
   .block-properties {
-    background: var(--ls-tertiary-background-color);
+    --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   }
 }
 
