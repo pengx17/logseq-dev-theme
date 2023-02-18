@@ -1,3 +1,10 @@
+## [1.26.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.15...v1.26.16) (2023-02-18)
+
+
+### Bug Fixes
+
+* bump version ([b23f701](https://github.com/pengx17/logseq-dev-theme/commit/b23f7011a4753f213cecb14667ad3b27bce20ac4))
+
 ## [1.26.15](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.14...v1.26.15) (2022-12-14)
 
 
