@@ -1,5 +1,7 @@
 # Logseq Dev Theme
 
+🔔 Looking for maintainers! 🔔
+
 A theme inspired by Dev.to & Figma.
 
 <img src="./logo.png" width="100" />
