@@ -454,7 +454,7 @@ a:hover > .bullet-container .bullet {
   margin-left: 0 !important;
 }
 
-.ls-block div.items-center {
+.ls-block div.block-control-wrap {
   position: relative;
   height: 26px !important;
 }

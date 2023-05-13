@@ -431,7 +431,7 @@ a.title h1.title {
   background-color: var(--ls-block-bullet-active-color);
   box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
 }
-.ls-block div.items-center {
+.ls-block div.block-control-wrap {
   position: relative;
   height: 26px !important;
 }
@@ -450,7 +450,7 @@ a.title h1.title {
   pointer-events: none;
   content: "";
   left: calc(var(--ls-block-bullet-threading-width) * -1);
-  right: 6px;
+  right: 20px;
   top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
   bottom: 50%;
   /* shift left 1px for border */
@@ -482,7 +482,7 @@ a.title h1.title {
   content: "";
   top: 12px;
   bottom: 0;
-  left: -15px;
+  left: -21px;
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
 }
@@ -597,7 +597,7 @@ a:hover > .bullet-container .bullet {
   margin-left: 0 !important;
 }
 
-.ls-block div.items-center {
+.ls-block div.block-control-wrap {
   position: relative;
   height: 26px !important;
 }

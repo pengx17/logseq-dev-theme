@@ -1,3 +1,10 @@
+## [1.26.17](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.16...v1.26.17) (2023-05-13)
+
+
+### Bug Fixes
+
+* fix block fold button on mobile ([6b5a150](https://github.com/pengx17/logseq-dev-theme/commit/6b5a1503e15a98f20fc4c74b7916139e34c23ff8))
+
 ## [1.26.16](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.15...v1.26.16) (2023-02-18)
 
 
