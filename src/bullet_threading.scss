@@ -84,7 +84,7 @@
     pointer-events: none;
     content: "";
     left: calc(var(--ls-block-bullet-threading-width) * -1);
-    right: 6px;
+    right: 20px;
     top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
     bottom: 50%;
     /* shift left 1px for border */
@@ -123,7 +123,7 @@
       content: "";
       top: 12px;
       bottom: 0;
-      left: -15px;
+      left: -21px;
       position: absolute;
       border-left: var(--ls-block-bullet-threading-width) solid transparent;
     }
