@@ -59,11 +59,16 @@
     box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
   }
 
-  div.items-center {
-    position: relative;
-    height: 26px !important;
-  }
+//   div.items-center {
+//     position: relative;
+//     height: 26px !important;
+//   }
 
+  div.block-control-wrap {
+      position: relative;
+      height: 26px !important;
+  }
+  
   /* Fix for headings like h1, h2 etc */
   > .items-baseline {
     align-items: initial;
