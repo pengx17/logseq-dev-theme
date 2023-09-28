@@ -1272,3 +1272,28 @@ html[data-theme=white] {
 :root {
   --ls-block-bullet-threading-width: 2px;
 }
+
+/* PDF viewer */
+.extensions__pdf-settings-item.theme-picker>button.dark {
+    background-color: var(--ls-primary-background-color);
+}
+.extensions__pdf-container {
+  background-color: transparent;
+
+  &[data-theme=dark] {
+    background-color: #262E37; /* not sure how to do this without hardcoding */ 
+
+    .textLayer {
+      background-color: var(--ls-primary-background-color);
+      opacity: 1;
+      /* mix-blend-mode: multiply; */
+    }
+
+    .extensions__pdf-hls-text-region {
+      mix-blend-mode: normal;
+      opacity: .4;
+    }
+
+  }
+}
+
