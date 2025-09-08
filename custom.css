@@ -1059,6 +1059,12 @@ progress::-webkit-progress-value {
   --ct-checkbox-color: var(--ls-active-primary-color);
 }
 
+/* Search box */
+html[data-theme=dark][data-color=logseq] .form-input {
+  background-color: var(--color-level-1);
+  border-color: var(--ls-primary-background-color);
+}
+
 /* Markers */
 .form-checkbox,
 .form-checkbox:focus {
@@ -1219,6 +1225,9 @@ html[data-theme=dark] {
   --ct-header-bg-color: #272c35ee;
   --ls-selection-color: #000;
   --ls-block-highlight-color: #32445a;
+  --popover: 219 15% 18%;
+  --border: 180 7% 19%;
+  scrollbar-color: rgba(255, 255, 255, 0.2) var(--ls-primary-background-color);
 }
 
 .dark-theme .image-resize {
